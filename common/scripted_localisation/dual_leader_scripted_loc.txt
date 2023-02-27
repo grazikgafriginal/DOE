@@ -1,0 +1,51 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	text = {
+		trigger = {
+			tag = BLR
+			has_government = neutrality
+		}
+		localization_key = BLR_PRESIDENT_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			tag = BLR
+			has_government = neutrality
+		}
+		localization_key = BLR_PRIME_MINISTER_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			tag = BLR
+			has_government = neutrality
+		}
+		localization_key = BLR_LIAVON_ZAYAZ
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+		trigger = {
+			tag = BLR
+			has_government = neutrality
+		}
+		localization_key = GFX_BLR_Liavon_Zayaz
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}

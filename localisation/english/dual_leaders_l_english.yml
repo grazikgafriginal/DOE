@@ -1,0 +1,17 @@
+﻿l_english:
+    # GUI 
+ first_leader_title: "[ROOT.GetFirstTitle]"
+ second_leader_title: "[ROOT.GetSecondTitle]"
+ dual_leader_name: "[ROOT.GetDualLeaderName]"
+ DEFAULT_TITLE: "Vacant"
+ DEFAULT_FIRST_TITLE: "Leader"
+ DESCRIPTION_TEST: "His Majesty"
+ second_leader_tt: "§Y[ROOT.GetDualLeaderName]§!"
+ first_leader_diplo_tt: "[This.GetFlag]§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
+ second_leader_diplo_tt: "[This.GetFlag]§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
+ dual_leader_desc_tt: "§g[From.GetDualLeaderDesc]§!"
+ first_leader_desc_tt: "§g[From.GetFirstLeaderDesc]§!"
+    # Nation Specific Localisation
+ BLR_PRIME_MINISTER_TITLE: "Prime Minister"
+ BLR_PRESIDENT_TITLE: "President"
+ BLR_LIAVON_ZAYAZ: "Liavon Zayaz"

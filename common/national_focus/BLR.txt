@@ -1,0 +1,29 @@
+focus_tree = {
+	id = Belarus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BLR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1000 y = 2000 }
+
+    focus = {
+        id = BLR_The_road_to_Belarusian_Democratic_Republic 
+        icon = GFX_
+        x = 16
+        y = 0
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+    }
+
+}
+

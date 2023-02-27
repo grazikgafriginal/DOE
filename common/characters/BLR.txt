@@ -1,0 +1,16 @@
+characters={
+	BLR_Stanislav_Bulak_Balachowicz	={
+		name="Stanislav Bulak-Balachowicz"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Bulack_Balachowicz.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
