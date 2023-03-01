@@ -29,6 +29,24 @@ focus_tree = {
         id = BLR_The_First_Constituent_Charter_of_BDR  
         icon = GFX_
         x = 16
+        y = 1
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_The_road_to_Belarusian_Democratic_Republic
+        }
+    }
+
+    focus = {
+        id = BLR_The_Second_Constituent_Charter_of_BDR  
+        icon = GFX_
+        x = 16
         y = 2
         ai_will_do = {
             factor = 50
@@ -38,7 +56,29 @@ focus_tree = {
         completion_reward = {
         
         }
+        prerequisite = {
+            focus = BLR_The_First_Constituent_Charter_of_BDR
+        }
     }
+
+    focus = {
+        id = BLR_Establish_Rada  
+        icon = GFX_
+        x = 16
+        y = 3
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_The_Second_Constituent_Charter_of_BDR
+        }
+    }
+
 
 }
 
