@@ -12,9 +12,24 @@ focus_tree = {
 
     focus = {
         id = BLR_The_road_to_Belarusian_Democratic_Republic 
-        icon = GFX_
+        icon = GFX_BLR_road_to_bnr
         x = 16
         y = 0
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+    }
+
+    focus = {
+        id = BLR_The_First_Constituent_Charter_of_BDR  
+        icon = GFX_
+        x = 16
+        y = 2
         ai_will_do = {
             factor = 50
         }
