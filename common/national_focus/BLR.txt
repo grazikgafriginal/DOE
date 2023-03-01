@@ -62,7 +62,7 @@ focus_tree = {
     }
 
     focus = {
-        id = BLR_Establish_Rada  
+        id = BLR_Establish_Rada
         icon = GFX_
         x = 16
         y = 3
