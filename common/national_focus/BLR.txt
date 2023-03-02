@@ -79,6 +79,102 @@ focus_tree = {
         }
     }
 
+    focus = {
+        id = BLR_Allow_freedom_of_speech_and_meetings
+        icon = GFX_
+        x = 14
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Establish_Rada
+        }
+    }
+
+    focus = {
+        id = BLR_Allow_the_freedom_of_strikes_conscience_inviolability_of_person
+        icon = GFX_
+        x = 16
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Establish_Rada
+        }
+    }
+
+    focus = {
+        id = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+        icon = GFX_
+        x = 18
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Establish_Rada
+        }
+    }
+
+    focus = {
+        id = BLR_Limit_the_languages_in_the_country
+        icon = GFX_
+        x = 20
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Establish_Rada
+        }
+        mutually_exclusive = {
+            focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+        }
+    }
+
+    focus = {
+        id = BLR_Limit_the_languages_in_the_country
+        icon = GFX_
+        x = 22
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Establish_Rada
+        }
+        mutually_exclusive = {
+            focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+        }
+    }
+
 
 }
 
