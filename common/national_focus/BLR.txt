@@ -10,6 +10,11 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 1000 y = 2000 }
 
+ ####################################################
+ ### The_road_to_Belarusian_Democratic_Republic 
+ ####################################################
+
+
     focus = {
         id = BLR_The_road_to_Belarusian_Democratic_Republic 
         icon = GFX_BLR_road_to_bnr
@@ -172,6 +177,99 @@ focus_tree = {
         }
         mutually_exclusive = {
             focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+        }
+    }
+
+    focus = {
+        id = BLR_Nationalisation_of_the_land 
+        icon = GFX_
+        x = 16
+        y = 5
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Allow_freedom_of_speech_and_meetings
+            focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+            focus = BLR_Allow_the_freedom_of_strikes_conscience_inviolability_of_person
+            focus = BLR_Limit_the_languages_in_the_country
+        }
+    }
+
+    focus = {
+        id = BLR_Leaning_towards_Belarusian_socialism 
+        icon = GFX_
+        x = 16
+        y = 6
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Nationalisation_of_the_land
+        }
+    }
+
+    focus = {
+        id = BLR_The_Third_Constituent_Chapter
+        icon = GFX_
+        x = 16
+        y = 7
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Leaning_towards_Belarusian_socialism
+        }
+    }
+
+    focus = {
+        id = BLR_All_BDR_meeting
+        icon = GFX_
+        x = 16
+        y = 8
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_The_Third_Constituent_Chapter
+        }
+    }
+
+    focus = {
+        id = BLR_The_Path_of_Democratic_Belarus
+        icon = GFX_
+        x = 16
+        y = 9
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_All_BDR_meeting
         }
     }
 
