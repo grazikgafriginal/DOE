@@ -274,5 +274,152 @@ focus_tree = {
     }
 
 
+    ####################################################
+    ### The country of culture
+    ####################################################
+
+    focus = {
+        id = BLR_The_country_of_culture 
+        icon = GFX_
+        x = 3
+        y = 10
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_The_Path_of_Democratic_Belarus
+        }
+    }
+
+    focus = {
+        id = BLR_Artists_on_the_throne
+        icon = GFX_
+        x = 3
+        y = 11
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_The_country_of_culture
+        }
+    }
+
+    focus = {
+        id = BLR_Freedom_of_Ideologies
+        icon = GFX_
+        x = 1
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Artists_on_the_throne
+        }
+    }
+
+    focus = {
+        id = BLR_Liberate_the_market
+        icon = GFX_
+        x = 3
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Artists_on_the_throne
+        }
+    }
+
+    focus = {
+        id = BLR_Make_the_government_liberal
+        icon = GFX_
+        x = 5
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Artists_on_the_throne
+        }
+    }
+
+    focus = {
+        id = BLR_Press_reforms
+        icon = GFX_
+        x = 1
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Freedom_of_Ideologies
+        }
+    }
+
+    focus = {
+        id = BLR_Make_Minskyi_zavod_independent
+        icon = GFX_
+        x = 3
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Liberate_the_market
+        }
+    }
+
+    focus = {
+        id = BLR_Education_spendings 
+        icon = GFX_
+        x = 5
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Make_the_government_liberal
+        }
+    }
 }
 
