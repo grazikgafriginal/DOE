@@ -421,5 +421,133 @@ focus_tree = {
             focus = BLR_Make_the_government_liberal
         }
     }
+
+    focus = {
+        id = BLR_Therapy_of_economy 
+        icon = GFX_
+        x = 1
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Press_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Social_spendings 
+        icon = GFX_
+        x = 3
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Make_Minskyi_zavod_independent
+        }
+    }
+
+    focus = {
+        id = BLR_Ocean_of_stability 
+        icon = GFX_
+        x = 5
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Education_spendings
+        }
+    }
+
+    focus = {
+        id = BLR_Tax_cuts_for_civilian_industry
+        icon = GFX_
+        x = 1
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Therapy_of_economy
+        }
+    }
+
+    focus = {
+        id = BLR_Fight_against_poverty 
+        icon = GFX_
+        x = 3
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Social_spendings
+        }
+    }
+
+    focus = {
+        id = BLR_Buy_new_industrial_machinery
+        icon = GFX_
+        x = 5
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Ocean_of_stability
+        }
+    }
+
+    focus = {
+        id = BLR_Belarusian_Republic
+        icon = GFX_
+        x = 5
+        y = 16
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Tax_cuts_for_civilian_industry
+            focus = BLR_Fight_against_poverty
+            focus = BLR_Buy_new_industrial_machinery
+        }
+    }
 }
 
