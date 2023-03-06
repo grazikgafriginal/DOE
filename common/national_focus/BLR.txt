@@ -533,7 +533,7 @@ focus_tree = {
     focus = {
         id = BLR_Belarusian_Republic
         icon = GFX_
-        x = 5
+        x = 3
         y = 16
         ai_will_do = {
             factor = 50
@@ -549,5 +549,235 @@ focus_tree = {
             focus = BLR_Buy_new_industrial_machinery
         }
     }
+
+
+
+
+
+    ##########################################
+    ###The division in democratic forces
+    ##########################################
+
+    focus = {
+        id = BLR_Division_in_the_democratic_forces
+        icon = GFX_
+        x = 16
+        y = 10
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_The_Path_of_Democratic_Belarus
+        }
+    }
+
+    focus = {
+        id = BLR_BSDP_Should_Lead_us
+        icon = GFX_
+        x = 10
+        y = 11
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Division_in_the_democratic_forces
+        }
+    }
+
+    focus = {
+        id = BLR_State_interventionism
+        icon = GFX_
+        x = 8
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BSDP_Should_Lead_us
+        }
+    }
+
+    focus = {
+        id = BLR_Liberalise_Nasha_Niva
+        icon = GFX_
+        x = 12
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BSDP_Should_Lead_us
+        }
+    }
+
+    focus = {
+        id = BLR_Privatisation 
+        icon = GFX_
+        x = 7
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_State_interventionism
+        }
+    }
+
+    focus = {
+        id = BLR_Establishment_of_a_currency_board
+        icon = GFX_
+        x = 9
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_State_interventionism
+        }
+    }
+
+    focus = {
+        id = BLR_Yazep_Varonka_reforms 
+        icon = GFX_
+        x = 8
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Privatisation
+            focus = BLR_Establishment_of_a_currency_board
+        }
+    }
+
+    focus = {
+        id = BLR_Public_Works_in_Salihorsk
+        icon = GFX_
+        x = 11
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Liberalise_Nasha_Niva
+        }
+    }
+
+    focus = {
+        id = BLR_Social_reforms
+        icon = GFX_
+        x = 13
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Liberalise_Nasha_Niva
+        }
+    }
+
+    focus = {
+        id = BLR_Expand_Pensions_System
+        icon = GFX_
+        x = 11
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Social_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Increase_social_welfare
+        icon = GFX_
+        x = 13
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Social_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Soc_Dem_Belarus
+        icon = GFX_
+        x = 10
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Expand_Pensions_System
+            focus = BLR_Increase_social_welfare
+            focus = BLR_Yazep_Varonka_reforms
+        }
+    }
+
+
+
 }
 
