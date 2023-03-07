@@ -777,6 +777,122 @@ focus_tree = {
         }
     }
 
+    #########################################
+    ### BPSR should lead us
+    #########################################
+
+    focus = {
+        id = BLR_BPSR_Should_Lead_us
+        icon = GFX_
+        x = 19
+        y = 11
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Division_in_the_democratic_forces
+        }
+    }
+
+    focus = {
+        id = BLR_Embryo_of_Socialism 
+        icon = GFX_
+        x = 15
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BPSR_Should_Lead_us
+        }
+    }
+
+    focus = {
+        id = BLR_Our_version_of_Socialism
+        icon = GFX_
+        x = 17
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BPSR_Should_Lead_us
+        }
+    }
+
+    focus = {
+        id = BLR_Focus_on_sieĺskaja_haspadarka
+        icon = GFX_
+        x = 15
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Embryo_of_Socialism
+            focus = BLR_Our_version_of_Socialism
+        }
+    }
+
+    focus = {
+        id = BLR_Socialise_the_land
+        icon = GFX_
+        x = 17
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Embryo_of_Socialism
+            focus = BLR_Our_version_of_Socialism
+        }
+    }
+
+    focus = {
+        id = BLR_Create_Kaapieratyvy
+        icon = GFX_
+        x = 16
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Socialise_the_land
+            focus = BLR_Focus_on_sieĺskaja_haspadarka
+        }
+    }
+
+
 
 
 }
