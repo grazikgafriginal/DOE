@@ -784,7 +784,7 @@ focus_tree = {
     focus = {
         id = BLR_BPSR_Should_Lead_us
         icon = GFX_
-        x = 19
+        x = 18
         y = 11
         ai_will_do = {
             factor = 50
@@ -892,8 +892,337 @@ focus_tree = {
         }
     }
 
+    focus = {
+        id = BLR_Extensive_publicly_financed_assistance
+        icon = GFX_
+        x = 19
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BPSR_Should_Lead_us
+        }
+    }
 
+    focus = {
+        id = BLR_Pension_programmes
+        icon = GFX_
+        x = 21
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BPSR_Should_Lead_us
+        }
+    }
 
+    focus = {
+        id = BLR_Publicly_financed_assistance ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        icon = GFX_
+        x = 19
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Extensive_publicly_financed_assistance
+        }
+    }
 
+    focus = {
+        id = BLR_Private_property_stays_in_the_hands_of_people
+        icon = GFX_
+        x = 21
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Pension_programmes
+        }
+    }
+
+    focus = {
+        id = BLR_Governmental_regulation_of_the_economy
+        icon = GFX_
+        x = 20
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Private_property_stays_in_the_hands_of_people
+            focus = BLR_Publicly_financed_assistance
+        }
+    }
+
+    focus = {
+        id = BLR_Social_Revolutionary_Belarus
+        icon = GFX_
+        x = 18  
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Governmental_regulation_of_the_economy
+            focus = BLR_Create_Kaapieratyvy
+        }
+    }
+    
+    ################################################################
+    ######BUND as the leader 
+    ################################################################
+
+    focus = {
+        id = BLR_Bund_as_the_leader_of_the_state 
+        icon = GFX_
+        x = 26
+        y = 11
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Division_in_the_democratic_forces
+        }
+    }
+
+    focus = {
+        id = BLR_Austromarxist_Belarus
+        icon = GFX_
+        x = 24
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bund_as_the_leader_of_the_state
+        }
+    }
+
+    focus = {
+        id = BLR_Rehabilitate_Belarusian_Jews
+        icon = GFX_
+        x = 23
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Austromarxist_Belarus
+        }
+    }
+
+    focus = {
+        id = BLR_Coalition_with_Poalei_Zion
+        icon = GFX_
+        x = 23
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Rehabilitate_Belarusian_Jews
+        }
+    }
+
+    focus = {
+        id = BLR_Non_Zionism
+        icon = GFX_
+        x = 25
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Austromarxist_Belarus
+        }
+    }
+
+    focus = {
+        id = BLR_Cooperate_with_Polish_socialists
+        icon = GFX_
+        x = 25
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Non_Zionism
+        }
+    }
+
+    focus = {
+        id = BLR_Publicly_subsidised_healthcare
+        icon = GFX_
+        x = 27
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bund_as_the_leader_of_the_state
+        }
+    }
+
+    focus = {
+        id = BLR_Cherviakou_education_reforms ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        icon = GFX_
+        x = 27
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Publicly_subsidised_healthcare
+        }
+    }
+
+    focus = {
+        id = BLR_Municipal_housing_reforms_in_Homel
+        icon = GFX_
+        x = 29
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bund_as_the_leader_of_the_state
+        }
+    }
+
+    focus = {
+        id = BLR_Keep_the_property_rights 
+        icon = GFX_
+        x = 29
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Municipal_housing_reforms_in_Homel
+        }
+    }
+
+    focus = {
+        id = BLR_Importance_of_Yiddish
+        icon = GFX_
+        x = 28
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Keep_the_property_rights
+            focus = BLR_Cherviakou_education_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Bundistic_Belarus 
+        icon = GFX_
+        x = 26
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Coalition_with_Poalei_Zion
+            focus = BLR_Cooperate_with_Polish_socialists
+            focus = BLR_Importance_of_Yiddish
+        }
+    }
 }
 
