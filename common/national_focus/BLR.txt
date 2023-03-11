@@ -1224,5 +1224,295 @@ focus_tree = {
             focus = BLR_Importance_of_Yiddish
         }
     }
+    ################################################################
+    ###### BNP as the leader 
+    ################################################################
+
+    focus = {
+        id = BLR_BNP_should_lead_us
+        icon = GFX_
+        x = 33
+        y = 11
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Division_in_the_democratic_forces
+        }
+    }
+
+    focus = {
+        id = BLR_Mova_Nanova 
+        icon = GFX_
+        x = 32
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BNP_should_lead_us
+        }
+    }
+
+    focus = {
+        id = BLR_Belarusian_Prohibition
+        icon = GFX_
+        x = 34
+        y = 12
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_BNP_should_lead_us
+        }
+    }
+
+    focus = {
+        id = BLR_Bielarusatenizacyja
+        icon = GFX_
+        x = 33
+        y = 13
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Mova_Nanova
+            focus = BLR_Belarusian_Prohibition
+        }
+    }
+
+    focus = {
+        id = BLR_Christian_Youth_clubs
+        icon = GFX_
+        x = 30
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bielarusatenizacyja
+        }
+    }
+
+    focus = {
+        id = BLR_Promote_domestic_production
+        icon = GFX_
+        x = 32
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bielarusatenizacyja
+        }
+    }
+
+    focus = {
+        id = BLR_Exchange_rate_control 
+        icon = GFX_
+        x = 34
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bielarusatenizacyja
+        }
+        mutually_exclusive = {
+            focus = BLR_Promote_domestic_production
+        }
+    }
+
+    focus = {
+        id = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+        icon = GFX_
+        x = 36
+        y = 14
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Bielarusatenizacyja
+        }
+        mutually_exclusive = {
+            focus = BLR_Promote_domestic_production
+        }
+    }
+
+    focus = {
+        id = BLR_Crack_down_on_Communists
+        icon = GFX_
+        x = 31
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Christian_Youth_clubs
+            focus = BLR_Promote_domestic_production
+            focus = BLR_Exchange_rate_control
+            focus = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+        }
+
+        mutually_exclusive = {
+            focus = BLR_Anti_Jewish_reforms
+            focus = BLR_Pro_Jewish_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Anti_Jewish_reforms 
+        icon = GFX_
+        x = 33
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Christian_Youth_clubs
+            focus = BLR_Promote_domestic_production
+            focus = BLR_Exchange_rate_control
+            focus = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+        }
+        mutually_exclusive = {
+            focus = BLR_Pro_Jewish_reforms
+            focus = BLR_Crack_down_on_Communists
+        }
+    }
+
+    focus = {
+        id = BLR_Pro_Jewish_reforms 
+        icon = GFX_
+        x = 35
+        y = 15
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Christian_Youth_clubs
+            focus = BLR_Promote_domestic_production
+            focus = BLR_Exchange_rate_control
+            focus = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+        }
+        mutually_exclusive = {
+            focus = BLR_Crack_down_on_Communists
+            focus = BLR_Anti_Jewish_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Laissez_faire_market
+        icon = GFX_
+        x = 31
+        y = 16
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Crack_down_on_Communists
+            focus = BLR_Anti_Jewish_reforms
+            focus = BLR_Pro_Jewish_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Export_Subsadies
+        icon = GFX_
+        x = 33
+        y = 16
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Crack_down_on_Communists
+            focus = BLR_Anti_Jewish_reforms
+            focus = BLR_Pro_Jewish_reforms
+        }
+    }
+
+    focus = {
+        id = BLR_Establish_tariffs 
+        icon = GFX_
+        x = 35
+        y = 16
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Crack_down_on_Communists
+            focus = BLR_Anti_Jewish_reforms
+            focus = BLR_Pro_Jewish_reforms
+        }
+    }
 }
 
