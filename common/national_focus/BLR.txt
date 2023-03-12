@@ -1514,7 +1514,7 @@ focus_tree = {
             focus = BLR_Pro_Jewish_reforms
         }
     }
-}
+
 
      focus = {
      id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
@@ -1529,7 +1529,8 @@ focus_tree = {
      completion_reward = {
      
      }
-}
+    }
+
      
       focus = {
         id = BLR_Enjail_the_opposition
@@ -1573,7 +1574,8 @@ focus_tree = {
             focus = BLR_Enjail_the_opposition
             focus = BLR_Set_the_curfew_hours
         }
-}
+    }
+
     
         focus = {
         id = BLR_Set_the_curfew_hours
@@ -1595,7 +1597,8 @@ focus_tree = {
             focus = BLR_Enjail_the_opposition
             focus = BLR_Control_the_newspapers_and_radio_stations
         }
-}
+    }
+
     
        focus = {
         id = BLR_Create_national_security_services
@@ -1615,7 +1618,8 @@ focus_tree = {
             focus = BLR_Set_the_curfew_hours
             focus = BLR_Control_the_newspapers_and_radio_stations
         }
-}
+    }
+
 
  	focus = {
         id = BLR_Popularise_the_Military_Education_among_the_youth
@@ -1635,7 +1639,7 @@ focus_tree = {
             focus = BLR_Set_the_curfew_hours
             focus = BLR_Control_the_newspapers_and_radio_stations
         }
-}
+    }
 
 focus = {
         id = BLR_Political_reforms
@@ -1673,7 +1677,6 @@ focus = {
 	    focus = BLR_Political_reforms
         }
 }
-
 focus = {
         id = BLR_The_one_man_in_charge
         icon = GFX_
@@ -1690,4 +1693,5 @@ focus = {
         prerequisite = {
 	    focus = BLR_Political_reforms
         }
+}
 }
