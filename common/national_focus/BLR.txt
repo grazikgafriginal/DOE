@@ -28,6 +28,9 @@ focus_tree = {
         completion_reward = {
         
         }
+        mutually_exclusive = {
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+        }
     }
 
     focus = {
@@ -1514,9 +1517,11 @@ focus_tree = {
             focus = BLR_Pro_Jewish_reforms
         }
     }
+    ################################################################
+    ###### MILITARY JUNTA as the leader 
+    ################################################################
 
-
-     focus = {
+    focus = {
      id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
      icon = GFX_
      x = 41
@@ -1529,6 +1534,10 @@ focus_tree = {
      completion_reward = {
      
      }
+     mutually_exclusive = {
+       focus = BLR_The_road_to_Belarusian_Democratic_Republic
+     }
+
     }
 
      
@@ -1694,4 +1703,80 @@ focus = {
 	    focus = BLR_Political_reforms
         }
 }
+
+    focus = {
+        id = BLR_Expand_the_Industry_for_the_Military_needs
+        icon = GFX_
+        x = 41
+        y = 5
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_The_militarisation_of_the_politics
+        focus = BLR_The_one_man_in_charge
+        }
+    }
+
+    focus = {
+        id = BLR_Strengthen_the_States_Security
+        icon = GFX_
+        x = 40
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Expand_the_Industry_for_the_Military_needs
+        }
+    }
+
+    focus = {
+        id = BLR_Expand_the_Mobilisation
+        icon = GFX_
+        x = 42
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Expand_the_Industry_for_the_Military_needs
+        }
+    }
+
+    focus = {
+        id = BLR_Militarism_on_the_rise
+        icon = GFX_
+        x = 41
+        y = 7
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Strengthen_the_States_Security
+        focus = BLR_Expand_the_Mobilisation
+        }
+    }
+
+
 }
