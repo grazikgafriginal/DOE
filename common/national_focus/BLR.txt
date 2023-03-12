@@ -1502,7 +1502,7 @@ focus_tree = {
         y = 16
         ai_will_do = {
             factor = 50
-        }
+	}
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
@@ -1516,3 +1516,178 @@ focus_tree = {
     }
 }
 
+     focus = {
+     id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+     icon = GFX_
+     x = 41
+     y = 0
+     ai_will_do = {
+     	factor = 50
+     }
+     cost = 2
+     available_if_capitulated = yes
+     completion_reward = {
+     
+     }
+}
+     
+      focus = {
+        id = BLR_Enjail_the_opposition
+        icon = GFX_
+        x = 39
+        y = 1
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+        }
+	mutually_exclusive = {
+            focus = BLR_Set_the_curfew_hours
+            focus = BLR_Control_the_newspapers_and_radio_stations
+        }
+    }
+    
+      focus = {
+        id = BLR_Control_the_newspapers_and_radio_stations
+        icon = GFX_
+        x = 41
+        y = 1
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+        }
+	mutually_exclusive = {
+            focus = BLR_Enjail_the_opposition
+            focus = BLR_Set_the_curfew_hours
+        }
+}
+    
+        focus = {
+        id = BLR_Set_the_curfew_hours
+        icon = GFX_
+        x = 43
+        y = 1
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+        }
+	mutually_exclusive = {
+            focus = BLR_Enjail_the_opposition
+            focus = BLR_Control_the_newspapers_and_radio_stations
+        }
+}
+    
+       focus = {
+        id = BLR_Create_national_security_services
+        icon = GFX_
+        x = 40
+        y = 2
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+	    focus = BLR_Enjail_the_opposition
+            focus = BLR_Set_the_curfew_hours
+            focus = BLR_Control_the_newspapers_and_radio_stations
+        }
+}
+
+ 	focus = {
+        id = BLR_Popularise_the_Military_Education_among_the_youth
+        icon = GFX_
+        x = 42
+        y = 2
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+	    focus = BLR_Enjail_the_opposition
+            focus = BLR_Set_the_curfew_hours
+            focus = BLR_Control_the_newspapers_and_radio_stations
+        }
+}
+
+focus = {
+        id = BLR_Political_reforms
+        icon = GFX_
+        x = 41
+        y = 3
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+	    focus = BLR_Popularise_the_Military_Education_among_the_youth
+            focus = BLR_Create_national_security_services
+        }
+}
+
+focus = {
+        id = BLR_The_militarisation_of_the_politics
+        icon = GFX_
+        x = 40
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+	    focus = BLR_Political_reforms
+        }
+}
+
+focus = {
+        id = BLR_The_one_man_in_charge
+        icon = GFX_
+        x = 42
+        y = 4
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+        
+        }
+        prerequisite = {
+	    focus = BLR_Political_reforms
+        }
+}
