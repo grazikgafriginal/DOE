@@ -256,6 +256,7 @@ focus_tree = {
         prerequisite = {
             focus = BLR_The_Third_Constituent_Chapter
         }
+	
     }
 
     focus = {
@@ -1946,4 +1947,80 @@ focus = {
         }
     }
 
-}
+    focus = {
+        id = BLR_Finalise_our_input_into_the_nation_and_establish_Republic/reich!
+        icon = GFX_
+        x = 32
+        y = 9
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Take_under_control_the_education
+        focus = BLR_Reform_the_Stanislau's_National_Police
+        focus = BLR_Pro_Government_meetings
+        }
+    }
+
+
+focus = {
+        id = BLR_The_Pure_Belarusian_nation
+        icon = GFX_
+        x = 32
+        y = 11
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+    }
+
+focus = {
+        id = BLR_Cooperate_with_germans
+        icon = GFX_
+        x = 28
+        y = 12
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_The_Pure_Belarusian
+        }
+	mutually_exclusive = {
+            focus = BLR_Build_Belarusian_National_socialism
+        }
+    }
+    
+    focus = {
+        id = BLR_Build_Belarusian_National_socialism
+        icon = GFX_
+        x = 36
+        y = 12
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_The_Pure_Belarusian
+        }
+	mutually_exclusive = {
+            focus = BLR_Cooperate_with_germans
+        }
+    }
