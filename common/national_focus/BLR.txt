@@ -1702,6 +1702,10 @@ focus = {
         prerequisite = {
 	    focus = BLR_Political_reforms
         }
+
+        mutually_exclusive = {
+            focus = BLR_Think_of_another_candidates
+        }
 }
 
     focus = {
@@ -1779,8 +1783,167 @@ focus = {
     }
 
     ################################################################
-    ###### MILITARY JUNTA as the leader 
+    ###### Lastouski as the leader 
     ################################################################
 
+    focus = {
+        id = BLR_Think_of_another_candidates 
+        icon = GFX_
+        x = 48
+        y = 4
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        }
+
+        mutually_exclusive = {
+            focus = BLR_The_one_man_in_charge
+        }
+    }
+
+    focus = {
+        id = BLR_The_rebirth_of_our_nation
+        icon = GFX_
+        x = 48
+        y = 5
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Think_of_another_candidates
+        }
+    }
+
+    focus = {
+        id = BLR_Layer_and_Centralise_the_decisions
+        icon = GFX_
+        x = 47
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_The_rebirth_of_our_nation
+        }
+    }
+
+    focus = {
+        id = BLR_Reform_the_current_Government 
+        icon = GFX_
+        x = 49
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_The_rebirth_of_our_nation
+        }
+    }
+
+    focus = {
+        id = BLR_Nut_tightening
+        icon = GFX_
+        x = 48
+        y = 7
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Layer_and_Centralise_the_decisions
+        focus = BLR_Reform_the_current_Government
+        }
+    }
+
+    focus = {
+        id = BLR_Pro_Government_meetings 
+        icon = GFX_
+        x = 46
+        y = 8
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Nut_tightening
+        }
+        mutually_exclusive = {
+            focus = BLR_Reform_the_Stanislau's_National_Police
+            focus = BLR_Take_under_control_the_education
+        }
+    }
+
+    focus = {
+        id = BLR_Reform_the_Stanislau's_National_Police
+        icon = GFX_
+        x = 48
+        y = 8
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Nut_tightening
+        }
+        mutually_exclusive = {
+            focus = BLR_Pro_Government_meetings
+            focus = BLR_Take_under_control_the_education
+        }
+    }
+
+    focus = {
+        id = BLR_Take_under_control_the_education
+        icon = GFX_
+        x = 50
+        y = 8
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+        focus = BLR_Nut_tightening
+        }
+        mutually_exclusive = {
+            focus = BLR_Reform_the_Stanislau's_National_Police
+            focus = BLR_Pro_Government_meetings
+        }
+    }
 
 }
