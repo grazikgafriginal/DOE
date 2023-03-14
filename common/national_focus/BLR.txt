@@ -1967,12 +1967,15 @@ focus = {
         }
     }
 
+    ################################################################
+    ###### NazSoc as the leader 
+    ################################################################
 
-focus = {
+    focus = {
         id = BLR_The_Pure_Belarusian_nation
         icon = GFX_
-        x = 32
-        y = 11
+        x = 46
+        y = 0
         ai_will_do = {
         factor = 50
         }
@@ -1983,11 +1986,11 @@ focus = {
         }
     }
 
-focus = {
+    focus = {
         id = BLR_Cooperate_with_germans
         icon = GFX_
-        x = 28
-        y = 12
+        x = 42
+        y = 1
         ai_will_do = {
         factor = 50
         } 
@@ -1997,9 +2000,9 @@ focus = {
     
         }
         prerequisite = {
-        focus = BLR_The_Pure_Belarusian
+        focus = BLR_The_Pure_Belarusian_nation
         }
-	mutually_exclusive = {
+	    mutually_exclusive = {
             focus = BLR_Build_Belarusian_National_socialism
         }
     }
@@ -2007,8 +2010,8 @@ focus = {
     focus = {
         id = BLR_Build_Belarusian_National_socialism
         icon = GFX_
-        x = 36
-        y = 12
+        x = 50
+        y = 1
         ai_will_do = {
         factor = 50
         } 
@@ -2018,9 +2021,315 @@ focus = {
     
         }
         prerequisite = {
-        focus = BLR_The_Pure_Belarusian
+        focus = BLR_The_Pure_Belarusian_nation
         }
-	mutually_exclusive = {
+	    mutually_exclusive = {
             focus = BLR_Cooperate_with_germans
         }
     }
+
+    focus = {
+        id = BLR_Military_education_from_the_youth
+        icon = GFX_
+        x = 46
+        y = 2
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Cooperate_with_germans
+            focus = BLR_Build_Belarusian_National_socialism
+        }
+    }
+
+    focus = {
+        id = BLR_Recruit_the_National_Security_Guard_from_the_Army
+        icon = GFX_
+        x = 46
+        y = 3
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Military_education_from_the_youth
+        }
+    }
+
+    focus = {
+        id = BLR_Secret_Re-education_camp_in_Zhodina
+        icon = GFX_
+        x = 46
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Recruit_the_National_Security_Guard_from_the_Army
+        }
+    }
+
+    focus = {
+        id = BLR_One_party_state
+        icon = GFX_
+        x = 44
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Recruit_the_National_Security_Guard_from_the_Army
+            focus = BLR_Military_education_from_the_youth
+        }
+    }
+
+    focus = {
+        id = BLR_Propaganda_through_the_radio
+        icon = GFX_
+        x = 48
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Recruit_the_National_Security_Guard_from_the_Army
+            focus = BLR_Military_education_from_the_youth
+        }
+    }
+
+    focus = {
+        id = BLR_Offer_the_division_of_Poland
+        icon = GFX_
+        x = 42
+        y = 2
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Cooperate_with_germans
+        }
+    }
+
+    focus = {
+        id = BLR_German_technical_assistance 
+        icon = GFX_
+        x = 42
+        y = 3
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Offer_the_division_of_Poland
+        }
+    }
+
+    focus = {
+        id = BLR_Order_the_Heavy_equipment_from_Germany
+        icon = GFX_
+        x = 42
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_German_technical_assistance
+            focus = BLR_Embrace_the_technological_level
+        }
+    }
+
+    focus = {
+        id = BLR_Embrace_the_technological_level 
+        icon = GFX_
+        x = 40
+        y = 3
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Offer_the_division_of_Poland
+        }
+        mutually_exclusive = {
+            focus = BLR_German_technical_assistance
+        }
+    }
+
+    focus = {
+        id = BLR_Create_franchise_with_Volkswagen 
+        icon = GFX_
+        x = 40
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_German_technical_assistance
+            focus = BLR_Embrace_the_technological_level
+        }
+        
+    }
+
+    focus = {
+        id = BLR_There_are_no_minorities
+        icon = GFX_
+        x = 49
+        y = 2
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Build_Belarusian_National_socialism
+        }
+	    mutually_exclusive = {
+            focus = BLR_Miaža_asielasci
+        }
+    }
+
+    focus = {
+        id = BLR_Miaža_asielasci
+        icon = GFX_
+        x = 51
+        y = 2
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Build_Belarusian_National_socialism
+        }
+	    mutually_exclusive = {
+            focus = BLR_There_are_no_minorities
+        }
+    }
+
+    focus = {
+        id = BLR_Dictatorship_that_will_save_the_nation!
+        icon = GFX_
+        x = 50
+        y = 3
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_There_are_no_minorities
+            focus = BLR_Miaža_asielasci
+        }
+    }
+
+    focus = {
+        id = BLR_Choose_the_subjects_to_blame
+        icon = GFX_
+        x = 50
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Dictatorship_that_will_save_the_nation!
+        }
+    }
+
+    focus = {
+        id = BLR_Support_propaganda_with_the_Pagan_heritage 
+        icon = GFX_
+        x = 52
+        y = 4
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Dictatorship_that_will_save_the_nation!
+        }
+    }
+
+    focus = {
+        id = BLR_The_road_to_liberation_of_our_territory
+        icon = GFX_
+        x = 46
+        y = 5
+        ai_will_do = {
+        factor = 50
+        } 
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+    
+        }
+        prerequisite = {
+            focus = BLR_Order_the_Heavy_equipment_from_Germany
+            focus = BLR_Choose_the_subjects_to_blame
+        }
+    }
+}
