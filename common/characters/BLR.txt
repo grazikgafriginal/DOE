@@ -13,4 +13,21 @@ characters={
 			id=-1
 		}
 	}
+
+	BLR_Jan_Sierada = {
+		name="Jan Sierada"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Jan_Sierada.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
 }
