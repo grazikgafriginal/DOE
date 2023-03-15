@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		the_road_to_belarusian_democratic_republic = {
+			allowed = {
+				tag = BLR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+
+		supreme_commander = {
+			allowed = {
+				tag = BLR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+
+		flavours_of_the_past = {
+			allowed = {
+				tag = BLR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+
+		smolich_education = {
+			allowed = {
+				tag = BLR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+		
+	}
+}

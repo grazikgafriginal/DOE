@@ -1,39 +1,51 @@
 # For the Duel Leader Title, Leader Names, and custom portrait!
 
 defined_text = {
-	name = GetFirstTitle
-	text = {
-		trigger = {
-			tag = BLR
-			has_government = neutrality
-		}
-		localization_key = BLR_PRESIDENT_TITLE
-	}
+    name = GetFirstTitle
+    text = {
+        trigger = {
+            tag = BLR
+            has_idea = flavours_of_the_past
+        }
+        localization_key = BLR_PRESIDENT_TITLE
+    }
 }
 
 defined_text = {
-	name = GetSecondTitle
-	text = {
-		trigger = {
-			tag = BLR
-			has_government = neutrality
-		}
-		localization_key = BLR_PRIME_MINISTER_TITLE
-	}
+    name = GetSecondTitle
+    text = {
+        trigger = {	
+            tag = BLR
+            has_idea = flavours_of_the_past
+        }
+        localization_key = BLR_PRIME_MINISTER_TITLE
+    }
 }
+
+##################################################################
+### BLR
+##################################################################
+
+##################################################################
+### Liavon Zayaz
+##################################################################
 
 defined_text = {
 	name = GetDualLeaderName
-	text = {
-		trigger = {
-			tag = BLR
-			has_government = neutrality
+		text = {
+			trigger = {
+				tag = BLR
+				has_idea = supreme_commander
+			}
+			localization_key = BLR_LIAVON_ZAYAZ
 		}
-		localization_key = BLR_LIAVON_ZAYAZ
-	}
-	text = {
-		localization_key = DEFAULT_TITLE
-	}
+		text = {
+			trigger = {
+				tag = BLR
+				has_idea = the_road_to_belarusian_democratic_republic
+			}
+			localization_key = BLR_ARKADYI_SMOLICH
+		}
 }
 
 defined_text = {
@@ -41,11 +53,23 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = BLR
-			has_government = neutrality
+			has_idea = supreme_commander
 		}
 		localization_key = GFX_BLR_Liavon_Zayaz
 	}
 	text = {
-		localization_key = "GFX_portrait_bg_blank"
+        trigger = {
+			tag = BLR
+			has_idea = the_road_to_belarusian_democratic_republic
+        }
+        localization_key = GFX_BLR_Arkadyi_Smolich
 	}
+	#text = {
+	#	localization_key = "GFX_portrait_bg_blank"
+	#}
 }
+
+
+
+
+

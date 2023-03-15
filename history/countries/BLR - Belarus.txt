@@ -1,4 +1,12 @@
-﻿capital = 206 #Minsk
+﻿#########################################################################
+# Characters
+#########################################################################
+recruit_character = BLR_Stanislav_Bulak_Balachowicz
+recruit_character = BLR_Jan_Sierada
+recruit_character = BLR_Yazep_Varonka
+
+
+capital = 206 #Minsk
 
 oob = "BLR_1936"
 
@@ -90,7 +98,7 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1919.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 10
@@ -98,7 +106,13 @@ set_popularities = {
 	communism = 18
 	fascism = 10
 }
-recruit_character = BLR_Stanislav_Bulak_Balachowicz
+
+add_ideas = {
+	supreme_commander
+	flavours_of_the_past
+}
+
+
 
 
 

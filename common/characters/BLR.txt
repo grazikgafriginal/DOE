@@ -14,7 +14,7 @@ characters={
 		}
 	}
 
-	BLR_Jan_Sierada = {
+	BLR_Jan_Sierada ={
 		name="Jan Sierada"
 		portraits={
 			civilian={
@@ -22,9 +22,24 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=leninism
 			traits={}
-			expire="1965.1.1.1"
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Yazep_Varonka ={
+		name="Yazep Varonka"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Yazep_Varonka.dds"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			traits={}
+			expire="1949.1.1"
 			id=-1
 		}
 	}

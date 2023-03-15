@@ -32,6 +32,31 @@ focus_tree = {
             focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
         }
 
+        completion_reward = {
+
+            add_country_leader_role = {
+                character = BLR_Jan_Sierada
+                promote_leader = yes
+                country_leader = {
+                    ideology = despotism
+                    expire = "1965.1.1"
+                    traits = { 
+                    }
+                }
+            }
+            hidden_effect = {
+                swap_ideas = {
+                    add_idea = the_road_to_belarusian_democratic_republic
+                    remove_idea = supreme_commander
+                }
+            }
+        }
+
+        set_party_name = {
+            ideology = despotism
+            long_name = "Belarusian Socialist-Sierada Assembly"
+            name = "BSSA"
+        }
         
     }
 
@@ -51,6 +76,12 @@ focus_tree = {
         prerequisite = {
             focus = BLR_The_road_to_Belarusian_Democratic_Republic
         }
+
+        completion_reward = {
+            add_political_power = 50 
+            add_stability = 5
+            add_war_support = -5
+        }
     }
 
     focus = {
@@ -69,6 +100,31 @@ focus_tree = {
         prerequisite = {
             focus = BLR_The_First_Constituent_Charter_of_BDR
         }
+
+        completion_reward = {
+            add_political_power = 50 
+            add_stability = 5
+            add_war_support = -5
+
+            add_country_leader_role = {
+                character = BLR_Yazep_Varonka
+                promote_leader = yes
+                country_leader = {
+                    ideology = despotism
+                    expire = "1965.1.1"
+                    traits = { 
+                    }
+                }
+            }
+
+            set_party_name = {
+                ideology = despotism
+                long_name = "Belarusian Socialist-Sierada Assembly"
+                name = "BSSA"
+            }
+        }
+
+        
     }
 
     focus = {
