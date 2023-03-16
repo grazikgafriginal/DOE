@@ -25,9 +25,6 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-        
-        }
         mutually_exclusive = {
             focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
         }
@@ -49,13 +46,18 @@ focus_tree = {
                     add_idea = the_road_to_belarusian_democratic_republic
                     remove_idea = supreme_commander
                 }
+
+                country_event = {
+					id = belarus.1
+					days = 3
+				}
             }
         }
 
         set_party_name = {
             ideology = despotism
-            long_name = "Belarusian Socialist-Sierada Assembly"
-            name = "BSSA"
+            long_name = "Belarusian Socialist Gramada"
+            name = "BSG"
         }
         
     }
@@ -68,20 +70,20 @@ focus_tree = {
         ai_will_do = {
             factor = 50
         }
-        cost = 2
+        cost = 4
         available_if_capitulated = yes
         completion_reward = {
-        
+
+            add_political_power = 50 
+            add_stability = 0.05
+            add_war_support = -0.05
+
         }
         prerequisite = {
             focus = BLR_The_road_to_Belarusian_Democratic_Republic
         }
 
-        completion_reward = {
-            add_political_power = 50 
-            add_stability = 5
-            add_war_support = -5
-        }
+        
     }
 
     focus = {
@@ -95,16 +97,9 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
-        }
-        prerequisite = {
-            focus = BLR_The_First_Constituent_Charter_of_BDR
-        }
-
-        completion_reward = {
             add_political_power = 50 
-            add_stability = 5
-            add_war_support = -5
+            add_stability = 0.05
+            add_war_support = -0.05
 
             add_country_leader_role = {
                 character = BLR_Yazep_Varonka
@@ -116,14 +111,15 @@ focus_tree = {
                     }
                 }
             }
-
-            set_party_name = {
-                ideology = despotism
-                long_name = "Belarusian Socialist-Sierada Assembly"
-                name = "BSSA"
-            }
         }
-
+        set_party_name = {
+            ideology = despotism
+            long_name = "Belarusian Socialist Gramada"
+            name = "BSG"
+        }
+        prerequisite = {
+            focus = BLR_The_First_Constituent_Charter_of_BDR
+        }
         
     }
 
@@ -137,11 +133,14 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-        
-        }
         prerequisite = {
             focus = BLR_The_Second_Constituent_Charter_of_BDR
+        }
+
+        completion_reward = {
+            add_political_power = 50
+            add_stability = 0.05
+            add_war_support = -0.05
         }
     }
 
@@ -156,7 +155,11 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.02
+            add_popularity = {
+                ideology = communism
+                popularity = 0.01
+            }  
         }
         prerequisite = {
             focus = BLR_Establish_Rada
@@ -174,7 +177,11 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.02
+            add_popularity = {
+                ideology = communism
+                popularity = 0.01
+            } 
         }
         prerequisite = {
             focus = BLR_Establish_Rada
@@ -192,10 +199,17 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.02
+            add_popularity = {
+                ideology = communism
+                popularity = 0.01
+            } 
         }
         prerequisite = {
             focus = BLR_Establish_Rada
+        }
+        mutually_exclusive = {
+            focus = BLR_Limit_the_languages_in_the_country
         }
     }
 
@@ -210,28 +224,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
-        }
-        prerequisite = {
-            focus = BLR_Establish_Rada
-        }
-        mutually_exclusive = {
-            focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
-        }
-    }
-
-    focus = {
-        id = BLR_Limit_the_languages_in_the_country
-        icon = GFX_
-        x = 22
-        y = 4
-        ai_will_do = {
-            factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-        
+            add_political_power = 25
+            add_stability = -0.05
         }
         prerequisite = {
             focus = BLR_Establish_Rada
@@ -252,7 +246,26 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = -0.1
+            add_political_power = 50
+            BLR = {
+                random_owned_controlled_state = {
+                    add_building_construction = {
+                        type = industrial_complex
+                        level = 1
+                        instant_build = yes
+                    }
+                    add_extra_state_shared_building_slots = 1
+                }
+                random_owned_controlled_state = {
+                    add_building_construction = {
+                        type = arms_factory
+                        level = 1
+                        instant_build = yes
+                    }
+                    add_extra_state_shared_building_slots = 1
+                }
+            }
         }
         prerequisite = {
             focus = BLR_Allow_freedom_of_speech_and_meetings
@@ -273,7 +286,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = communism
+                popularity = 0.05
+            } 
         }
         prerequisite = {
             focus = BLR_Nationalisation_of_the_land
@@ -291,7 +307,9 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.05
+            add_political_power = 50
+            add_war_support = -0.05
         }
         prerequisite = {
             focus = BLR_Leaning_towards_Belarusian_socialism
@@ -308,9 +326,7 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-        
-        }
+        completion_reward = {}
         prerequisite = {
             focus = BLR_The_Third_Constituent_Chapter
         }
@@ -328,7 +344,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = democratic
+                popularity = 0.05
+            } 
         }
         prerequisite = {
             focus = BLR_All_BDR_meeting
@@ -351,7 +370,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            
         }
         prerequisite = {
             focus = BLR_The_Path_of_Democratic_Belarus
@@ -369,7 +388,11 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.1
+            add_popularity = {
+                ideology = classical_liberalism
+                popularity = 0.1
+            }
         }
         prerequisite = {
             focus = BLR_The_country_of_culture
@@ -387,7 +410,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = classical_liberalism
+                popularity = 0.1
+            }
         }
         prerequisite = {
             focus = BLR_Artists_on_the_throne
@@ -405,7 +431,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_political_power = 100
+            add_stability = -0.1
         }
         prerequisite = {
             focus = BLR_Artists_on_the_throne
@@ -423,7 +450,11 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_political_power = 50
+            add_popularity = {
+                ideology = classical_liberalism
+                popularity = 0.05
+            }
         }
         prerequisite = {
             focus = BLR_Artists_on_the_throne
@@ -441,7 +472,11 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.1
+            add_popularity = {
+                ideology = classical_liberalism
+                popularity = 0.05
+            }
         }
         prerequisite = {
             focus = BLR_Freedom_of_Ideologies
@@ -459,7 +494,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            consumer_goods_factor = -0.1
         }
         prerequisite = {
             focus = BLR_Liberate_the_market
@@ -477,7 +512,9 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            research_bonus = { 
+                industry = 0.1
+            }
         }
         prerequisite = {
             focus = BLR_Make_the_government_liberal
@@ -495,7 +532,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            production_factory_efficiency_gain_factor = 0.1
+            local_resources_factor = 0.1
+            research_speed_factor = 0.05
+            industrial_capacity_factory = 0.025
         }
         prerequisite = {
             focus = BLR_Press_reforms
@@ -513,7 +553,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_political_power = -150
+            production_speed_buildings_factor = 0.1
+            production_speed_infrastructure_factor = 0.1
+
         }
         prerequisite = {
             focus = BLR_Make_Minskyi_zavod_independent
@@ -531,7 +574,11 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.5
+            add_popularity = {
+                ideology = classical_liberalism
+                popularity = 0.025
+            }
         }
         prerequisite = {
             focus = BLR_Education_spendings
@@ -549,7 +596,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_political_power = 50
+            industrial_capacity_factory = 0.025
         }
         prerequisite = {
             focus = BLR_Therapy_of_economy
@@ -567,7 +615,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.25
+            add_war_support = -0.05
+            add_political_power = -50
+            add_manpower = 1000
         }
         prerequisite = {
             focus = BLR_Social_spendings
@@ -585,7 +636,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            industrial_capacity_factory = 0.025
+            add_political_power = -100
         }
         prerequisite = {
             focus = BLR_Ocean_of_stability
@@ -603,7 +655,13 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_political_power = 50
+            add_war_support = 0.05
+            create_wargoal = {
+                type = take_state_focus
+                target = SOV
+                generator = { 28 }
+            }
         }
         prerequisite = {
             focus = BLR_Tax_cuts_for_civilian_industry
