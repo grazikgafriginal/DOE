@@ -4,7 +4,6 @@
 recruit_character = BLR_Stanislav_Bulak_Balachowicz
 recruit_character = BLR_Jan_Sierada
 recruit_character = BLR_Yazep_Varonka
-recruit_character = BLR_Arkadyi_Smolich
 
 
 capital = 206 #Minsk
