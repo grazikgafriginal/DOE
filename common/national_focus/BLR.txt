@@ -657,11 +657,11 @@ focus_tree = {
         completion_reward = {
             add_political_power = 50
             add_war_support = 0.05
-            create_wargoal = {
-                type = take_state_focus
-                target = SOV
-                generator = { 28 }
-            }
+            #create_wargoal = {
+            #    type = take_state_focus
+            #    target = SOV
+            #    generator = { 28 }
+            #}
         }
         prerequisite = {
             focus = BLR_Tax_cuts_for_civilian_industry
@@ -689,7 +689,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = -0.1
+            add_war_support = -0.1
+            add_political_power = -50
+
         }
         prerequisite = {
             focus = BLR_The_Path_of_Democratic_Belarus
