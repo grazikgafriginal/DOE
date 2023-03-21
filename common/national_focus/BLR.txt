@@ -59,8 +59,8 @@ focus_tree = {
 
         set_party_name = {
             ideology = despotism
-            long_name = "Belarusian Socialist Gramada"
-            name = "BSG"
+            name = BLR_belarusian_socialist_gramada
+            long_name = BLR_belarusian_socialist_gramada_long
         }
         
     }
@@ -1742,7 +1742,7 @@ focus_tree = {
      cost = 2
      available_if_capitulated = yes
      completion_reward = {
-     
+        
      }
      mutually_exclusive = {
        focus = BLR_The_road_to_Belarusian_Democratic_Republic
@@ -1762,7 +1762,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = -0.05
+            recruitable_population = -0.05
         }
         prerequisite = {
             focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
@@ -1784,7 +1785,9 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = -0.05
+            add_political_power = 25
+
         }
         prerequisite = {
             focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
@@ -1807,7 +1810,9 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_war_support = -0.05
+            add_political_power = 75
+            political_power_gain = -0.02
         }
         prerequisite = {
             focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
@@ -1830,7 +1835,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability = 0.05
+            add_political_power = 50
         }
         prerequisite = {
 	    focus = BLR_Enjail_the_opposition
@@ -1851,7 +1857,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            recruitable_population = 0.03
+            add_war_support = 0.1
         }
         prerequisite = {
 	    focus = BLR_Enjail_the_opposition
@@ -1871,7 +1878,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_stability =  0.05
+            add_political_power = 50
         }
         prerequisite = {
 	    focus = BLR_Popularise_the_Military_Education_among_the_youth
@@ -1890,7 +1898,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_war_support = 0.05
         }
         prerequisite = {
 	    focus = BLR_Political_reforms
@@ -1929,7 +1937,32 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
+
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
+
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+                add_extra_state_shared_building_slots = 1
+            }
         }
         prerequisite = {
         focus = BLR_The_militarisation_of_the_politics
@@ -1948,7 +1981,9 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_war_support = 0.05
+            add_stability = -0.05
+            add_political_power = 75
         }
         prerequisite = {
         focus = BLR_Expand_the_Industry_for_the_Military_needs
@@ -1966,7 +2001,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            recruitable_population = 0.05
         }
         prerequisite = {
         focus = BLR_Expand_the_Industry_for_the_Military_needs
@@ -1984,7 +2019,9 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_war_support = 0.15
+            army_attack_factor = 0.1
+            army_defence_factor = 0.1
         }
         prerequisite = {
         focus = BLR_Strengthen_the_States_Security
@@ -2007,7 +2044,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            
         }
         prerequisite = {
         }
@@ -2028,7 +2065,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 75
+            political_power_gain = -0.01
         }
         prerequisite = {
         focus = BLR_Think_of_another_candidates
@@ -2046,7 +2084,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 35
         }
         prerequisite = {
         focus = BLR_The_rebirth_of_our_nation
@@ -2064,7 +2102,9 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 50
+            add_stability = -0.05
+            political_power_gain = -0.01
         }
         prerequisite = {
         focus = BLR_The_rebirth_of_our_nation
@@ -2082,7 +2122,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 50
+
         }
         prerequisite = {
         focus = BLR_Layer_and_Centralise_the_decisions
@@ -2101,7 +2142,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_stability = 0.05
+            add_war_support = -0.1
         }
         prerequisite = {
         focus = BLR_Nut_tightening
@@ -2145,7 +2187,11 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 50
+            add_popularity = {
+                ideology = rexism
+                popularity = 0.05
+            }
         }
         prerequisite = {
         focus = BLR_Nut_tightening
@@ -2167,7 +2213,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 100
         }
         prerequisite = {
         focus = BLR_Take_under_control_the_education
@@ -2191,7 +2237,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_stability = -0.2
+            add_political_power = 100
         }
     }
 
@@ -2206,7 +2253,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            trade_opinion_factor = 0.1
+            faction_trade_opinion_factor = 0.1
         }
         prerequisite = {
         focus = BLR_The_Pure_Belarusian_nation
@@ -2227,7 +2275,11 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            political_power_gain = -0.01
+            add_popularity = {
+                ideology = nazism
+                popularity = 0.1
+            }
         }
         prerequisite = {
         focus = BLR_The_Pure_Belarusian_nation
@@ -2248,7 +2300,11 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_popularity = {
+                ideology = nazism
+                popularity = -0.05
+            }
+            add_war_support = 0.1
         }
         prerequisite = {
             focus = BLR_Cooperate_with_germans
@@ -2267,7 +2323,13 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_stability = -0.05
+            add_popularity = {
+                ideology = nazism
+                popularity = -0.05
+            }
+            add_political_power = 50
+
         }
         prerequisite = {
             focus = BLR_Military_education_from_the_youth
@@ -2285,7 +2347,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            resistance_target = -0.1
+            add_stability = -0.1
         }
         prerequisite = {
             focus = BLR_Recruit_the_National_Security_Guard_from_the_Army
@@ -2300,10 +2363,10 @@ focus = {
         ai_will_do = {
         factor = 50
         } 
-        cost = 2
+        cost = 1
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_political_power = 25
         }
         prerequisite = {
             focus = BLR_Recruit_the_National_Security_Guard_from_the_Army
@@ -2322,7 +2385,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            political_power_factor = 0.01
+            drift_defence_factor = 0.05
         }
         prerequisite = {
             focus = BLR_Recruit_the_National_Security_Guard_from_the_Army
@@ -2341,7 +2405,9 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_stability = -0.1
+            add_political_power = -50
+            add_war_support = 0.1
         }
         prerequisite = {
             focus = BLR_Cooperate_with_germans
@@ -2359,7 +2425,9 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            production_factory_efficiency_gain_factor = 0.1
+            add_political_power = -50
+
         }
         prerequisite = {
             focus = BLR_Offer_the_division_of_Poland
@@ -2377,7 +2445,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            
         }
         prerequisite = {
             focus = BLR_German_technical_assistance
