@@ -742,6 +742,17 @@ focus_tree = {
             add_war_support = -0.1
             add_political_power = -50
 
+            add_country_leader_role = {
+                character = BLR_Arkadz_Smolic
+                promote_leader = yes
+                country_leader = {
+                    ideology = social_democracy
+                    expire = "1965.1.1"
+                    traits = { 
+                    }
+                }
+            }
+
         }
         prerequisite = {
             focus = BLR_The_Path_of_Democratic_Belarus
@@ -759,7 +770,12 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            set_politics = {
+                ruling_party = democratic
+                elections_allowed = yes
+            }
+            promote_leader = BLR_Arkadz_Smolic
+            retire_leader = BLR_Yazep_Varonka
         }
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
@@ -1027,7 +1043,7 @@ focus_tree = {
     }
 
     focus = {
-        id = BLR_Focus_on_sieĺskaja_haspadarka
+        id = BLR_Focus_on_sielskaja_haspadarka
         icon = GFX_
         x = 15
         y = 13
@@ -1094,7 +1110,7 @@ focus_tree = {
         }
         prerequisite = {
             focus = BLR_Socialise_the_land
-            focus = BLR_Focus_on_sieĺskaja_haspadarka
+            focus = BLR_Focus_on_sielskaja_haspadarka
         }
     }
 
@@ -1598,7 +1614,7 @@ focus_tree = {
     }
 
     focus = {
-        id = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+        id = BLR_Kastounasc_bielaruskaj_nacyi
         icon = GFX_
         x = 36
         y = 14
@@ -1639,7 +1655,7 @@ focus_tree = {
             focus = BLR_Christian_Youth_clubs
             focus = BLR_Promote_domestic_production
             focus = BLR_Exchange_rate_control
-            focus = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+            focus = BLR_Kastounasc_bielaruskaj_nacyi
         }
 
         mutually_exclusive = {
@@ -1673,7 +1689,7 @@ focus_tree = {
             focus = BLR_Christian_Youth_clubs
             focus = BLR_Promote_domestic_production
             focus = BLR_Exchange_rate_control
-            focus = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+            focus = BLR_Kastounasc_bielaruskaj_nacyi
         }
         mutually_exclusive = {
             focus = BLR_Pro_Jewish_reforms
@@ -1706,7 +1722,7 @@ focus_tree = {
             focus = BLR_Christian_Youth_clubs
             focus = BLR_Promote_domestic_production
             focus = BLR_Exchange_rate_control
-            focus = BLR_Kaštoŭnasć_bielaruskaj_nacyi
+            focus = BLR_Kastounasc_bielaruskaj_nacyi
         }
         mutually_exclusive = {
             focus = BLR_Crack_down_on_Communists
@@ -2195,13 +2211,13 @@ focus = {
         focus = BLR_Nut_tightening
         }
         mutually_exclusive = {
-            focus = BLR_Reform_the_Stanislau's_National_Police
+            focus = BLR_Reform_the_Stanislaus_National_Police
             focus = BLR_Take_under_control_the_education
         }
     }
 
     focus = {
-        id = BLR_Reform_the_Stanislau's_National_Police
+        id = BLR_Reform_the_Stanislaus_National_Police
         icon = GFX_
         x = 32
         y = 8
@@ -2243,13 +2259,13 @@ focus = {
         focus = BLR_Nut_tightening
         }
         mutually_exclusive = {
-            focus = BLR_Reform_the_Stanislau's_National_Police
+            focus = BLR_Reform_the_Stanislaus_National_Police
             focus = BLR_Pro_Government_meetings
         }
     }
 
     focus = {
-        id = BLR_Finalise_our_input_into_the_nation_and_establish_Republic/reich!
+        id = BLR_Finalise_our_input_into_the_nation_and_establish_Republic/reich
         icon = GFX_
         x = 32
         y = 9
@@ -2263,7 +2279,7 @@ focus = {
         }
         prerequisite = {
         focus = BLR_Take_under_control_the_education
-        focus = BLR_Reform_the_Stanislau's_National_Police
+        focus = BLR_Reform_the_Stanislaus_National_Police
         focus = BLR_Pro_Government_meetings
         }
     }
@@ -2557,12 +2573,12 @@ focus = {
             focus = BLR_Build_Belarusian_National_socialism
         }
 	    mutually_exclusive = {
-            focus = BLR_Miaža_asielasci
+            focus = BLR_Miaza_asielasci
         }
     }
 
     focus = {
-        id = BLR_Miaža_asielasci
+        id = BLR_Miaza_asielasci
         icon = GFX_
         x = 51
         y = 2
@@ -2583,7 +2599,7 @@ focus = {
     }
 
     focus = {
-        id = BLR_Dictatorship_that_will_save_the_nation!
+        id = BLR_Dictatorship_that_will_save_the_nation
         icon = GFX_
         x = 50
         y = 3
@@ -2597,7 +2613,7 @@ focus = {
         }
         prerequisite = {
             focus = BLR_There_are_no_minorities
-            focus = BLR_Miaža_asielasci
+            focus = BLR_Miaza_asielasci
         }
     }
 
@@ -2615,7 +2631,7 @@ focus = {
     
         }
         prerequisite = {
-            focus = BLR_Dictatorship_that_will_save_the_nation!
+            focus = BLR_Dictatorship_that_will_save_the_nation
         }
     }
 
@@ -2633,7 +2649,7 @@ focus = {
     
         }
         prerequisite = {
-            focus = BLR_Dictatorship_that_will_save_the_nation!
+            focus = BLR_Dictatorship_that_will_save_the_nation
         }
     }
 
@@ -2660,7 +2676,29 @@ focus = {
     ###### Army tree
     ################################################################
 
-    
+    focus = {
+        id = BLR_Creation_of_Belarusian_Armed_forces
+        icon = GFX_
+        x = 16
+        y = 1
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 4
+        available_if_capitulated = yes
+        completion_reward = {
+
+            add_political_power = 50 
+            add_stability = 0.05
+            add_war_support = -0.05
+
+        }
+        prerequisite = {
+            focus = BLR_The_road_to_Belarusian_Democratic_Republic
+        }
+
+        
+    }
 
 }
 
