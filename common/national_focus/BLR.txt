@@ -353,6 +353,8 @@ focus_tree = {
                 ruling_party = communism
                 elections_allowed = yes
             }
+            promote_leader = BLR_Jazep_Liosik
+            retire_leader = BLR_Jan_Sierada
         }
         prerequisite = {
             focus = BLR_Leaning_towards_Belarusian_socialism
