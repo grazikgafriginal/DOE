@@ -2663,3 +2663,234 @@ focus = {
     
 
 }
+
+
+focus = {
+    id = BLR_What_to_do_with_our_army
+    icon = GFX_
+    x = 5
+    y = 1
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+}
+
+focus = {
+    id = BLR_Vituskas_plan
+    icon = GFX_
+    x = 3
+    y = 2
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_What_to_do_with_our_army
+    }
+    mutually_exclusive = {
+        focus = BLR_Bulachowiczs_plan
+        focus = BLR_Kanapatskis_plan
+    }
+}
+
+focus = {
+    id = BLR_Bulachowiczs_plan
+    icon = GFX_
+    x = 5
+    y = 2
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_What_to_do_with_our_army
+    }
+    mutually_exclusive = {
+        focus = BLR_Vituskas_plan
+        focus = BLR_Kanapatskis_plan
+    }
+}
+
+focus = {
+    id = BLR_Kanapatskis_plan
+    icon = GFX_
+    x = 7
+    y = 2
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_What_to_do_with_our_army
+    }
+    mutually_exclusive = {
+        focus = BLR_Vituskas_plan
+        focus = BLR_Bulachowiczs_plan
+    }
+}
+
+focus = {
+    id = BLR_Compulsory_millitary_education
+    icon = GFX_
+    x = 3
+    y = 3
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Vituskas_plan
+    }
+   
+}
+
+focus = {
+    id = BLR_Take_the_fight_to_them
+    icon = GFX_
+    x = 2
+    y = 4
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Compulsory_millitary_education
+    }
+    mutually_exclusive = {
+        focus = BLR_Build_up_fortifications
+    }
+}
+
+focus = {
+    id = BLR_Build_up_fortifications
+    icon = GFX_
+    x = 4
+    y = 4
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Compulsory_millitary_education
+    }
+    mutually_exclusive = {
+        focus = BLR_Take_the_fight_to_them
+    }
+}
+
+focus = {
+    id = BLR_Bite_back
+    icon = GFX_
+    x = 2
+    y = 5
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Build_up_fortifications
+        focus = BLR_Take_the_fight_to_them
+    }
+    mutually_exclusive = {
+        focus = BLR_Defend_our_land
+    }
+}
+
+focus = {
+    id = BLR_Defend_our_land
+    icon = GFX_
+    x = 4
+    y = 5
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Build_up_fortifications
+        focus = BLR_Take_the_fight_to_them
+    }
+    mutually_exclusive = {
+        focus = BLR_Bite_back
+    }
+}
+
+focus = {
+    id = BLR_The_best_of_the_best
+    icon = GFX_
+    x = 2
+    y = 6
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Bite_back
+        focus = BLR_Defend_our_land
+    }
+    mutually_exclusive = {
+        focus = BLR_Additional_training_for_all_forces
+    }
+}
+
+focus = {
+    id = BLR_Additional_training_for_all_forces
+    icon = GFX_
+    x = 4
+    y = 6
+    ai_will_do = {
+    factor = 50
+    } 
+    cost = 2
+    available_if_capitulated = yes
+    completion_reward = {
+
+    }
+    prerequisite = {
+        focus = BLR_Bite_back
+        focus = BLR_Defend_our_land
+    }
+    mutually_exclusive = {
+        focus = BLR_The_best_of_the_best
+    }
+}
