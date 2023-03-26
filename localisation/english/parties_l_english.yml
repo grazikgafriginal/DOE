@@ -1,13 +1,147 @@
 ﻿l_english:
  communism:0 "Communist"
  communism_noun:0 "Communism"
+ communism_desc:0 "Communist Regime"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
- fascism_desc:0 "Totalitarian Regime"
- communism_desc:0 "Totalitarian Regime"
- democratic_desc:0 "Democratic Regime"
+ fascism_desc:0 "Fascist Regime"
+ authoritarian:0 "Authoritarian"
+ authoritarian_noun:0 "Authoritarianism"
+ authoritarian_desc:0 "Authoritarian Regime"
+
+
+# Subideologies
+# Fascism
+ national_socialism:0 "National Socialism"
+ national_socialism_desc:0 "§gNational Socialism§!\nNational Socialism is the political ideology most associated with the National Socialist German Worker’s Party during the 20th Century. National Socialism was developed by Adolf Hitler and it involves fascist beliefs, an autocratic system of government, and most infamously of all, anti-semitism. National Socialists believe in the superiority of Europeans above all, or more specifically, Aryans, the German race. National Socialists despised Jews and Communists, as they believed that they backstabbed the German Empire during the Weltkrieg, causing the Central Powers to lose the war."
+ 
+ strasserism:0 "Strasserism"
+ strasserism_desc:0 "§gStrasserism§!\nStrasserism is a strand of Nazism that emphasizes anti-capitalist and worker-based socialist policies over Aryan racial supremacy. It emphasizes anti-capitalism as a means of achieving national rebirth, favoring the establishiment of central planning through a guild system over corporatism."
+
+ national_bolshevism:0 "National Bolshevism"
+ national_bolshevism_desc:0 "§gNational Bolshevism§!\nNational Bolshevism is seen as a compromise between typical National Socialism and Communism, §YNational Bolshevism§! strives to combine Socialist economics with radical Nationalism."
+ 
+ ultranationalism:0 "Ultranationalism"
+ ultranationalism_desc:0 "§gUltranationalism§!\nAs an extreme form of Nationalism, Ultranationalism encompasses a wide variety of loosely connected ideologies that promotes ones nation, people, and state above all. "
+ 
+ esoteric_national_socialism:0 "Esoteric National Socialism"
+ esoteric_national_socialism_desc:0 "§gEsoteric Nazism§!\nEsoteric Nazism is a branch of National Socialism integrating occultist and neopagan beliefs within Nazi ideology. It theorized that the Aryan race is descended from alleged ancient civilizations such as Atlantis and had a different evolutionary lineage from other racial groups, possibly descended from divine beings themselves. Esoteric Nazism wholly rejects Christianity, claiming it to be created by Jewry as a means to weaken the Aryan race"
+
+ clerical_fascism:0 "Clerical fascism"
+ clerical_fascism_desc:0 "§gClerical Fascism§!Clerical Fascism is an ideology that combines the political and economic ideas of fascism and clericalism, a political ideology which puts the leadership or opinion of ordained clergies in the matters of either the church or state."
+ 
+ metaxism:0 "Metaxism"
+ metaxism_desc:0 "§gMetaxism§!\nMetaxism is an authoritarian nationalist ideology associated with Greek dictator Ioannis Metaxas. Metaxism called for the regeneration of the Greek nation and for Greece to establish a modern, culturally homogenous nation."
+ 
+ rexism:0 "Rexism"
+ rexism_desc:0 "§gRexism§!\nRexism was the fascist political movement in the first half of the twentieth century in Belgium. Rexism is derived from fascism, thus holding many fascist beliefs. The name of the party, Parti Rexiste, derives from the Roman Catholic Church, specifically from the name Christus Rex."
+
+ corporatism:0 "Corporatism"
+ corporatism_desc:0 "§gCorporatism§!\nCorporatism is the organization of society by corporate groups and guilds based by a person’s interests."
+ 
+ integralism:0 "Integralism"
+ integralism_desc:0 "§gIntegralism§!"
+ 
+ legionarism:0 "Legionarism"
+ legionarism_desc:0 "§gLegionarism§!\nLegionarism is the belief that the Church and State are one, and that the Church should take the apparatus of state, essentially “replacing” it."
+ 
+ salafism:0 "Salafism"
+ salafism_desc:0 "§gSalafism§!\nSalafism is based on the fundamental ideals of Islam, this form of Nationalism calls for the full implementation of "Sharia", or the religious laws set in placce by Muhammed and his Apostles"
+ 
+ falangism:0 "Falangism"
+ falangism_desc:0 "§gFalangism§!\nFalangism is a fascist political ideology help by the Falange Espanola de las JONS and the Falange Espanola Trandicionalista y de las Junta de Ofensiva Nacional Sindicalista. Falangism holds many fascist and paternal autocratic beliefs."
+
+ revisionist_maximalism:0 "Revisionist Maximalism"
+ revisionist_maximalism_desc:0 "§gRevisionist Maximalism§!\nRevisionist Maximalism is the Fascist Zionist political movement which wants to create a new integralist nationalism amongst Jews. The movement was a faction in the Zionist Revisionist Movement that wanted to establish Israel on Fascist lines, but eventually lost its popularity to the democratic factions in the Revisionist Movement."
+
+ # Authoritarianism
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "§gAuthoritarian Democracy§!\nAuthoritarian Democracies are systems of government in which a strong and powerful leader is present. Unlike most authoritarian states, Authoritarian Democracies democratically elect this strong leader to spearhead their country into a prosperous era or to be guided through a dark time. Authoritarian Democracies rarely stay as democracies, as their leader will usually stage a political or military coup in order to stay in control."
+ 
+ military_dictatorship:0 "Military Dictatorship"
+ military_dictatorship_desc:0 "§gMilitary Dictatorship§!\nA Military Dictatorship is when a country’s military has completely taken over the apparatus of the state to maintain stability. Military dictatorships are common in countries that are so unstable that martial law is required. Military dictatorships are also common in countries with an authoritarian president that is corrupt and disliked by all. In a martial law military dictatorship, the military’s commander-in-chief, usually the president of the said country, takes full control over the country as a dictator. In other countries where their president is disliked, the highest-ranking officer will take control. Or, more accurately, the most liked and influential officer."
+
+ theocracy_auth:0 "Theocracy"
+ theocracy_auth_desc:0 "§gTheocracies§! are systems of government in which the heads of a certain religious organization rule a country in the name of a divine figure, such as a prophet or God. Theocracies weren’t as common in the 20th Century, but the United Kingdom could be classified as one, as the monarch was also the head of the Church of England. A famous example of a theocracy would be Vatican City."
+ 
+ despotism:0 "Despotism"
+ despotism_desc:0 "§gDespotism§! represents governments that rule through force, divine right, or emergency authority rather than adherence to a specific ideology."
+ 
+ conservative_autocracy:0 "Conservative Autocracy"
+ conservative_autocracy_desc:0 "§gConservative Autocracy§! see traditional hierarchies and institutions as essential to a nation's moral well-being, and will uphold them by force."
+ 
+ integralism_auth:0 "Integralism"
+ integralism_auth_desc:0 "§gIntegralism§!"
+
+ monarchism:0 "Monarchism"
+ monarchism_desc:0 "§gMonarchism§! is a system of government in which a ruling monarch, usually a king or emperor, is the head of state and sometimes head of government of a country. Monarchs are usually limited in power in constitutional monarchies, while absolute monarchies grant them absolute power. This is a hereditary office passed down to the eldest child, predominantly the eldest son."
+
+# Democracy
+ social_conservatism:0 "Conservatism"
+ social_conservatism_desc:0 "§BConservatism§! is the belief that society consists of fragile networks of relationships which need to be upheld through duty, traditional values, and established institutions."
+
+ social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "§BSocial Liberalism§! Encompassing a wide variety of left-leaning social and economic policies, Social Liberalism places an emphasis on a free yet regulated market with expansive welfare for the lower classes."
+
+ classical_liberalism:0 "Classical Liberalism"
+ classical_liberalism_desc:0 "§BClassical Liberalism§! is the right-leaning branch of liberalism that advocates for the free market, civil liberties under the rule of law, economic freedom and cultural liberalism. They seek to empower the middle class politically and to abolish royal charters, monopolies, and the protectionist policies of mercantilism so as to encourage entrepreneurship and increase productive efficiency. They also expect the free exchange of goods to diminish the frequency of war."
+
+ social_democracy:0 "Social Democracy"
+ social_democracy_desc:0 "§BSocial democracy§! is the political and economic theory that socialism can be achieved through democratic means."
+ 
+ national_conservatism:0 "National Conservatism"
+ national_conservatism_desc:0 "§BNational Conservatism§! value their peoples' traditions and cultural identity, hoping to safeguard these through the existing democratic system."
+
+ democratic_socialism:0 "Democratic Socialism"
+ democratic_socialism_desc:0 "§BDemocratic Socialism§! is a political theory that allows for a socialist state to have a democratic system of government alongside the public ownership of the means of production. democratic socialism also emphasizes self-management and democratic management"
+
+ league_of_nations_administration:0 "League of Nations Administration"
+ league_of_nations_administration_desc:0 "This state is administered directly by the §gLeague of Nations§!, with leadership positions being continuously rotated between the League's member states."
+
+ # Socialism
+ socialism:0 "Socialism"
+ socialism_desc:0 "§RSocialism§! is a political and economic theory that the means of production, distribution, and exchange should be owned and regulated by a community as a whole."
+
+ syndicalism:0 "Syndicalism"
+ syndicalism_desc:0 "§RSyndicalism§! is the belief that the means of production and distribution should be given to a centralized workers’ union along with any private property. In syndicalism, workers would be divided into “syndicates” in which all the workers apart of a certain syndicate would make decisions together."
+ 
+ marhaenism:0 "Marhaenism"
+ marhaenism_desc:0 "§RMarhaenism§! is a political ideology originating in Indonesia to combat capitalism and imperialism. Considered a variant of Marxism, Marhaenism carries socialist and anti-capitalist beliefs."
+ 
+ labor_zionism:0 "Labor Zionism"
+ labor_zionism_desc:0 "§RLabor Zionism§!, or Socialist Zionism, is the left-wing for the Zionist movement, a movement which supports the re-establishment of a Jewish homeland in the Holy Land. It is the significant tendency among Zionists and Zionist organizations. It believes that a progressive Israel should be built by the labor of the Jewish working class."
+ 
+ arab_socialism:0 "Arab Socialism"
+ arab_socialism_desc:0 "§RArab Socialism§! is a political ideology based on Pan-Arabism and socialism. It is distinct from socialism by holding more radical beliefs, the more well-known radical belief being nationalism."
+ 
+ anarcho_communism:0 "Anarcho-Communism"
+ anarcho_communism_desc:0 "§RAnarcho-Communism§! is a form of Communism advocating the abolition of the state, capitalism, private property and wage relations in favour of common ownership of the means of production. It favours direct democracy and networks of worker councils to production and consumption based on the guiding principle based on Marxist principles."
+
+ luxemburgism:0 "Luxemburgism"
+ luxemburgism_desc:0 "§RLuxemburgism§! is a form of communism developed by Rosa Luxemburg which opposes Leninism. Also known as Council Communism, Luxemburgism opposes many elements of Leninism, including the idea of a proletariat dictatorship. Luxemburgism prefers a less centralized alternative. Luxemburgists felt that a Worker’s Council should rule a communist country, not a strong leader."
+
+ # Communism
+ trotskyism:0 "Bolshevik-Leninism"
+ trotskyism_desc:0 "§RBolshevik-Leninism§!\nTrotskyism is the common name given to the beliefs developed by Leon Trotsky. Trotskyism involves mass industrialization, communism in all countries, the “World Revolution”, as Trotsky put it. Trotskyism also supported the Permanent Revolution and the International Revolution. Trotskyists were massive critics of Joseph Stalin’s leadership, calling the Soviet Union under Stalin either a “deformed workers state or a form of state capitalism itself."
+
+ marxism_leninism:0 "Marxism-Leninism"
+ marxism_leninism_desc:0 "§RMarxism-Leninism§!\nMarxism-Leninism is the political ideology developed by Vladimir Lenin. Marxism-Leninism is considered a variant of Marxism, and supports the idea of a vanguard party and a proletariat dictatorship."
+ 
+ stalinism:0 "Marxism-Leninism (Stalinism)"
+ stalinism_desc:0 "§RMarxism-Leninism (Stalinism)§!\nStalinism is the name given to the beliefs developed by Joseph Stalin during his rule as Premier of the Soviet Union. Stalinism supports mass industrialization, a centralized leadership, a centralized intelligence agency, and “socialism in one country.” Stalinists are opposed heavily by Trotskyists for their more extreme version of communism."
+
+ national_communism:0 "National Communism"
+ national_communism_desc:0 "§RNational Communism§!\n National Communism combines both Marxist-Leninist principles and elements of nationalism. It constitutes a break from Marxist principles of internationalism and argues that Communist countries must be allowed to develop their foreign policies independently from the Soviet Union, and emphasizes the historical past, and the national culture, of the nation as precipitating the development of socialism within the nation."
+ 
+ maoism:0 "Marxism-Leninism-Maoism"
+ maoism_desc:0 "§RMarxism-Leninism-Maoism§!\nMaoism is the name of the practices developed by Mao Zedong during his rule as Chairman of the People’s Republic of China. Maoism involves the idea of a permanent revolution, emphasis on the importance of the peasantry, small-scale industrialization, and agricultural collectivization."
+
+ juche:0 "Juche"
+ juche_desc:0 "§RJuche§!\nJuche, or “self-reliance”, describes the official state ideology of North Korea. Developed by Kim Il-sung, Juche emphasizes self-reliance and that people should act as the “masters of the revolution and construction.” Juche says that a nation must be strong and self-reliant in order to achieve real socialism."
+
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
@@ -27,11 +161,7 @@
  nazism:0 "Nazism"
  nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  fascism_ideology:0 "Fascism"
- fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
- falangism:0 "Falangism"
- falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
- rexism:0 "Rexism"
- rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
+ fascism_ideology_desc:0 "§gFascism§!\nRooted in a rejection of Liberal democracy and Marxism, Fascism believes in radical Nationalism, nationalisation of the economy and rule under a strong leader. "
  neutrality:0 "Non-Aligned"
  neutrality_noun:0 "Non-Aligned"
  neutrality_desc:0 "Authoritarian Regime"
@@ -43,9 +173,66 @@
  moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
  centrism:1 "Centrism"
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
+
+
+
+
+
 #BLR Parties
- BLR_democratic_party:0 "BDP"
- BLR_democratic_party_long:0 "Bielaruskaja demakratyčnaja partyja"
+ BLR_democratic_party:0 "BSDP"
+ BLR_democratic_party_long:0 "Bielaruskaja Sacyjal-Demakratyčnaja Partyja"
+ BLR_democratic2_party:0 "BPSR"
+ BLR_democratic2_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
+ BLR_democratic3_party:0 "BPSR" 
+ BLR_democratic3_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
+ BLR_democratic4_party:0 "BPSF 
+ BLR_democratic4_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Fiederalistaŭ"
+ BLR_communism_party:0 "BSH"
+ BLR_communism_party_long:0 "Bielaruskaja Sacyjalistyčnaja Hramada"
+ BLR_communism2_party:0 "Bund"
+ BLR_communism2_party_long:0 "Usieahuĺny Jaŭrejski Pracoŭny Bund"
+ BLR_communism3_party:0 "SRs"
+ BLR_communism3_party_long:0 "Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
+ BLR_authoritarian_party:0 "Partyja Atamana"
+ BLR_authoritarian_party_long:0 "Partyja Atamana"
+ BLR_fascism_party:0 "BFP"
+ BLR_fascism_party_long:0 "Belarusian Fascist Party""
+ BLR_neutrality_party:0 "BPB"
+ BLR_neutrality_party_long:0 "Bespartyjny Blok Supratsoŭnitstva z Uradam"
+ BLR_neutrality2_party:0 "Vajskovaja Rada"
+ BLR_neutrality2_party_long:0 "Centraĺnaja bielaruskaja vajskovaja rada"
+ BLR_fascism2_party:0 "Partyja Zialionaha Duba"
+ BLR_fascism2_party_long:0 "Bielaruskaja sialianskaja Partyja Zialionaha Duba"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #BLR Parties
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"

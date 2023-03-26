@@ -1,13 +1,13 @@
 characters={
 	BLR_Stanislav_Bulak_Balachowicz	={
-		name="Stanislav Bulak-Balachowicz"
+		name="Stanislaŭ Bulak-Balachovič"
 		portraits={
 			civilian={
-				large="/gfx/leaders/BLR/Portrait_BLR_Bulack_Balachowicz.dds"
+				large="/gfx/leaders/BLR/Portrait_BLR_Bulack_Balachowicz.png"
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=military_dictatorship
 			traits={}
 			expire="1965.1.1.1"
 			id=-1
@@ -18,11 +18,11 @@ characters={
 		name="Jan Sierada"
 		portraits={
 			civilian={
-				large="/gfx/leaders/BLR/Portrait_BLR_Jan_Sierada.dds"
+				large="/gfx/leaders/BLR/Portrait_BLR_Jan_Sierada.png"
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=socialism
 			traits={}
 			expire="1949.1.1"
 			id=-1
@@ -30,19 +30,216 @@ characters={
 	}
 
 	BLR_Yazep_Varonka ={
-		name="Yazep Varonka"
+		name="Jazep Varonka"
 		portraits={
 			civilian={
-				large="/gfx/leaders/BLR/Portrait_BLR_Yazep_Varonka.dds"
+				large="/gfx/leaders/BLR/Portrait_BLR_Yazep_Varonka.png"
 			}
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=democratic_socialism
 			traits={}
 			expire="1949.1.1"
 			id=-1
 		}
 	}
+
+	BLR_Arkadz_Smolic ={
+		name="Arkadź Smolič"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Arkadź_Smolič.png"
+			}
+		}
+		country_leader={
+			ideology=social_democracy
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Tamas_Hryb ={
+		name="Tamaš Hryb"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Tamaš_Hryb.png"
+			}
+		}
+		country_leader={
+			ideology=social_revolutionism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Henryk_Ehrlich ={
+		name="Henryk Ehrlich"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Henryk_Ehrlich.png"
+			}
+		}
+		country_leader={
+			ideology=bundism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Vincent_Hadlieŭski ={
+		name="Vincent Hadlieŭski"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Vincent_Hadlieŭski.png"
+			}
+		}
+		country_leader={
+			ideology=christian_democracy
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Jazep_Liosik ={
+		name="Jazep Liosik"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Jazep_Liosik.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Vaclau_Lastouski ={
+		name="Vaclaŭ Lastoŭski"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Vaclaŭ_Lastoŭski.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Mikola_Abramcyk ={
+		name="Mikola Abramčyk"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Mikola_Abramčyk.png"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Radaslau_Astrouski ={
+		name="Radasłaŭ Astroŭski"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Radasłaŭ_Astroŭski.png"
+			}
+		}
+		country_leader={
+			ideology=national_socialism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Janka_Kupala ={
+		name="Janka Kupala"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Janka_Kupala.png"
+			}
+		}
+		country_leader={
+			ideology=classical_liberalism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Jakub_Kolas ={
+		name="Jakub Kolas"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Jakub_Kolas.png"
+			}
+		}
+		country_leader={
+			ideology=classical_liberalism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Jazep_Drazdovic ={
+		name="Jazep Drazdovič"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Jazep_Drazdovič.png"
+			}
+		}
+		country_leader={
+			ideology=cultural_liberalism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Maksim_Tank ={
+		name="Maksim Tank"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Maksim_Tank.png"
+			}
+		}
+		country_leader={
+			ideology=social_liberalism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	BLR_Siarhiej_Piasiecki ={
+		name="Siarhiej Piasiecki"
+		portraits={
+			civilian={
+				large="/gfx/leaders/BLR/Portrait_BLR_Siarhiej_Piasiecki.png"
+			}
+		}
+		country_leader={
+			ideology=social_conservatism
+			traits={}
+			expire="1949.1.1"
+			id=-1
+		}
+	}
+
+	
 
 
 }

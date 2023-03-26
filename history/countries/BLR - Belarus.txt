@@ -4,6 +4,19 @@
 recruit_character = BLR_Stanislav_Bulak_Balachowicz
 recruit_character = BLR_Jan_Sierada
 recruit_character = BLR_Yazep_Varonka
+recruit_character = BLR_Arkadz_Smolic
+recruit_character = BLR_Tamas_Hryb
+recruit_character = BLR_Henryk_Ehrlich
+recruit_character = BLR_Vincent_Hadlieŭski
+recruit_character = BLR_Jazep_Liosik
+recruit_character = BLR_Vaclau_Lastouski
+recruit_character = BLR_Mikola_Abramcyk
+recruit_character = BLR_Radaslau_Astrouski
+recruit_character = BLR_Janka_Kupala
+recruit_character = BLR_Jakub_Kolas
+recruit_character = BLR_Jazep_Drazdovic
+recruit_character = BLR_Maksim_Tank
+recruit_character = BLR_Siarhiej_Piasiecki
 
 
 capital = 206 #Minsk
@@ -95,16 +108,16 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarian
 	last_election = "1919.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+	election_frequency = 252
+	elections_allowed = no
 }
-set_popularities = {
-	democratic = 10
-	neutrality = 62
-	communism = 18
-	fascism = 10
+set_popularities = { 
+	democratic = 34
+	authoritarian = 45
+	communism = 9
+	fascism = 12
 }
 
 add_ideas = {

@@ -16,7 +16,15 @@ country_event = {
 	option = { # Lets see how far it goes 
 		name = "Lets see how far it goes"
 		ai_chance = { factor = 75 }
-		
+		add_country_leader_role = {
+			Character = BLR_Jan_Sierada
+			Promote_leader = yes
+			Country_leader = {
+				ideology = socialism
+				traits = {
+				}
+			}
+		}
 	}
 }
 

@@ -31,21 +31,44 @@ focus_tree = {
 
         completion_reward = {
 
-            add_country_leader_role = {
-                character = BLR_Jan_Sierada
-                promote_leader = yes
-                country_leader = {
-                    ideology = despotism
-                    expire = "1965.1.1"
-                    traits = { 
-                    }
-                }
+            #add_country_leader_role = {
+			#	character = BLR_Jan_Sierada
+			#	promote_leader = yes
+			#	country_leader = {
+			#		ideology = despotism
+			#		expire = "1965.1.1"
+			#		traits = { 
+			#		}
+			#	}
+			#}
+
+
+			#set_party_name = {
+			#	ideology = communism
+            #    name = BLR_communism_party
+			#	long_name = BLR_communism_party_long
+			#}
+
+            #BLR_Jan_Sierada = {
+            #    add_country_leader_role = {
+            #        promote_leader = yes
+            #        country_leader = {
+            #            ideology = socialism
+            #        }
+            #    }
+            #}
+
+            set_politics = {
+                ruling_party = communism
+                elections_allowed = no
+
             }
+            #promote_character = "BLR_Jan_Sierada"
+            #retire_character = "BLR_Stanislav_Bulak_Balachowicz"
+        
+            
             hidden_effect = {
-                swap_ideas = {
-                    add_idea = the_road_to_belarusian_democratic_republic
-                    remove_idea = supreme_commander
-                }
+                
 
                 country_event = {
 					id = belarus.1
@@ -55,12 +78,12 @@ focus_tree = {
             add_stability = -0.95
             add_war_support = -0.95
             add_political_power = -75
-        }
 
-        set_party_name = {
-            ideology = despotism
-            name = BLR_belarusian_socialist_gramada
-            long_name = BLR_belarusian_socialist_gramada_long
+            #set_party_name = {
+            #    ideology = communism
+            #    name = BLR_communism_party
+            #    long_name = BLR_communism_party_long
+            #}
         }
         
     }
@@ -108,17 +131,18 @@ focus_tree = {
                 character = BLR_Yazep_Varonka
                 promote_leader = yes
                 country_leader = {
-                    ideology = despotism
+                    ideology = democratic_socialism
                     expire = "1965.1.1"
                     traits = { 
                     }
                 }
             }
-        }
-        set_party_name = {
-            ideology = despotism
-            long_name = "Belarusian Socialist Gramada"
-            name = "BSG"
+
+            set_politics = {
+                ruling_party = democratic
+                elections_allowed = yes
+
+            }
         }
         prerequisite = {
             focus = BLR_The_First_Constituent_Charter_of_BDR
@@ -293,6 +317,17 @@ focus_tree = {
                 ideology = communism
                 popularity = 0.05
             } 
+
+            add_country_leader_role = {
+                character = BLR_Jazep_Liosik
+                promote_leader = yes
+                country_leader = {
+                    ideology = socialism
+                    expire = "1965.1.1"
+                    traits = { 
+                    }
+                }
+            }
         }
         prerequisite = {
             focus = BLR_Nationalisation_of_the_land
@@ -313,10 +348,19 @@ focus_tree = {
             add_stability = 0.05
             add_political_power = 50
             add_war_support = -0.05
+
+            set_politics = {
+                ruling_party = communism
+                elections_allowed = yes
+            }
         }
         prerequisite = {
             focus = BLR_Leaning_towards_Belarusian_socialism
         }
+
+        
+
+        
     }
 
     focus = {
