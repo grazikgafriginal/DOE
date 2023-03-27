@@ -9,7 +9,6 @@ ideologies = {
 		
 			liberalism = {
 			}
-		
 			#socialism = {
 			#}
 			national_conservatism = {
@@ -19,8 +18,6 @@ ideologies = {
 			social_liberalism = {
 			}
 			classical_liberalism = {
-			}
-			social_democracy = {
 			}
 			social_revolutionism = {
 			}
@@ -42,6 +39,55 @@ ideologies = {
 		}
 		
 		color = { 8 69 191 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			political_power_factor = -0.1
+			generate_wargoal_tension = 1
+			join_faction_tension = 0.8
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.5
+			guarantee_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+
+	social_democracy = {
+	
+		types = {
+			
+			social_democracy_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 9 70 192 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no

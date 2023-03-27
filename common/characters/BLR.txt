@@ -52,7 +52,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democracy
+			ideology=social_democracy_ideology
 			traits={}
 			expire="1949.1.1"
 			id=-1

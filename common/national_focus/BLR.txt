@@ -145,7 +145,7 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_The_First_Constituent_Charter_of_BDR
+            focus = BLR_The_First_Constituent_Charter_of_BDR  
         }
         
     }
@@ -746,7 +746,7 @@ focus_tree = {
                 character = BLR_Arkadz_Smolic
                 promote_leader = yes
                 country_leader = {
-                    ideology = social_democracy
+                    ideology = social_democracy_ideology
                     expire = "1965.1.1"
                     traits = { 
                     }
@@ -771,7 +771,7 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             set_politics = {
-                ruling_party = democratic
+                ruling_party = social_democracy
                 elections_allowed = yes
             }
             promote_leader = BLR_Arkadz_Smolic
@@ -2676,28 +2676,6 @@ focus = {
     ###### Army tree
     ################################################################
 
-    focus = {
-        id = BLR_Creation_of_Belarusian_Armed_forces
-        icon = GFX_
-        x = 16
-        y = 1
-        ai_will_do = {
-            factor = 50
-        }
-        cost = 4
-        available_if_capitulated = yes
-        completion_reward = {
-
-            add_political_power = 50 
-            add_stability = 0.05
-            add_war_support = -0.05
-
-        }
-        prerequisite = {
-            focus = BLR_The_road_to_Belarusian_Democratic_Republic
-        }
-
-        
-    }
+   
 
 }
