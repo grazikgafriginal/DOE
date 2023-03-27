@@ -67,7 +67,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_revolutionism
+			ideology=social_revolutionism_ideology
 			traits={}
 			expire="1949.1.1"
 			id=-1
@@ -82,7 +82,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=bundism
+			ideology=bundism_ideology
 			traits={}
 			expire="1949.1.1"
 			id=-1

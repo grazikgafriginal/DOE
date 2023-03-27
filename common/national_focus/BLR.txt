@@ -424,6 +424,9 @@ focus_tree = {
         prerequisite = {
             focus = BLR_The_Path_of_Democratic_Belarus
         }
+        mutually_exclusive = {
+            focus = BLR_Division_in_the_democratic_forces
+        }
     }
 
     focus = {
@@ -757,6 +760,9 @@ focus_tree = {
         prerequisite = {
             focus = BLR_The_Path_of_Democratic_Belarus
         }
+        mutually_exclusive = {
+            focus = BLR_The_country_of_culture
+        }
     }
 
     focus = {
@@ -774,11 +780,16 @@ focus_tree = {
                 ruling_party = social_democracy
                 elections_allowed = yes
             }
-            promote_leader = BLR_Arkadz_Smolic
-            retire_leader = BLR_Yazep_Varonka
+            #promote_leader = BLR_Arkadz_Smolic
+            #retire_leader = BLR_Yazep_Varonka
         }
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
+        }
+        mutually_exclusive = {
+            focus = BLR_BPSR_Should_Lead_us
+            focus = BLR_Bund_as_the_leader_of_the_state
+            focus = BLR_BNP_should_lead_us
         }
     }
 
@@ -990,10 +1001,18 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            set_politics = {
+                ruling_party = social_revolutionism
+                elections_allowed = yes
+            }
         }
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
+        }
+        mutually_exclusive = {
+            focus = BLR_BSDP_Should_Lead_us
+            focus = BLR_Bund_as_the_leader_of_the_state
+            focus = BLR_BNP_should_lead_us
         }
     }
 
@@ -1242,10 +1261,18 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            set_politics = {
+                ruling_party = bundism
+                elections_allowed = yes
+            }
         }
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
+        }
+        mutually_exclusive = {
+            focus = BLR_BNP_should_lead_us
+            focus = BLR_BSDP_Should_Lead_us
+            focus = BLR_BPSR_Should_Lead_us
         }
     }
 
@@ -1485,7 +1512,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            
+            set_politics = {
+                ruling_party = anticommunism
+                elections_allowed = yes
+            }
         }
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces

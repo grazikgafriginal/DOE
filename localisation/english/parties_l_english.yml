@@ -14,6 +14,12 @@
  social_democracy:0 "Social Democratic"
  social_democracy_noun:0 "Democracy"
  social_democracy_desc:0 "Social Democratic Regime"
+ social_revolutionism:0 "Social Revolutionary"
+ social_revolutionism_noun:0 "Socialist"
+ social_revolutionism_desc:0 "Social Revolutionary Regime"
+ bundism:0 "Bundistic"
+ bundism_noun:0 "Bundism"
+ bundism_desc:0 "Marxist Regime"
 
 
 # Subideologies
@@ -104,6 +110,9 @@
  league_of_nations_administration:0 "League of Nations Administration"
  league_of_nations_administration_desc:0 "This state is administered directly by the §gLeague of Nations§!, with leadership positions being continuously rotated between the League's member states."
 
+ christian_democracy:0 "Christian Democracy"
+ christian_democracy_desc:0 "§BChristian Democracy§!\nChristian Democracy is based on Christian principles and values, and seeks to integrate these into the political sphere.\nChristian democratic parties advocate for social justice, economic fairness, and a commitment to human rights and democracy. They typically support a mixed economy, with both private enterprise and government intervention to ensure social welfare, and often prioritize policies that promote family values, environmental stewardship, and peace."
+
  # Socialism
  socialism:0 "Socialism"
  socialism_desc:0 "§RSocialism§! is a political and economic theory that the means of production, distribution, and exchange should be owned and regulated by a community as a whole."
@@ -127,6 +136,9 @@
  luxemburgism_desc:0 "§RLuxemburgism§! is a form of communism developed by Rosa Luxemburg which opposes Leninism. Also known as Council Communism, Luxemburgism opposes many elements of Leninism, including the idea of a proletariat dictatorship. Luxemburgism prefers a less centralized alternative. Luxemburgists felt that a Worker’s Council should rule a communist country, not a strong leader."
 
  # Communism
+ bundism_ideology:0 "Bundism"
+ bundism_ideology_desc:0 "§RBundism§!\nBundism is a political ideology that emerged in the early 20th century among Jewish socialists in Eastern Europe. Bundism can be described as a form of Social Democracy with a strong emphasis on Jewish identity and solidarity.\nBundists advocate for a democratic and socialist society, where workers have control over the means of production and the economy is organized for the benefit of all. They believe in equal rights and opportunities for all individuals, regardless of their religion, ethnicity or gender."
+
  trotskyism:0 "Bolshevik-Leninism"
  trotskyism_desc:0 "§RBolshevik-Leninism§!\nTrotskyism is the common name given to the beliefs developed by Leon Trotsky. Trotskyism involves mass industrialization, communism in all countries, the “World Revolution”, as Trotsky put it. Trotskyism also supported the Permanent Revolution and the International Revolution. Trotskyists were massive critics of Joseph Stalin’s leadership, calling the Soviet Union under Stalin either a “deformed workers state or a form of state capitalism itself."
 
@@ -186,8 +198,8 @@
  BLR_social_democracy_party_long:0 "Bielaruskaja Sacyjal-Demakratyčnaja Partyja"
  BLR_democratic_party:0 "BDP"
  BLR_democratic_party_long:0 "Bielaruskaja Demakratyčnaja Partyja""
- BLR_democratic2_party:0 "BPSR"
- BLR_democratic2_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
+ BLR_social_revolutionism_party:0 "BPSR"
+ BLR_social_revolutionism_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
  BLR_democratic3_party:0 "BPSR" 
  BLR_democratic3_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
  BLR_democratic4_party:0 "BPSF"
