@@ -11,6 +11,9 @@
  authoritarian:0 "Authoritarian"
  authoritarian_noun:0 "Authoritarianism"
  authoritarian_desc:0 "Authoritarian Regime"
+ social_democracy:0 "Social Democratic"
+ social_democracy_noun:0 "Democracy"
+ social_democracy_desc:0 "Social Democratic Regime"
 
 
 # Subideologies
@@ -179,13 +182,15 @@
 
 
 #BLR Parties
- BLR_democratic_party:0 "BSDP"
- BLR_democratic_party_long:0 "Bielaruskaja Sacyjal-Demakratyčnaja Partyja"
+ BLR_social_democracy_party:0 "BSDP"
+ BLR_social_democracy_party_long:0 "Bielaruskaja Sacyjal-Demakratyčnaja Partyja"
+ BLR_democratic_party:0 "BDP"
+ BLR_democratic_party_long:0 "Bielaruskaja Demakratyčnaja Partyja""
  BLR_democratic2_party:0 "BPSR"
  BLR_democratic2_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
  BLR_democratic3_party:0 "BPSR" 
  BLR_democratic3_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
- BLR_democratic4_party:0 "BPSF 
+ BLR_democratic4_party:0 "BPSF"
  BLR_democratic4_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Fiederalistaŭ"
  BLR_communism_party:0 "BSH"
  BLR_communism_party_long:0 "Bielaruskaja Sacyjalistyčnaja Hramada"
