@@ -1843,11 +1843,14 @@ focus_tree = {
      cost = 2
      available_if_capitulated = yes
      completion_reward = {
-        
-     }
+        set_politics = {
+            ruling_party = authoritarian
+            elections_allowed = no
+        }
+        }
      mutually_exclusive = {
        focus = BLR_The_road_to_Belarusian_Democratic_Republic
-     }
+        }
 
     }
 
@@ -2145,7 +2148,10 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            
+            set_politics = {
+                ruling_party = fascism
+                elections_allowed = no
+            }
         }
         prerequisite = {
         }

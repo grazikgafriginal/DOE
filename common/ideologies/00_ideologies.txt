@@ -70,6 +70,12 @@ ideologies = {
 			}
 			cultural_liberalism = {
 			}
+			cultural_liberalism_drozdovic = {
+			}
+			cultural_liberalism_tank = {
+			}
+			classical_liberalism_pis = {
+			}
 		}
 		
 		dynamic_faction_names = {
