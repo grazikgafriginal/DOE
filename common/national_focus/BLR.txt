@@ -419,7 +419,12 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            
+            hidden_effect = {
+                country_event = {
+					id = belarus.2
+					days = 1
+				}
+            }
         }
         prerequisite = {
             focus = BLR_The_Path_of_Democratic_Belarus
@@ -445,6 +450,10 @@ focus_tree = {
                 ideology = classical_liberalism
                 popularity = 0.1
             }
+        set_politics = {
+			ruling_party = liberal
+			elections_allowed = yes
+		}
         }
         prerequisite = {
             focus = BLR_The_country_of_culture
