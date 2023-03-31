@@ -186,7 +186,12 @@ focus_tree = {
             add_popularity = {
                 ideology = communism
                 popularity = 0.01
-            }  
+            } 
+            
+            add_popularity = {
+                ideology = authoritarian
+                popularity = -0.01
+            } 
         }
         prerequisite = {
             focus = BLR_Establish_Rada
@@ -209,6 +214,11 @@ focus_tree = {
                 ideology = communism
                 popularity = 0.01
             } 
+
+            add_popularity = {
+                ideology = authoritarian
+                popularity = -0.01
+            } 
         }
         prerequisite = {
             focus = BLR_Establish_Rada
@@ -230,6 +240,11 @@ focus_tree = {
             add_popularity = {
                 ideology = communism
                 popularity = 0.01
+            } 
+
+            add_popularity = {
+                ideology = authoritarian
+                popularity = -0.01
             } 
         }
         prerequisite = {
@@ -315,7 +330,12 @@ focus_tree = {
         completion_reward = {
             add_popularity = {
                 ideology = communism
-                popularity = 0.05
+                popularity = 0.025
+            } 
+
+            add_popularity = {
+                ideology = authoritarian
+                popularity = -0.025
             } 
 
             add_country_leader_role = {
@@ -395,7 +415,7 @@ focus_tree = {
         completion_reward = {
             add_popularity = {
                 ideology = democratic
-                popularity = 0.05
+                popularity = 0.025
             } 
         }
         prerequisite = {
@@ -447,8 +467,8 @@ focus_tree = {
         completion_reward = {
             add_stability = 0.1
             add_popularity = {
-                ideology = classical_liberalism
-                popularity = 0.1
+                ideology = liberal
+                popularity = 0.05
             }
         set_politics = {
 			ruling_party = liberal
@@ -472,8 +492,18 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = classical_liberalism
+                ideology = liberal
                 popularity = 0.1
+            }
+
+            add_popularity = {
+                ideology = social_democracy
+                popularity = -0.05
+            }
+
+            add_popularity = {
+                ideology = social_revolutionism
+                popularity = -0.05
             }
         }
         prerequisite = {
@@ -513,7 +543,7 @@ focus_tree = {
         completion_reward = {
             add_political_power = 50
             add_popularity = {
-                ideology = classical_liberalism
+                ideology = liberal
                 popularity = 0.05
             }
         }
@@ -637,7 +667,7 @@ focus_tree = {
         completion_reward = {
             add_stability = 0.5
             add_popularity = {
-                ideology = classical_liberalism
+                ideology = liberal
                 popularity = 0.025
             }
         }
@@ -813,7 +843,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = social_democracy
+                popularity = -0.05
+            }
         }
         prerequisite = {
             focus = BLR_BSDP_Should_Lead_us
@@ -885,7 +918,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = social_democracy
+                popularity = 0.025
+            }
         }
         prerequisite = {
             focus = BLR_Privatisation
@@ -904,7 +940,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = social_democracy
+                popularity = -0.025
+            }
         }
         prerequisite = {
             focus = BLR_Liberalise_Nasha_Niva
@@ -1042,7 +1081,7 @@ focus_tree = {
             }
 
             add_popularity = {
-                ideology = socialism
+                ideology = communism
                 popularity = 0.05
             }
         }
