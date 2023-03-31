@@ -140,3 +140,40 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = belarus.3
+	title = "Think of Another candidate"
+	desc = belarus.3.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Stanislau should stay!"
+		ai_chance = { factor = 75 }
+		#set_politics = {
+		#	ruling_party = liberal
+		#	elections_allowed = yes
+		#}
+	}
+
+	option = { # Lets see how far it goes 
+		name = "Lastouski!"
+		ai_chance = { factor = 75 }
+		#set_politics = {
+		#	ruling_party = liberal
+		#	elections_allowed = yes
+		#}
+
+		add_country_leader_role = {
+			character = BLR_Vaclau_Lastouski
+			promote_leader = yes
+			country_leader = {
+				ideology = ultranationalism
+				expire = "1965.1.1"
+				traits = { 
+				}
+			}
+		}
+	}
+}

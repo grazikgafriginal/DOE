@@ -2019,14 +2019,17 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            country_event = {
+                id = belarus.3
+                days = 1
+            }
         }
         prerequisite = {
 	    focus = BLR_Political_reforms
         }
 
         mutually_exclusive = {
-            focus = BLR_Think_of_another_candidates
+            #focus = BLR_Think_of_another_candidates
         }
 }
 
@@ -2153,11 +2156,16 @@ focus = {
                 elections_allowed = no
             }
         }
+        available = {
+            OR = {
+                BLR_The_one_man_in_charge = yes
+            }
+        }
         prerequisite = {
         }
 
         mutually_exclusive = {
-            focus = BLR_The_one_man_in_charge
+            #focus = BLR_The_one_man_in_charge
         }
     }
 
