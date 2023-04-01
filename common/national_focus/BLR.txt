@@ -1336,7 +1336,7 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = marxism
+                ideology = bundism
                 popularity = 0.05
             }
         }
@@ -1377,7 +1377,7 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = marxism
+                ideology = bundism
                 popularity = 0.05
             }
         }
@@ -1420,8 +1420,12 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = socialism
-                popularity = 0.1
+                ideology = communism
+                popularity = 0.05
+            }
+            add_popularity = {
+                ideology = bundism
+                popularity = -0.05
             }
         }
         prerequisite = {
@@ -1478,7 +1482,7 @@ focus_tree = {
         completion_reward = {
             add_political_power = -50
             add_popularity = {
-                ideology = marxism
+                ideology = bundism
                 popularity = 0.05
             }
         }
@@ -1583,7 +1587,8 @@ focus_tree = {
         completion_reward = {
             add_political_power = 25
             add_popularity = {
-                ideology = conservatism
+                ideology = anticommunism
+                popularity = 0.05
             }
         }
         prerequisite = {
@@ -1728,6 +1733,11 @@ focus_tree = {
                 ideology = communism
                 popularity = -0.05
             }
+
+            add_popularity = {
+                ideology = anticommunism
+                popularity = 0.05
+            }
         }
         prerequisite = {
             focus = BLR_Christian_Youth_clubs
@@ -1755,11 +1765,11 @@ focus_tree = {
         completion_reward = {
             add_stability = -0.1
             add_popularity = {
-                ideology = marxism
+                ideology = bundism
                 popularity = -0.1
             }
             add_popularity = {
-                ideology = conservatism
+                ideology = anticommunism
                 popularity = 0.1
             }
         }
@@ -1787,11 +1797,11 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = conservatism
+                ideology = anticommunism
                 popularity = 0.1
             }
             add_popularity = {
-                ideology = marxism
+                ideology = bundism
                 popularity = 0.1
             }
             add_political_power = -35
@@ -2298,6 +2308,11 @@ focus = {
         completion_reward = {
             add_stability = 0.05
             add_war_support = -0.1
+
+            add_popularity = {
+                ideology = fascism
+                popularity = 0.05
+            }
         }
         prerequisite = {
         focus = BLR_Nut_tightening
@@ -2343,7 +2358,7 @@ focus = {
         completion_reward = {
             add_political_power = 50
             add_popularity = {
-                ideology = rexism
+                ideology = fascism
                 popularity = 0.05
             }
         }
@@ -2407,7 +2422,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            trade_opinion_factor = 0.1
+            opinion_gain_monthly = 0.01
             faction_trade_opinion_factor = 0.1
         }
         prerequisite = {
@@ -2455,7 +2470,7 @@ focus = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = nazism
+                ideology = fascism
                 popularity = -0.05
             }
             add_war_support = 0.1
@@ -2479,7 +2494,7 @@ focus = {
         completion_reward = {
             add_stability = -0.05
             add_popularity = {
-                ideology = nazism
+                ideology = fascism
                 popularity = -0.05
             }
             add_political_power = 50
@@ -2618,7 +2633,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            research_speed_factor = 0.1
+            industrial_capacity_factory = -0.05
         }
         prerequisite = {
             focus = BLR_Offer_the_division_of_Poland
@@ -2639,7 +2655,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            opinion_gain_monthly = 0.1
+            research_speed_factor = 0.05
         }
         prerequisite = {
             focus = BLR_German_technical_assistance
@@ -2659,7 +2676,11 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            political_power_gain = -0.01
+            add_stability = 0.05
+            add_war_support = 0.05
+            max_planning = 0.05
+            boost_resistance_factor = -0.05
         }
         prerequisite = {
             focus = BLR_Build_Belarusian_National_socialism
@@ -2680,7 +2701,11 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_stability = -0.1
+            add_popularity = {
+                ideology = bundism
+                popularity = -0.1
+            }
         }
         prerequisite = {
             focus = BLR_Build_Belarusian_National_socialism
@@ -2701,7 +2726,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            drift_defence_factor = 0.05
         }
         prerequisite = {
             focus = BLR_There_are_no_minorities
@@ -2720,7 +2745,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            drift_defence_factor = 0.05
+            add_stability = 0.05
         }
         prerequisite = {
             focus = BLR_Dictatorship_that_will_save_the_nation
@@ -2738,7 +2764,11 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_stability = -0.05
+            add_popularity = {
+                ideology = fascism
+                popularity = 0.05
+            }
         }
         prerequisite = {
             focus = BLR_Dictatorship_that_will_save_the_nation
@@ -2756,7 +2786,8 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-    
+            add_war_support = 0.1
+            add_political_power = 50
         }
         prerequisite = {
             focus = BLR_Order_the_Heavy_equipment_from_Germany
