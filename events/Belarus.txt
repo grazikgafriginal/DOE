@@ -140,6 +140,7 @@ country_event = {
 	}
 }
 
+#Think of Anoter candidate
 country_event = {
 	id = belarus.3
 	title = "Think of Another candidate"
@@ -175,5 +176,78 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+# Declaration of The First Constituent Charter of BDR
+country_event = {
+	id = belarus.4
+	title = "Declaration of The First Constituent Charter of BDR!"
+	desc = belarus.4.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Long Live Belarus!"
+		ai_chance = { factor = 75 }
+	}
+}
+
+#Yazep Varonka is the head of the state
+country_event = {
+	id = belarus.5
+	title = "Yazep Varonka is the head of the state!"
+	desc = belarus.5.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Let's see how democrats will act..."
+		ai_chance = { factor = 75 }
+	}
+}
+
+#Rada has been established
+country_event = {
+	id = belarus.6
+	title = "Rada has been established"
+	desc = belarus.6.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "May the Rada serve people"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.6
+	title = "Rada has been established"
+	desc = belarus.6.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "May the Rada serve people"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.7
+	title = "Allow freedom of speech, friend, meetings"
+	desc = belarus.7.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "So I can speak Norwegian?"
+		ai_chance = { factor = 75 }
 	}
 }
