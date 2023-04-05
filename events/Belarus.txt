@@ -225,22 +225,8 @@ country_event = {
 }
 
 country_event = {
-	id = belarus.6
-	title = "Rada has been established"
-	desc = belarus.6.d
-	picture = GFX_report_event_japanese_transport_soldiers
-
-	is_triggered_only = yes
-	
-	option = { # Lets see how far it goes 
-		name = "May the Rada serve people"
-		ai_chance = { factor = 75 }
-	}
-}
-
-country_event = {
 	id = belarus.7
-	title = "Allow freedom of speech, friend, meetings"
+	title = "The total freedom of speech and meetings!"
 	desc = belarus.7.d
 	picture = GFX_report_event_japanese_transport_soldiers
 
@@ -248,6 +234,91 @@ country_event = {
 	
 	option = { # Lets see how far it goes 
 		name = "So I can speak Norwegian?"
+		ai_chance = { factor = 75 }
+	}
+}
+
+
+country_event = {
+	id = belarus.8
+	title = "Strikes in Brest!"
+	desc = belarus.8.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "We just lagalised them..."
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.9
+	title = "Conclusion to limit the languages!"
+	desc = belarus.9.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Hto?"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.10
+	title = "Land Reforms"
+	desc = belarus.10.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Oh sheesh, here we go again"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.11
+	title = "Are we leaning towards socialism?"
+	desc = belarus.11.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "It takes what it takes"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.12
+	title = "The Third Constituent Charter of BDR"
+	desc = belarus.12.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Long Live Belarus!"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.13
+	title = "BLR DEMO"
+	desc = belarus.13.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "yep"
 		ai_chance = { factor = 75 }
 	}
 }
