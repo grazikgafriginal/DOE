@@ -114,18 +114,20 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = { 
-	social_democracy = 10
-	social_revolutionism = 7
-	democratic = 17
-	authoritarian = 45
-	communism = 8
-	fascism = 10
-	neutrality = 3
+	democratic = 10.25
+	liberal = 4.5
+	anticommunism = 5.5
+	social_revolutionism = 6.5
+	social_democracy = 8.5
+	communism = 5.5
+	bundism = 4.5
+	fascism = 8.25
+	neutrality = 1.25
+	authoritarian = 45.25
 }
 
 add_ideas = {
-	supreme_commander
-	flavours_of_the_past
+	BLR_unindustrial_state
 }
 
 

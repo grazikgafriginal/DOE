@@ -1,6 +1,14 @@
 spriteTypes = {	
 
+	SpriteType = {
+		name = "GFX_BLR_Industrial_Crisis_Factories"
+		texturefile = "gfx/interface/ideas/BLR_Industrial_Crisis_Factories.png"	
+	}
 
+
+	#############################################################
+	#############################################################
+	#############################################################
 
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
