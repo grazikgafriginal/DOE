@@ -12,5 +12,40 @@ ideas = {
 				monthly_population = 0.3
 			}
 		}
+
+		BLR_the_eastern_neighbour = {
+			#on_add = { log = "[GetDateText]: [Root.GetName]: add idea BLR_unindustrial_state"}
+			allowed = {
+				tag = BLR
+			}
+			picture = BLR_the_eastern_neighbour
+			modifier = {
+				add_war_support = 0.05
+				army_core_defence_factor = 0.06
+			}
+		}
+
+		BLR_remembrance_of_1918 = {
+			#on_add = { log = "[GetDateText]: [Root.GetName]: add idea BLR_unindustrial_state"}
+			allowed = {
+				tag = BLR
+			}
+			picture = BLR_remembrance_of_1918
+			modifier = {
+				conscription_factor = -0.15
+				add_stability = -0.2
+			}
+		}
+
+		BLR_education_issue = {
+			#on_add = { log = "[GetDateText]: [Root.GetName]: add idea BLR_unindustrial_state"}
+			allowed = {
+				tag = BLR
+			}
+			picture = BLR_education_issue
+			modifier = {
+				research_speed_factor = -0.10
+			}
+		}
 	}
 }

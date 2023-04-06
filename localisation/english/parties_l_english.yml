@@ -17,7 +17,7 @@
  social_revolutionism:0 "Social Revolutionary"
  social_revolutionism_noun:0 "Socialist"
  social_revolutionism_desc:0 "Social Revolutionary Regime"
- bundism:0 "Bundistic"
+ bundism:0 "Marxist"
  bundism_noun:0 "Bundism"
  bundism_desc:0 "Marxist Regime"
 
@@ -196,30 +196,40 @@
 #BLR Parties
  BLR_social_democracy_party:0 "BSDP"
  BLR_social_democracy_party_long:0 "Bielaruskaja Sacyjal-Demakratyčnaja Partyja"
+
  BLR_democratic_party:0 "BDP"
- BLR_democratic_party_long:0 "Bielaruskaja Demakratyčnaja Partyja""
+ BLR_democratic_party_long:0 "Bielaruskaja Demakratyčnaja Partyja"
+
  BLR_social_revolutionism_party:0 "BPSR"
  BLR_social_revolutionism_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
- BLR_democratic3_party:0 "BPSR" 
- BLR_democratic3_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
- BLR_democratic4_party:0 "BPSF"
- BLR_democratic4_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Fiederalistaŭ"
+
+ #BLR_democratic3_party:0 "BNP" 
+ #BLR_democratic3_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
+ #BLR_democratic4_party:0 "BPSF"
+ #BLR_democratic4_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Fiederalistaŭ"
+
  BLR_communism_party:0 "BSH"
  BLR_communism_party_long:0 "Bielaruskaja Sacyjalistyčnaja Hramada"
- BLR_communism2_party:0 "Bund"
- BLR_communism2_party_long:0 "Usieahuĺny Jaŭrejski Pracoŭny Bund"
- BLR_communism3_party:0 "SRs"
- BLR_communism3_party_long:0 "Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
+
+ BLR_bundism_party:0 "Bund"
+ BLR_bundism_party_long:0 "Usieahuĺny Jaŭrejski Pracoŭny Bund"
+ #BLR_communism3_party:0 "SRs"
+ #BLR_communism3_party_long:0 "Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
+
  BLR_authoritarian_party:0 "Partyja Atamana"
  BLR_authoritarian_party_long:0 "Partyja Atamana"
+
  BLR_fascism_party:0 "BFP"
  BLR_fascism_party_long:0 "Belarusian Fascist Party""
+
  BLR_neutrality_party:0 "BPB"
  BLR_neutrality_party_long:0 "Bespartyjny Blok Supratsoŭnitstva z Uradam"
- BLR_neutrality2_party:0 "Vajskovaja Rada"
- BLR_neutrality2_party_long:0 "Centraĺnaja bielaruskaja vajskovaja rada"
- BLR_democratic5_party:0 "Partyja Zialionaha Duba"
- BLR_democratic5_party_long:0 "Bielaruskaja sialianskaja Partyja Zialionaha Duba"
+
+ BLR_liberal_party:0 "BLP"
+ BLR_liberal_party_long:0 "Bielaruskaja Libieraĺnaja Parcija"
+
+ BLR_anticommunism_party:0 "BNP"
+ BLR_anticommunism_party:0 "Bielaruskaja Niezaliežnickaja Partyja"
 
 
 

@@ -1,8 +1,23 @@
 spriteTypes = {	
 
 	SpriteType = {
-		name = "GFX_BLR_Industrial_Crisis_Factories"
-		texturefile = "gfx/interface/ideas/BLR_Industrial_Crisis_Factories.png"	
+		name = "GFX_idea_BLR_education_issue"
+		texturefile = "gfx/interface/ideas/BLR_education_issue.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_BLR_remembrance_of_1918"
+		texturefile = "gfx/interface/ideas/BLR_remembrance_of_1918.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_BLR_the_eastern_neighbour"
+		texturefile = "gfx/interface/ideas/BLR_the_eastern_neighbour.png"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_BLR_Industrial_Crisis_Factories"
+		texturefile = "gfx/interface/ideas/BLR_Industrial_Crisis_Factories.png"
 	}
 
 
