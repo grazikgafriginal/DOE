@@ -137,9 +137,11 @@ bookmarks = {
 		}
 		"BLR"={
 			history = "BLR_GATHERING_STORM_DESC"
-			ideology = non-alligned
+			ideology = authoritarian
 			ideas = {
-				
+				BLR_unindustrial_state
+				BLR_remembrance_of_1918
+				BLR_education_issue
 			}
 			focuses = {
 		}

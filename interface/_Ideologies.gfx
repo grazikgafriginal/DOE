@@ -1,0 +1,11 @@
+spriteTypes = {
+
+### Fascism
+	
+### Authoritarianism
+	spriteType = {
+		name = "GFX_ideology_authoritarian_group"
+		texturefile = "gfx/interface/ideologies/authoritarian.dds"
+	}
+	
+}

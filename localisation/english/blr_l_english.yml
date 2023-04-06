@@ -1,4 +1,19 @@
 ﻿l_english:
- #BLR_belarusian_socialist_gramada:0 "Belarusian Socialist Gramada"
- #BLR_belarusian_socialist_gramada_long:0 "Bielaruskaja sacyjalistyčnaja hramada"
  BLR_GATHERING_STORM_DESC:0 "The sun shone on already independent Belarus on March 25. Even though foreign troops were stationed on it, even though a foreigner has been and will continue to be used on it, the Belarusian people have thrown off the bonds of slavery from their souls, and no one and nothing will lift these bonds back."
+
+######################################## IDEAS ########################################################
+ BLR_unindustrial_state:0 "Unindustrial state" 
+ BLR_unindustrial_state_desc:0 "Belarus is an agrarian country. Throughout 19th century Belarus lagged behind its industrializing neighbors due to a lack of natural resources, capital, technology, and infrastructure.\n\nPolitical instability and conflict further hindered its progress. The Brest-Litovsk Industrial District was established in 1912, but insufficient efforts were made to promote significant industrial growth. As a result, Belarus remained an unindustrialized state with poor economic development."
+
+ BLR_the_eastern_neighbour:0 "The Eastern Neighbour"
+ BLR_the_eastern_neighbour_desc:0 "Throughout the years, the relationship between Russia and Belarus has been marked by a complex mix of cooperation and tension. While the two nations share a long history and cultural ties, they have also experienced significant periods of conflict and disagreement.\n\nIn recent years, Russian aggression towards Belarus has been a particularly pressing concern. This aggression can take many forms, including economic pressure, political manipulation, and military intimidation."
+
+ BLR_remembrance_of_1918:0 "The Remembrance of 1918"
+ BLR_remembrance_of_1918_desc:0 "The sun shone on already independent Belarus on March 25. Even though foreign troops were stationed on it, even though a foreigner has been and will continue to be used on it, the Belarusian people have thrown off the bonds of slavery from their souls, and no one and nothing will lift these bonds back."
+
+ BLR_education_issue:0 "The Education Issue"
+ BLR_education_issue_desc:0 "Belarus underwent significant changes in its education system as a result of Bulak-Balachovič policies. The new government aimed to increase literacy rates, promote the use of the Belarusian language, and create a standardized curriculum across the country. However, these reforms faced significant opposition from conservative elements within Belarusian society, who saw them as an attack on traditional values and the Russian language.\n\nDespite this opposition, the Bulak-Balachovič government made significant strides in improving education in Belarus. The number of schools and students increased dramatically, and the use of the Belarusian language became more widespread in schools and official documents. The government also made efforts to provide education to rural and working-class communities, which had historically been underserved."
+
+######################################## LEADERS ########################################################
+
+ BLR_STANISLAV_BULAK_BALACHOWICZ_DESC:0 "§yStanislaŭ Bulak-Balachovič§ was a military command and Belarusian Dictator. He was born in the village of §yTuraŭ§, in what is now Belarus, which was then part of the Russian Empire.\n\nDuring World War I, §yBułak-Bałachowicz§ fought in §ythe Russian Imperial Army§ and was captured by the Germans. He later joined the Polish Military Organization, which aimed to create an independent Polish state. In 1918, he fought in the §yPolish-Soviet War§ as a commander in the Polish Army.\n\n§yBułak-Bałachowicz§ became involved in the §yBelarusian national liberation movement§ and supported the idea of an independent Belarus. He founded the Belarusian Military Organization and led a Belarusian unit within the Polish Army. In 1919 after the counter coup against the current Rada, became a §ydictator§.\n\n§yBułak-Bałachowicz§ remains a controversial figure in Belarusian history. Some see him as a hero who fought for Belarusian independence, while others view him as a cruel dictator."

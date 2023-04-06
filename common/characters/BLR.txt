@@ -8,7 +8,11 @@ characters={
 		}
 		country_leader={
 			ideology=military_dictatorship
-			traits={}
+			traits={
+				A_drift
+				dictator
+			}
+			desc = BLR_STANISLAV_BULAK_BALACHOWICZ_DESC
 			expire="1965.1.1.1"
 			id=-1
 		}

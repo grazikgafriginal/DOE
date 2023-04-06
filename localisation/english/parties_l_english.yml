@@ -20,6 +20,12 @@
  bundism:0 "Marxist"
  bundism_noun:0 "Bundism"
  bundism_desc:0 "Marxist Regime"
+ liberal:0 "Democratic"
+ liberal_noun:0 "Democracy"
+ liberal_desc:0 "Democratic Regime"
+ anticommunism:0 "Anticommunist"
+ anticommunism_noun:0 "Anticommunism"
+ anticommunism_desc:0 "Anticommunist Regime"
 
 
 # Subideologies
