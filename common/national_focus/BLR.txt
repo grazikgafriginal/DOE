@@ -2478,6 +2478,19 @@ focus = {
         completion_reward = {
             add_stability = -0.2
             add_political_power = 100
+
+            add_country_leader_role = {
+                character = BLR_Radaslau_Astrouski
+                promote_leader = yes
+                country_leader = {
+                    ideology = national_socialism
+                    expire = "1965.1.1"
+                    traits = { 
+                    }
+                }
+            }
+            #promote_leader = BLR_Radaslau_Astrouski
+            retire_character = BLR_Vaclau_Lastouski
         }
     }
 
@@ -2494,6 +2507,13 @@ focus = {
         completion_reward = {
             opinion_gain_monthly = 0.01
             faction_trade_opinion_factor = 0.1
+
+
+            set_politics = {
+                ruling_party = fascism
+                elections_allowed = no
+            }
+            
         }
         prerequisite = {
         focus = BLR_The_Pure_Belarusian_nation
@@ -2518,6 +2538,11 @@ focus = {
             add_popularity = {
                 ideology = nazism
                 popularity = 0.1
+            }
+
+            set_politics = {
+                ruling_party = fascism
+                elections_allowed = no
             }
         }
         prerequisite = {

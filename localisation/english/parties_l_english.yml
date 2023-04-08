@@ -203,8 +203,8 @@
  BLR_social_democracy_party:0 "BSDP"
  BLR_social_democracy_party_long:0 "Bielaruskaja Sacyjal-Demakratyčnaja Partyja"
 
- BLR_democratic_party:0 "BDP"
- BLR_democratic_party_long:0 "Bielaruskaja Demakratyčnaja Partyja"
+ BLR_democratic_party:0 "BSH(V)"
+ BLR_democratic_party_long:0 "Bielaruskaja Sacyjalistyčnaja Hramada"
 
  BLR_social_revolutionism_party:0 "BPSR"
  BLR_social_revolutionism_party_long:0 "Bielaruskaja Partyja Sacyjalistaŭ-Revaliucyjanieraŭ"
@@ -226,7 +226,7 @@
  BLR_authoritarian_party_long:0 "Partyja Atamana"
 
  BLR_fascism_party:0 "BFP"
- BLR_fascism_party_long:0 "Belarusian Fascist Party""
+ BLR_fascism_party_long:0 "Bielaruskaja fašysckaja partyja"
 
  BLR_neutrality_party:0 "BPB"
  BLR_neutrality_party_long:0 "Bespartyjny Blok Supratsoŭnitstva z Uradam"
@@ -235,7 +235,7 @@
  BLR_liberal_party_long:0 "Bielaruskaja Libieraĺnaja Parcija"
 
  BLR_anticommunism_party:0 "BNP"
- BLR_anticommunism_party:0 "Bielaruskaja Niezaliežnickaja Partyja"
+ BLR_anticommunism_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
 
 
 

@@ -138,26 +138,26 @@ characters={
 		}
 	}
 
-	BLR_Mikola_Abramcyk ={
-		name="Mikola Abramčyk"
-		portraits={
-			civilian={
-				large="/gfx/leaders/BLR/Portrait_BLR_Mikola_Abramčyk.png"
-			}
-		}
-		country_leader={
-			ideology=fascism_ideology
-			traits={}
-			expire="1949.1.1"
-			id=-1
-		}
-	}
+	#BLR_Mikola_Abramcyk ={
+	#	name="Mikola Abramčyk"
+	#	portraits={
+	#		civilian={
+	#			large="/gfx/leaders/BLR/Portrait_BLR_Mikola_Abramčyk.png"
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=fascism_ideology
+	#		traits={}
+	#		expire="1949.1.1"
+	#		id=-1
+	#	}
+	#}
 
 	BLR_Radaslau_Astrouski ={
 		name="Radasłaŭ Astroŭski"
 		portraits={
 			civilian={
-				large="/gfx/leaders/BLR/Portrait_BLR_Radasłaŭ_Astroŭski.png"
+				large="/gfx/leaders/BLR/BLR_Radaslau_Astrouski.png"
 			}
 		}
 		country_leader={
@@ -242,8 +242,5 @@ characters={
 			id=-1
 		}
 	}
-
-	
-
 
 }

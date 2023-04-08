@@ -1,64 +1,4 @@
 ideologies = {
-	
-	democratic = {
-	
-		types = {
-			
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-			#socialism = {
-			#}
-			national_conservatism = {
-			}
-			social_conservatism = {
-			}
-			democratic_socialism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		
-		color = { 8 69 193 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			political_power_factor = -0.1
-			generate_wargoal_tension = 1
-			join_faction_tension = 0.8
-			lend_lease_tension = 0.5
-			send_volunteers_tension = 0.5
-			guarantee_tension = 0.25
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
 
 	liberal = {
 
@@ -413,7 +353,66 @@ ideologies = {
 
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
+
+	authoritarian = {
+		types = {
+			# Military Dictatorship
+			military_dictatorship = {
+			}
+			# Paternal Autocracy
+			authoritarian_democracy = {
+			}
+			# Monarchism
+			monarchism = {
+				can_be_randomly_selected = no
+			}
+			#National Conservatism
+			conservative_autocracy = {
+				can_be_randomly_selected = no
+			}
+			#Integralism
+			integralism_auth = {
+				can_be_randomly_selected = no
+			}
+			# Theocracy
+			theocracy_auth = {
+				can_be_randomly_selected = no
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+		}
+		color = {
+			180
+			180
+			180
+		}
+		war_impact_on_world_tension = 1		#evil!
+		faction_impact_on_world_tension = 1
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = no
+			can_guarantee_other_ideologies = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.4
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+
 	
+
+
+	##### VANILA #####
 	neutrality = {
 	
 		types = {
@@ -475,58 +474,63 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	authoritarian = {
+	democratic = {
+	
 		types = {
-			# Military Dictatorship
-			military_dictatorship = {
+			
+			conservatism = {
 			}
-			# Paternal Autocracy
-			authoritarian_democracy = {
+		
+			liberalism = {
 			}
-			# Monarchism
-			monarchism = {
-				can_be_randomly_selected = no
+			#socialism = {
+			#}
+			national_conservatism = {
 			}
-			#National Conservatism
-			conservative_autocracy = {
-				can_be_randomly_selected = no
+			social_conservatism = {
 			}
-			#Integralism
-			integralism_auth = {
-				can_be_randomly_selected = no
-			}
-			# Theocracy
-			theocracy_auth = {
-				can_be_randomly_selected = no
+			democratic_socialism = {
 			}
 		}
+		
 		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
 		}
-		color = {
-			180
-			180
-			180
-		}
-		war_impact_on_world_tension = 1		#evil!
-		faction_impact_on_world_tension = 1
+		
+		color = { 8 69 193 }
+		
 		rules = {
-			can_force_government = no
-			can_puppet = yes
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
 			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
+		
 		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
 		modifiers = {
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			political_power_factor = -0.1
+			generate_wargoal_tension = 1
+			join_faction_tension = 0.8
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.5
+			guarantee_tension = 0.25
 		}
-		can_collaborate = yes
-		ai_neutral = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
 	}
 }
