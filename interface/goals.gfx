@@ -1,8 +1,28 @@
 spriteTypes = {	
 
 	spriteType = {
-	name = "GFX_BLR_road_to_bnr"
-	texturefile = "gfx/interface/goals/BLR_road_to_bnr.dds"			
+		name = "GFX_BLR_Allow_freedom_of_speech_and_meetings"
+		texturefile = "gfx/interface/goals/BLR_Allow_freedom_of_speech_and_meetings.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Establish_Rada"
+		texturefile = "gfx/interface/goals/BLR_Establish_Rada.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_The_Second_Constituent_Charter_of_BDR"
+		texturefile = "gfx/interface/goals/BLR_The_Second_Constituent_Charter_of_BDR.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_The_First_Constituent_Charter_of_BDR"
+		texturefile = "gfx/interface/goals/BLR_The_First_Constituent_Charter_of_BDR.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_road_to_bnr"
+		texturefile = "gfx/interface/goals/BLR_road_to_bnr.png"			
 	}
 		
 	########################################################

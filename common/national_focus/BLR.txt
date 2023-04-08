@@ -90,7 +90,7 @@ focus_tree = {
 
     focus = {
         id = BLR_The_First_Constituent_Charter_of_BDR  
-        icon = GFX_
+        icon = GFX_BLR_The_First_Constituent_Charter_of_BDR  
         x = 16
         y = 1
         ai_will_do = {
@@ -121,7 +121,7 @@ focus_tree = {
 
     focus = {
         id = BLR_The_Second_Constituent_Charter_of_BDR  
-        icon = GFX_
+        icon = GFX_BLR_The_Second_Constituent_Charter_of_BDR
         x = 16
         y = 2
         ai_will_do = {
@@ -166,7 +166,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Establish_Rada
-        icon = GFX_
+        icon = GFX_BLR_Establish_Rada
         x = 16
         y = 3
         ai_will_do = {
@@ -194,7 +194,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Allow_freedom_of_speech_and_meetings
-        icon = GFX_
+        icon = GFX_BLR_Allow_freedom_of_speech_and_meetings
         x = 14
         y = 4
         ai_will_do = {
