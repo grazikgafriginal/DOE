@@ -28,7 +28,7 @@ BLR_The_road_to_Belarusian_Democratic_Republic_desc:0 ""
 BLR_The_First_Constituent_Charter_of_BDR:0 "The First Constituent Charter of BDR"
 BLR_The_First_Constituent_Charter_of_BDR_desc:0 ""
 
-BLR_Stanislau_Bulak_Balachowicz_Military_Junta:0 "§bStanislau Bulak Balachowič Military Junta§!"
+BLR_Stanislau_Bulak_Balachowicz_Military_Junta:0 "§WStanislau Bulak Balachowič Military Junta§!"
 BLR_Stanislau_Bulak_Balachowicz_Military_Junta_desc:0 ""
 
 BLR_Think_of_another_candidates:0 "§gThink of another candidate§!"
@@ -42,3 +42,12 @@ BLR_Division_in_the_democratic_forces_desc:0 ""
 
 BLR_The_country_of_culture:0 "§GThe country of culture§!"
 BLR_The_country_of_culture_desc:0 ""
+
+
+
+######################################## Decisions ########################################################
+
+#####INDUSTRIAL DECISIONS CATEGORY #########
+
+BLR_industrialization:0 "Industrialisation Reforms"
+BLR_Komunarka_Mensk:0 "Build the Komunarka factory in Mensk"

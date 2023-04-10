@@ -2894,7 +2894,67 @@ focus = {
     ###### Army tree
     ################################################################
 
+
+
+
+
+    ################################################################
+    ###### WAR TREE
+    ################################################################
    
+    #focus = {
+    #    id = BLR_Our_land
+    #    icon = GFX_
+    #    x = 18  
+    #    y = 18
+    #    ai_will_do = {
+    #        factor = 50
+    #    }
+    #    cost = 2
+    #    available_if_capitulated = yes
+    #    completion_reward = {
+    #        add_war_support = 0.05
+    #        army_attack_factor = 0.05
+    #        army_defence_factor = 0.05
+    #    }
+    #    prerequisite = {}
+    #}
+
+   # focus = {
+    #    id = BLR_Revanchism
+     #   icon = GFX_
+    #    x = 18  
+   #     y = 19
+    #    ai_will_do = {
+    #        factor = 50
+    #    }
+    #    cost = 2
+    #    available_if_capitulated = yes
+    #    completion_reward = {
+    #        #!
+    #    }
+    #    prerequisite = {
+    #        focus = BLR_Our_land
+     #   }
+   # }
+
+   # focus = {
+    #    id = BLR_Revanchism
+     #   icon = GFX_
+    #    x = 18  
+    #    y = 19
+    #    ai_will_do = {
+    #        factor = 50
+    #    }
+     #   cost = 2
+    #    available_if_capitulated = yes
+     #   completion_reward = {
+    #        #!
+    #    }
+    #    prerequisite = {
+    #        focus = BLR_Our_land
+     #   }
+    #}
 
 }
 
