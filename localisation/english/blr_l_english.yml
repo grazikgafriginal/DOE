@@ -50,4 +50,19 @@ BLR_The_country_of_culture_desc:0 ""
 #####INDUSTRIAL DECISIONS CATEGORY #########
 
 BLR_industrialization:0 "Industrialisation Reforms"
+
 BLR_Komunarka_Mensk:0 "Build the Komunarka factory in Mensk"
+
+BLR_Komunarka_Brest:0 "Build the Komunarka factory in Brest"
+
+BLR_M_One_Highway:0 "Build M1 Mensk - Baranavich - Brest highway"
+
+BLR_Homelskyi_Zavod:0 "Build Homelskyi Vayskovyi Zavod"
+
+BLR_P_Highway:0 "Build P58 Mensk-Miadzel highway"
+
+BLR_Braslauski_Zavod:0 "Build Braslauski Matalurhichi Zavod"
+
+BLR_Myadzielski_Zavod:0 "Build "Myadzielski Vaskovyi Zavod""
+
+BLR_P_Highway_2:0 "Build M4 "Mensk - Mahileú" highway"

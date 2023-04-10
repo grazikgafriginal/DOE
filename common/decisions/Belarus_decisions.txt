@@ -32,4 +32,251 @@ BLR_industrialization = {
 			}
 		}
 	}
+
+	BLR_Komunarka_Brest = {
+		icon = generic_factory
+		available = {
+			204 = { is_owned_and_controlled_by = ROOT } #Brest
+		}
+
+		cost = 75
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 204
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Komunarka_Brest"
+			204 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	BLR_M_One_Highway = {
+		icon = GFX_BLR_Construct_Roads
+		available = {
+			204 = { is_owned_and_controlled_by = ROOT } #Brest
+			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
+		}
+
+		cost = 180
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 204
+				state = 194
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_M_One_Highway"
+			204 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			194 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	BLR_Homelskyi_Zavod = {
+		icon = generic_military
+		available = {
+			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
+		}
+
+		cost = 75
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 194
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Homelskyi_Zavod"
+			194 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	BLR_P_Highway = {
+		icon = GFX_BLR_Construct_Roads
+		available = {
+			206 = { is_owned_and_controlled_by = ROOT } #Brest
+			207 = { is_owned_and_controlled_by = ROOT } #Pinsk
+		}
+
+		cost = 180
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 206
+				state = 207
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_M_One_Highway"
+			206 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			207 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	BLR_Braslauski_Zavod = {
+		icon = generic_factory
+		available = {
+			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
+		}
+
+		cost = 75
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 194
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Braslauski_Zavod"
+			194 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	BLR_Myadzielski_Zavod = {
+		icon = generic_factory
+		available = {
+			207 = { is_owned_and_controlled_by = ROOT } #Pinsk
+		}
+
+		cost = 75
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 207
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Myadzielski_Zavod"
+			207 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	BLR_P_Highway_2 = {
+		icon = GFX_BLR_Construct_Roads
+		available = {
+			207 = { is_owned_and_controlled_by = ROOT } 
+		}
+
+		cost = 180
+		days_remove = 120
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 207
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_M_One_Highway"
+			207 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
 }

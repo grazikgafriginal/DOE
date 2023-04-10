@@ -4,4 +4,5 @@ BLR_industrialization = {
 	icon = GFX_decision_category_border_war
 	picture = GFX_decision_cat_generic_mefo_bills
 	allowed = {	original_tag = BLR }
+	priority = 10
 }

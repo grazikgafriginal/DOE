@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = { 
+		name = "GFX_BLR_Construct_Roads"
+		texturefile = "gfx/interface/decisions/BLR_Construct_Roads.png"
+	}
+}
