@@ -16,7 +16,7 @@
 
 ######################################## LEADERS ########################################################
 
- BLR_STANISLAV_BULAK_BALACHOWICZ_DESC:0 "§yStanislaŭ Bulak-Balachovič§! was a military command and Belarusian Dictator. He was born in the village of §yTuraŭ§!, in what is now Belarus, which was then part of the Russian Empire.\n\nDuring World War I, §yBułak-Bałachowicz§! fought in §ythe Russian Imperial Army§! and was captured by the Germans. He later joined the Polish Military Organization, which aimed to create an independent Polish state. In 1918, he fought in the §yPolish-Soviet War§! as a commander in the Polish Army.\n\n§yBułak-Bałachowicz§! became involved in the §yBelarusian national liberation movement§ and supported the idea of an independent Belarus. He founded the Belarusian Military Organization and led a Belarusian unit within the Polish Army. In 1919 after the counter coup against the current Rada, became a §ydictator§.\n\n§yBułak-Bałachowicz§! remains a controversial figure in Belarusian history. Some see him as a hero who fought for Belarusian independence, while others view him as a cruel dictator."
+ BLR_STANISLAV_BULAK_BALACHOWICZ_DESC:0 "Stanislaû Bulak-Balachovič was born on the 10th of February, 1883 born in the village of Turaû, in the Russian Empire which is now located in Belarus.\n\nOne of his nicknames became part of his surname. "Bulak" in his name means "cloud" or "a man who is driven by the wind".\n\nIn World War One after one of russian Grand Dukes address to the polish he joined the Russian Imperial Army, successfully leading multiple small units throughout the war and getting awarded multiple awards.\n\nBeing belarusian, he always despised the Russian Empire and the oppression of his people. Because of that, he always fought for belarusian independence and eventually achieved it.\n\nCalling him controversial would be an understatement. His people either view him as a brutal tyrant and a dictator, while other people view him as the hero of Belarus.\n\nBut only more time can tell if he is really the hero that his supporters call him"
 
 
 
@@ -49,20 +49,29 @@ BLR_The_country_of_culture_desc:0 ""
 
 #####INDUSTRIAL DECISIONS CATEGORY #########
 
-BLR_industrialization:0 "Industrialisation Reforms"
+BLR_industrialization:0 "§1Industrialisation Reforms§!"
+BLR_industrialization_desc:0 "Our nation is severely §9lacking behind§! our neighbors. That is why one of the most important matters of the state is §9industrial reforms§!. We need it fast because if we are not prepared industrially we will surely §9lose a war§! if we enter one."
 
 BLR_Komunarka_Mensk:0 "Build the Komunarka factory in Mensk"
+BLR_Komunarka_Mensk_desc:0 "To keep our population happy and to not give them thoughts for rebellion, we need to feed them something sweet like candy or anything else that is sweet. There is this saying that an old french noblewoman said that could be applied to the current situation "Let them eat cake""
 
 BLR_Komunarka_Brest:0 "Build the Komunarka factory in Brest"
+BLR_Komunarka_Brest_desc:0"To keep our population happy and to not give them thoughts for rebellion, we need to feed them something sweet like candy or anything else that is sweet. There is this saying that an old french noblewoman said that could be applied to the current situation "Let them eat cake""
 
 BLR_M_One_Highway:0 "Build M1 Mensk - Baranavich - Brest highway"
+BLR_M_One_Highway_desc:0 "Another really important aspect in our industry, §9infrastructure§!, more precisly, §9highways§!. We need a fast way to transport our troops in emergencies in these important locations Mensk, Baranavichyi, Brest, Miadzel, Mihaleú. By supporthing the infrastructure in these places we provide a fast way for our troops to enter into §9battle if needed§!"
 
 BLR_Homelskyi_Zavod:0 "Build Homelskyi Vayskovyi Zavod"
+BLR_Homelskyi_Zavod_desc:0 "If we ever want to have a strong military that can defend our great nation from invaders we need military factories that can supply the defenders of our homeland with guns, ammunition, and anything else that is necessary."
 
 BLR_P_Highway:0 "Build P58 Mensk-Miadzel highway"
+BLR_P_Highway_desc:0 "Another really important aspect in our industry, §9infrastructure§!, more precisly, §9highways§!. We need a fast way to transport our troops in emergencies in these important locations Mensk, Baranavichyi, Brest, Miadzel, Mihaleú. By supporthing the infrastructure in these places we provide a fast way for our troops to enter into §9battle if needed§!"
 
 BLR_Braslauski_Zavod:0 "Build Braslauski Matalurhichi Zavod"
+BLR_Braslauski_Zavod_desc:0 "If we ever want to have a strong military that can defend our great nation from invaders we need military factories that can supply the defenders of our homeland with guns, ammunition, and anything else that is necessary."
 
 BLR_Myadzielski_Zavod:0 "Build "Myadzielski Vaskovyi Zavod""
+BLR_Myadzielski_Zavod_desc:0 "If we ever want to have a strong military that can defend our great nation from invaders we need military factories that can supply the defenders of our homeland with guns, ammunition, and anything else that is necessary."
 
 BLR_P_Highway_2:0 "Build M4 "Mensk - Mahileú" highway"
+BLR_P_Highway_2_desc:0 "Another really important aspect in our industry, §9infrastructure§!, more precisly, §9highways§!. We need a fast way to transport our troops in emergencies in these important locations Mensk, Baranavichyi, Brest, Miadzel, Mihaleú. By supporthing the infrastructure in these places we provide a fast way for our troops to enter into §9battle if needed§!"

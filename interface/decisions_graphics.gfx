@@ -3,4 +3,9 @@ spriteTypes = {
 		name = "GFX_BLR_Construct_Roads"
 		texturefile = "gfx/interface/decisions/BLR_Construct_Roads.png"
 	}
+
+	SpriteType = { 
+		name = "GFX_BLR_construct_factories"
+		texturefile = "gfx/interface/decisions/BLR_construct_factories.png"
+	}
 }

@@ -2,7 +2,7 @@
 
 BLR_industrialization = {
 	BLR_Komunarka_Mensk = {
-		icon = generic_factory
+		icon = GFX_BLR_construct_factories
 		available = {
 			206 = { is_owned_and_controlled_by = ROOT } #Minsk
 		}
@@ -34,7 +34,7 @@ BLR_industrialization = {
 	}
 
 	BLR_Komunarka_Brest = {
-		icon = generic_factory
+		icon = GFX_BLR_construct_factories
 		available = {
 			204 = { is_owned_and_controlled_by = ROOT } #Brest
 		}
@@ -109,7 +109,7 @@ BLR_industrialization = {
 	}
 
 	BLR_Homelskyi_Zavod = {
-		icon = generic_military
+		icon = GFX_BLR_construct_factories
 		available = {
 			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
 		}
@@ -184,7 +184,7 @@ BLR_industrialization = {
 	}
 
 	BLR_Braslauski_Zavod = {
-		icon = generic_factory
+		icon = GFX_BLR_construct_factories
 		available = {
 			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
 		}
@@ -216,7 +216,7 @@ BLR_industrialization = {
 	}
 
 	BLR_Myadzielski_Zavod = {
-		icon = generic_factory
+		icon = GFX_BLR_construct_factories
 		available = {
 			207 = { is_owned_and_controlled_by = ROOT } #Pinsk
 		}
