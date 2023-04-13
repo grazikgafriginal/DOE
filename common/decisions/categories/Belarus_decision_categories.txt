@@ -6,3 +6,40 @@ BLR_industrialization = {
 	allowed = {	original_tag = BLR }
 	priority = 10
 }
+
+BLR_education_reform = {
+    
+    icon = GFX_decision_category_border_war
+    picture = GFX_decision_cat_natfra_rebuild_metropole
+
+    allowed = {
+        original_tag = BLR
+    }
+
+	visible = {
+		has_completed_focus = BLR_Start_the_Daloi_nieadukavanasc_programme
+	}
+
+	#available = {
+	#	has_completed_focus = BLR_Start_the_Daloi_nieadukavanasc_programme
+	#}
+
+    #picture = GFX_decision_cat_picture_gateway_to_europe
+    priority = {
+        base = 9
+    }
+    
+    #custom_icon = {
+    #    icon = GFX_BLR_Construct_Roads
+    #    value = BLR_edu_reform_icon_value
+    #    desc = BLR_edu_reform_full_influence_breakdown
+
+    #    visible = {
+    #        original_tag = BLR
+    #    }
+    #}
+    
+
+    #visible_when_empty = yes
+}
+

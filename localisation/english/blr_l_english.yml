@@ -75,3 +75,36 @@ BLR_Myadzielski_Zavod_desc:0 "If we ever want to have a strong military that can
 
 BLR_P_Highway_2:0 "Build M4 "Mensk - Mahileú" highway"
 BLR_P_Highway_2_desc:0 "Another really important aspect in our industry, §9infrastructure§!, more precisly, §9highways§!. We need a fast way to transport our troops in emergencies in these important locations Mensk, Baranavichyi, Brest, Miadzel, Mihaleú. By supporthing the infrastructure in these places we provide a fast way for our troops to enter into §9battle if needed§!"
+
+#BLR_Duma:0 "Gateaway shit"
+#BLR_Duma_desc:0 "Sheeesh"
+
+
+##### CHERVIAKOU REFORM #########
+
+BLR_education_reform:0 "§9Chiarviakou Education Reform§!"
+BLR_education_reform_desc:0 "§LCurrent Population Support:§! §R[?stability%%+]§!"
+
+BLR_Build_Schools_Mensk:0 "Build School in Mensk"
+BLR_Build_Schools_Mensk_desc:0 ""
+
+BLR_Build_Schools_Brest:0 "Build Schools Brest"
+BLR_Build_Schools_Brest_desc:0 ""
+
+BLR_Build_Schools_Viciebsk:0 "Build Schools in Viciebsk"
+BLR_Build_Schools_Viciebsk_desc:0 ""
+
+BLR_Build_Schools_Mozyr:0 "Build Schools in Mozyr"
+BLR_Build_Schools_Mozyr_desc:0 ""
+
+BLR_Build_BSU_Mensk:0 "Build Bielaruski Dziaržaŭny Univiersitet"
+BLR_Build_BSU_Mensk_desc:0 ""
+
+BLR_Build_Uni_Brest:0 "Build Universities in Brest"
+BLR_Build_Uni_Brest_desc:0 ""
+
+BLR_Build_Uni_Viciebsk:0 "Build Universities in Viciebsk"
+
+BLR_Finish_Cherviakou_reform:0 "§9Finish Cherviakou Reform§!"
+
+

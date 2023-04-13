@@ -2343,7 +2343,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_famh.dds"
 	}
 	
-	### RUSSIAN IDEAS
+	### BLRSIAN IDEAS
 	spriteType = {
 		name = "GFX_idea_mikhail_kalinin"
 		texturefile = "gfx/interface/ideas/idea_mikhail_kalinin.dds"

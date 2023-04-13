@@ -8,4 +8,9 @@ spriteTypes = {
 		name = "GFX_BLR_construct_factories"
 		texturefile = "gfx/interface/decisions/BLR_construct_factories.png"
 	}
+
+	SpriteType = { 
+		name = "GFX_decision_cat_natfra_rebuild_metropole"
+		texturefile = "gfx/interface/decisions_pictures/decision_cat_natfra_rebuild_metropole.png"
+	}
 }

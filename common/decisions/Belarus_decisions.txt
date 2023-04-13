@@ -278,5 +278,108 @@ BLR_industrialization = {
 			}
 		}
 	}
-	
+}
+
+#################################
+####### EDUCATION REFORM ########
+#################################
+
+BLR_education_reform = {
+	BLR_Build_Schools_Mensk = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
+
+	BLR_Build_Schools_Brest = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
+
+	BLR_Build_Schools_Viciebsk = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
+
+	BLR_Build_Schools_Mozyr = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 35
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
+
+	BLR_Build_BSU_Mensk = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 45
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
+
+	BLR_Build_Uni_Brest = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 45
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
+
+	BLR_Build_Uni_Viciebsk = {
+		#icon = GFX_BLR_construct_factories
+		#available = {
+		#	206 = { is_owned_and_controlled_by = ROOT } #Minsk
+		#}
+
+		cost = 45
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+	}
 }

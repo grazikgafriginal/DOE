@@ -46,6 +46,9 @@ ideas = {
 			modifier = {
 				research_speed_factor = -0.10
 			}
+			cancel = {
+				has_completed_focus = BLR_Start_the_Daloi_nieadukavanasc_programme
+			}
 		}
 	}
 }
