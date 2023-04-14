@@ -115,8 +115,6 @@ focus_tree = {
         prerequisite = {
             focus = BLR_The_road_to_Belarusian_Democratic_Republic
         }
-
-        
     }
 
     focus = {
@@ -493,7 +491,6 @@ focus_tree = {
         }
     }
 
-
     ####################################################
     ### The country of culture
     ####################################################
@@ -675,6 +672,10 @@ focus_tree = {
         completion_reward = {
             research_bonus = { 
                 industry = 0.1
+            }
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Solidifying_identity
             }
         }
         prerequisite = {
@@ -988,9 +989,9 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_popularity = {
-                ideology = social_democracy
-                popularity = 0.025
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Solidifying_identity
             }
         }
         prerequisite = {
@@ -1219,9 +1220,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            production_speed_buildings_factor = -0.05
-            local_resources_factor = -0.1
-            political_power_factor = 0.14
+            add_ideas = BLR_socialise_the_land
         }
         prerequisite = {
             focus = BLR_Embryo_of_Socialism
@@ -1262,9 +1261,14 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_stability = 0.05
-            add_war_support = -0.05
-            add_stability = 50
+            random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
         }
         prerequisite = {
             focus = BLR_BPSR_Should_Lead_us
@@ -1290,7 +1294,7 @@ focus_tree = {
     }
 
     focus = {
-        id = BLR_Publicly_financed_assistance ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        id = BLR_Class_Cooperation ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         icon = GFX_
         x = 19
         y = 13
@@ -1300,7 +1304,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_ideas = BLR_Class_coop
         }
         prerequisite = {
             focus = BLR_Extensive_publicly_financed_assistance
@@ -1337,7 +1341,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            production_speed_buildings_factor = 0.1
+            consumer_goods_factor = -0.03
         }
         prerequisite = {
             focus = BLR_Private_property_stays_in_the_hands_of_people
@@ -1522,7 +1527,7 @@ focus_tree = {
     }
 
     focus = {
-        id = BLR_Cherviakou_education_reforms ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        id = BLR_Jewish_Schools ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         icon = GFX_
         x = 27
         y = 13
@@ -1592,11 +1597,14 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_political_power = 50
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Solidifying_identity
+            }
         }
         prerequisite = {
             focus = BLR_Keep_the_property_rights
-            focus = BLR_Cherviakou_education_reforms
+            focus = BLR_Jewish_Schools
         }
     }
 
@@ -1655,11 +1663,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_political_power = 25
-            add_popularity = {
-                ideology = anticommunism
-                popularity = 0.05
-            }
+           add_ideas = BLR_Mova_NaNova
         }
         prerequisite = {
             focus = BLR_BNP_should_lead_us
@@ -1697,9 +1701,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_stability = 0.1
-            add_political_power = 35
-            add_war_support = -0.1
+            add_ideas = BLR_Bielarusatenizacyja
         }
         prerequisite = {
             focus = BLR_Mova_Nanova
@@ -1738,7 +1740,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_ideas = BLR_Domestic_prod
         }
         prerequisite = {
             focus = BLR_Bielarusatenizacyja
@@ -1756,7 +1758,7 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_ideas = BLR_Rate_control
         }
         prerequisite = {
             focus = BLR_Bielarusatenizacyja
@@ -1777,7 +1779,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Kaštoŭnasć
+            }
         }
         prerequisite = {
             focus = BLR_Bielarusatenizacyja
@@ -1867,12 +1872,8 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_popularity = {
-                ideology = anticommunism
-                popularity = 0.1
-            }
-            add_popularity = {
                 ideology = bundism
-                popularity = 0.1
+                popularity = 0.05
             }
             add_political_power = -35
         }
@@ -1919,7 +1920,12 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
+            add_popularity = {
+                ideology = anticommunism
+                popularity = 0.05
+            }
+			add_political_power = 125
+			add_stability = 0.05
         }
         prerequisite = {
             focus = BLR_Crack_down_on_Communists
@@ -1939,8 +1945,8 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-        
-        }
+            
+        }  
         prerequisite = {
             focus = BLR_Crack_down_on_Communists
             focus = BLR_Anti_Jewish_reforms
@@ -1952,7 +1958,7 @@ focus_tree = {
     ################################################################
 
     focus = {
-        id = BLR_Start_the_Daloi_nieadukavanasc_programme
+        id = BLR_Start_Narodnaja_Asvieta
         icon = GFX_
         x = 18  
         y = 17
@@ -1994,7 +2000,7 @@ focus_tree = {
             #}
         }
         prerequisite = {
-            focus = BLR_Start_the_Daloi_nieadukavanasc_programme
+            focus = BLR_Start_Narodnaja_Asvieta
         }
 
         mutually_exclusive = {
@@ -2017,7 +2023,7 @@ focus_tree = {
             add_political_power = 0.25
         }
         prerequisite = {
-            focus = BLR_Start_the_Daloi_nieadukavanasc_programme
+            focus = BLR_Start_Narodnaja_Asvieta
         }
         mutually_exclusive = {
             focus = BLR_Hours_working_day
@@ -2157,8 +2163,10 @@ focus_tree = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            recruitable_population = 0.03
-            add_war_support = 0.1
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Solidifying_identity
+            }
         }
         prerequisite = {
 	    focus = BLR_Enjail_the_opposition
@@ -2449,6 +2457,10 @@ focus = {
         completion_reward = {
             add_political_power = 75
             political_power_gain = -0.01
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Solidifying_identity
+            }
         }
         prerequisite = {
             focus = BLR_Think_of_another_candidates
@@ -2615,11 +2627,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_political_power = 50
-            add_popularity = {
-                ideology = fascism
-                popularity = 0.05
-            }
+            add_ideas = BLR_Nationalist_Edu
         }
         prerequisite = {
         focus = BLR_Nut_tightening
@@ -2840,6 +2848,10 @@ focus = {
         completion_reward = {
             political_power_factor = 0.01
             drift_defence_factor = 0.05
+            swap_ideas = {
+                remove_idea = BLR_Weak_Identity
+                add_idea = BLR_Solidifying_identity
+            }
         }
         prerequisite = {
             focus = BLR_Recruit_the_National_Security_Guard_from_the_Army

@@ -50,5 +50,124 @@ ideas = {
 				has_completed_focus = BLR_Start_the_Daloi_nieadukavanasc_programme
 			}
 		}
+
+		BLR_Weak_Identity = {
+			#on_add = { log = "[GetDateText]: [Root.GetName]: add idea BLR_unindustrial_state"}
+			allowed = {
+				tag = BLR
+			}
+			#picture = BLR_education_issue
+			modifier = {
+				conscription_factor = -0.15
+				stability_factor = -0.30
+			}
+		}
+
+		BLR_Nationalist_Edu = {
+			#picture = KTG_Technological_Backwater
+			allowed = { always = no }
+			modifier = {
+				army_morale_factor = 0.05
+				fascism_drift = 0.05
+			}
+		}
+
+		BLR_Rada_Reformed = {
+			picture = generic_purge
+			allowed = { always = no }
+			available = { has_government = fascist }
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.10
+				fascism_drift = 0.05
+			}
+		}
+
+		BLR_Bielarusatenizacyja = {
+			#picture = generic_purge
+			allowed = { 
+				tag = BLR 
+			}
+			modifier = {
+				political_power_gain = 0.02
+				stability_weekly = -0.01
+			}
+		}
+
+		BLR_Rate_control = {
+			#picture = generic_purge
+			allowed = { 
+				tag = BLR 
+			}
+			modifier = {
+				political_power_gain = 0.08
+				stability_weekly = -0.01
+			}
+		}
+
+		BLR_Domestic_prod = {
+			#picture = generic_purge
+			allowed = { 
+				tag = BLR 
+			}
+			modifier = {
+				global_building_slots_factor = 0.1
+				monthly_population = 0.1
+				local_resources_factor = 0.12
+			}
+		}
+
+		BLR_Kaštoŭnasć = {
+			#picture = generic_purge
+			allowed = { 
+				tag = BLR 
+			}
+			modifier = {
+				political_power_gain = -0.10
+				stability_weekly = 0.02
+			}
+		}
+
+		BLR_socialise_the_land = {
+			allowed = { tag = BLR }
+			#picture = 
+			available = { has_social_revolutionism_government = yes }
+			modifier = {
+				global_building_slots_factor = 0.1
+				local_resources_factor = 0.15
+				supply_consumption_factor = -0.1
+				production_speed_buildings_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.07
+			}
+		}
+
+		BLR_Class_coop = {
+			allowed = { always = no }
+			#picture = 
+			modifier = {
+				stability_factor = 0.05
+				monthly_population = 0.3
+				supply_consumption_factor = -0.06
+			}
+		}
+
+		BLR_Welfare_State = {
+			picture = generic_welfare_state
+			allowed = { tag = BLR }
+			modifier = {
+				consumer_goods_factor = 0.05
+				political_power_factor = 0.10
+			}
+		}
+
+		BLR_Solidifying_identity = {
+			#picture = 
+			allowed = { tag = BLR }
+			modifier = {
+				political_power_gain = 0.02
+				stability_weekly = -0.01
+			}
+		}
+
 	}
 }

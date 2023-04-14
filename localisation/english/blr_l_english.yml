@@ -82,8 +82,10 @@ BLR_P_Highway_2_desc:0 "Another really important aspect in our industry, §9infr
 
 ##### CHERVIAKOU REFORM #########
 
-BLR_education_reform:0 "§9Chiarviakou Education Reform§!"
-BLR_education_reform_desc:0 "§LCurrent Population Support:§! §R[?stability%%+]§!"
+BLR_education_reform:0 "§9Smolič Education Reform§!"
+BLR_education_reform_desc:0 "Our country is in one of the worst situations in Europe concerning illiteracy. Most of our population can't read or can't count till ten. §9Arkadź Smolič§! has offered his help in a program called §9"Narodnaja Asvieta"§!. His program seems promising and we don't have more options so we need to trust the professionals."
+
+#Current Population Support:§! §R[?stability%%+]§!
 
 BLR_Build_Schools_Mensk:0 "Build School in Mensk"
 BLR_Build_Schools_Mensk_desc:0 ""
