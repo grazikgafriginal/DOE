@@ -1,11 +1,30 @@
 spriteTypes = {
 
-### Fascism
+	### Fascism
 	
-### Authoritarianism
+	### Authoritarianism
 	spriteType = {
 		name = "GFX_ideology_authoritarian_group"
 		texturefile = "gfx/interface/ideologies/authoritarian.dds"
 	}
-	
+	### Communism
+	spriteType = {
+		name = "GFX_ideology_bundism_group"
+		texturefile = "gfx/interface/ideologies/bundism.dds"
+	}
+
+	#spriteType = {
+	#	name = "GFX_ideology_communism_group"
+	#	texturefile = "gfx/interface/ideologies/communism.png"
+	#}
+
+	### Social Revolutionism
+
+	spriteType = {
+		name = "GFX_ideology_social_revolutionism_group"
+		texturefile = "gfx/interface/ideologies/social_revolutionism.png"
+	}
 }
+
+
+
