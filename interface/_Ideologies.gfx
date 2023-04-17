@@ -24,6 +24,21 @@ spriteTypes = {
 		name = "GFX_ideology_social_revolutionism_group"
 		texturefile = "gfx/interface/ideologies/social_revolutionism.png"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy.png"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_anticommunism_group"
+		texturefile = "gfx/interface/ideologies/anticommunism.png"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_liberal_group"
+		texturefile = "gfx/interface/ideologies/liberal.png"
+	}
 }
 
 

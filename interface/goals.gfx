@@ -1,6 +1,16 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_BLR_All_BDR_meeting"
+		texturefile = "gfx/interface/goals/BLR_All_BDR_meeting.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_nationalise_land"
+		texturefile = "gfx/interface/goals/BLR_nationalise_land.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Allow_freedom_of_speech_and_meetings"
 		texturefile = "gfx/interface/goals/BLR_Allow_freedom_of_speech_and_meetings.png"			
 	}

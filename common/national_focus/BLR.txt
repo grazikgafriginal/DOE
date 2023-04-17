@@ -319,7 +319,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Nationalisation_of_the_land 
-        icon = GFX_
+        icon = GFX_BLR_nationalise_land
         x = 16
         y = 5
         ai_will_do = {

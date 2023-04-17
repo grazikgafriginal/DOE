@@ -104,8 +104,8 @@
  classical_liberalism:0 "Classical Liberalism"
  classical_liberalism_desc:0 "§BClassical Liberalism§! is the right-leaning branch of liberalism that advocates for the free market, civil liberties under the rule of law, economic freedom and cultural liberalism. They seek to empower the middle class politically and to abolish royal charters, monopolies, and the protectionist policies of mercantilism so as to encourage entrepreneurship and increase productive efficiency. They also expect the free exchange of goods to diminish the frequency of war."
 
- social_democracy:0 "Social Democracy"
- social_democracy_desc:0 "§BSocial democracy§! is the political and economic theory that socialism can be achieved through democratic means."
+ social_democracy_ideology:0 "Social Democracy"
+ social_democracy_ideology_desc:0 "§BSocial democracy§! is the political and economic theory that socialism can be achieved through democratic means."
  
  national_conservatism:0 "National Conservatism"
  national_conservatism_desc:0 "§BNational Conservatism§! value their peoples' traditions and cultural identity, hoping to safeguard these through the existing democratic system."
