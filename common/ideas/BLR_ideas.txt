@@ -117,7 +117,7 @@ ideas = {
 			}
 		}
 
-		BLR_Kaštoŭnasć = {
+		BLR_Kastounasc = {
 			#picture = generic_purge
 			allowed = { 
 				tag = BLR 

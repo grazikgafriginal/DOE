@@ -1781,7 +1781,7 @@ focus_tree = {
         completion_reward = {
             swap_ideas = {
                 remove_idea = BLR_Weak_Identity
-                add_idea = BLR_Kaštoŭnasć
+                add_idea = BLR_Kastounasc
             }
         }
         prerequisite = {
@@ -1829,7 +1829,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Anti_Jewish_reforms 
-        icon = GFX_
+        icon = GFX_BLR_Anti_Jewish
         x = 33
         y = 15
         ai_will_do = {
@@ -1862,7 +1862,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Pro_Jewish_reforms 
-        icon = GFX_
+        icon = GFX_BLR_Pro_Jewish
         x = 35
         y = 15
         ai_will_do = {
@@ -2059,7 +2059,7 @@ focus_tree = {
      
       focus = {
         id = BLR_Enjail_the_opposition
-        icon = GFX_
+        icon = GFX_BLR_Enjail_the_opposition
         x = 23
         y = 1
         ai_will_do = {
@@ -2082,7 +2082,7 @@ focus_tree = {
     
       focus = {
         id = BLR_Control_the_newspapers_and_radio_stations
-        icon = GFX_
+        icon = GFX_BLR_Control_the_radio
         x = 25
         y = 1
         ai_will_do = {
@@ -2107,7 +2107,7 @@ focus_tree = {
     
         focus = {
         id = BLR_Set_the_curfew_hours
-        icon = GFX_
+        icon = GFX_BLR_Set_the_curfew_hours
         x = 27
         y = 1
         ai_will_do = {
@@ -2446,7 +2446,7 @@ focus = {
 
     focus = {
         id = BLR_The_rebirth_of_our_nation
-        icon = GFX_
+        icon = GFX_BLR_The_rebirth_of_nation
         x = 31
         y = 5
         ai_will_do = {
@@ -2469,7 +2469,7 @@ focus = {
 
     focus = {
         id = BLR_Destroy_the_class
-        icon = GFX_
+        icon = GFX_BLR_Destroy_Class
         x = 33
         y = 5
         ai_will_do = {
@@ -2488,7 +2488,7 @@ focus = {
 
     focus = {
         id = BLR_Layer_and_Centralise_the_decisions
-        icon = GFX_
+        icon = GFX_BLR_Centralise_the_decisions
         x = 30
         y = 6
         ai_will_do = {
@@ -2507,7 +2507,7 @@ focus = {
 
     focus = {
         id = BLR_Reform_the_current_Government 
-        icon = GFX_
+        icon = GFX_BLR_Reform_the_Government
         x = 32
         y = 6
         ai_will_do = {
@@ -2547,7 +2547,7 @@ focus = {
 
     focus = {
         id = BLR_Nut_tightening
-        icon = GFX_
+        icon = GFX_BLR_Nut_tightening
         x = 32
         y = 7
         ai_will_do = {
@@ -2596,7 +2596,7 @@ focus = {
 
     focus = {
         id = BLR_Reform_the_Stanislaus_National_Police
-        icon = GFX_
+        icon = GFX_BLR_Reform_Police
         x = 32
         y = 8
         ai_will_do = {

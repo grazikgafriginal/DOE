@@ -1,6 +1,61 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_BLR_Set_the_curfew_hours"
+		texturefile = "gfx/interface/goals/BLR_Set_the_curfew_hours.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Control_the_radio"
+		texturefile = "gfx/interface/goals/BLR_Control_the_radio.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Enjail_the_opposition"
+		texturefile = "gfx/interface/goals/BLR_Enjail_the_opposition.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Centralise_the_decisions"
+		texturefile = "gfx/interface/goals/BLR_Centralise_the_decisions.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Reform_Police"
+		texturefile = "gfx/interface/goals/BLR_Reform_Police.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Nut_tightening"
+		texturefile = "gfx/interface/goals/BLR_Nut_tightening.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Reform_the_Government"
+		texturefile = "gfx/interface/goals/BLR_Reform_the_Government.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_The_rebirth_of_nation"
+		texturefile = "gfx/interface/goals/BLR_The_rebirth_of_nation.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Destroy_Class"
+		texturefile = "gfx/interface/goals/BLR_Destroy_Class.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Pro_Jewish"
+		texturefile = "gfx/interface/goals/BLR_Pro_Jewish.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Anti_Jewish"
+		texturefile = "gfx/interface/goals/BLR_Anti_Jewish.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_All_BDR_meeting"
 		texturefile = "gfx/interface/goals/BLR_All_BDR_meeting.png"			
 	}
