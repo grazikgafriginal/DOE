@@ -2132,7 +2132,7 @@ focus_tree = {
     
        focus = {
         id = BLR_Create_national_security_services
-        icon = GFX_
+        icon = GFX_BLR_National_Security
         x = 24
         y = 2
         ai_will_do = {
@@ -2154,7 +2154,7 @@ focus_tree = {
 
  	focus = {
         id = BLR_Popularise_the_Military_Education_among_the_youth
-        icon = GFX_
+        icon = GFX_BLR_Pupolarise_Military
         x = 26
         y = 2
         ai_will_do = {
@@ -2177,7 +2177,7 @@ focus_tree = {
 
 focus = {
         id = BLR_Political_reforms
-        icon = GFX_
+        icon = GFX_BLR_Reforms
         x = 25
         y = 3
         ai_will_do = {
