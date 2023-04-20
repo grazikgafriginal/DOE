@@ -599,7 +599,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Make_the_government_liberal
-        icon = GFX_
+        icon = GFX_BLR_Liberal_gov
         x = 5
         y = 12
         ai_will_do = {
@@ -1295,7 +1295,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Class_Cooperation ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        icon = GFX_
+        icon = GFX_BLR_Class_Coop
         x = 19
         y = 13
         ai_will_do = {
@@ -1346,7 +1346,7 @@ focus_tree = {
         }
         prerequisite = {
             focus = BLR_Private_property_stays_in_the_hands_of_people
-            focus = BLR_Publicly_financed_assistance
+            focus = BLR_Class_Cooperation
         }
     }
 
