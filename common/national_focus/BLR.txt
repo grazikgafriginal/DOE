@@ -905,7 +905,7 @@ focus_tree = {
 
     focus = {
         id = BLR_State_interventionism
-        icon = GFX_
+        icon = GFX_BLR_Intervinsionism
         x = 8
         y = 12
         ai_will_do = {
@@ -944,7 +944,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Privatisation 
-        icon = GFX_
+        icon = GFX_generic_privatization
         x = 7
         y = 13
         ai_will_do = {
@@ -1068,7 +1068,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Increase_social_welfare
-        icon = GFX_
+        icon = GFX_BLR_Welfare
         x = 13
         y = 14
         ai_will_do = {
@@ -1182,7 +1182,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Focus_on_sielskaja_haspadarka
-        icon = GFX_
+        icon = GFX_generic_agriculture2
         x = 15
         y = 13
         ai_will_do = {
@@ -1211,7 +1211,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Socialise_the_land
-        icon = GFX_
+        icon = GFX_generic_land_reform
         x = 17
         y = 13
         ai_will_do = {
@@ -1230,7 +1230,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Create_Kaapieratyvy
-        icon = GFX_
+        icon = GFX_BLR_Kaaperativji
         x = 16
         y = 14
         ai_will_do = {
@@ -1252,7 +1252,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Extensive_publicly_financed_assistance
-        icon = GFX_
+        icon = GFX_BLR_Public_Finance
         x = 19
         y = 12
         ai_will_do = {
@@ -1313,7 +1313,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Private_property_stays_in_the_hands_of_people
-        icon = GFX_
+        icon = GFX_BLR_Housing_Stays
         x = 21
         y = 13
         ai_will_do = {
@@ -1332,7 +1332,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Governmental_regulation_of_the_economy ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        icon = GFX_
+        icon = GFX_generic_financial_markets
         x = 20
         y = 14
         ai_will_do = {
@@ -1510,7 +1510,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Publicly_subsidised_healthcare
-        icon = GFX_
+        icon = GFX_Health_Care
         x = 27
         y = 12
         ai_will_do = {
@@ -1546,7 +1546,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Municipal_housing_reforms_in_Homel
-        icon = GFX_
+        icon = GFX_collective_housing
         x = 29
         y = 12
         ai_will_do = {
@@ -1731,7 +1731,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Promote_domestic_production
-        icon = GFX_
+        icon = GFX_BLR_Promote_Domestic_Prod
         x = 32
         y = 14
         ai_will_do = {
@@ -1749,7 +1749,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Exchange_rate_control 
-        icon = GFX_
+        icon = GFX_BLR_Exchange_Rate_Control
         x = 34
         y = 14
         ai_will_do = {
@@ -1911,7 +1911,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Export_Subsadies
-        icon = GFX_
+        icon = GFX_BLR_Export_Subsidies
         x = 33
         y = 16
         ai_will_do = {
@@ -2197,7 +2197,7 @@ focus = {
 
 focus = {
         id = BLR_The_militarisation_of_the_politics
-        icon = GFX_
+        icon = GFX_BLR_Militarise_The_Politics
         x = 24
         y = 4
         ai_will_do = {
@@ -2239,7 +2239,7 @@ focus = {
 
     focus = {
         id = BLR_Expand_the_Industry_for_the_Military_needs
-        icon = GFX_
+        icon = GFX_BLR_Military_Mobilisation
         x = 25
         y = 5
         ai_will_do = {
@@ -2283,7 +2283,7 @@ focus = {
 
     focus = {
         id = BLR_Strengthen_the_States_Security
-        icon = GFX_
+        icon = GFX_authority
         x = 24
         y = 6
         ai_will_do = {
@@ -2303,7 +2303,7 @@ focus = {
 
     focus = {
         id = BLR_Expand_the_Mobilisation
-        icon = GFX_
+        icon = GFX_BLR_Expand_Mobilisation
         x = 26
         y = 6
         ai_will_do = {
@@ -2618,7 +2618,7 @@ focus = {
 
     focus = {
         id = BLR_Take_under_control_the_education
-        icon = GFX_
+        icon = GFX_BLR_Take_Edu_Under_Control
         x = 34
         y = 8
         ai_will_do = {
@@ -2693,7 +2693,7 @@ focus = {
 
     focus = {
         id = BLR_Cooperate_with_germans
-        icon = GFX_
+        icon = GFX_BLR_Cooperate_with_germans
         x = 42
         y = 1
         ai_will_do = {
@@ -2881,7 +2881,7 @@ focus = {
 
     focus = {
         id = BLR_German_technical_assistance 
-        icon = GFX_
+        icon = GFX_generic_german_construction
         x = 42
         y = 3
         ai_will_do = {
@@ -2920,7 +2920,7 @@ focus = {
 
     focus = {
         id = BLR_Embrace_the_technological_level 
-        icon = GFX_
+        icon = GFX_BLR_Embrace_Tech_Level
         x = 40
         y = 3
         ai_will_do = {
@@ -3013,7 +3013,7 @@ focus = {
 
     focus = {
         id = BLR_Dictatorship_that_will_save_the_nation
-        icon = GFX_
+        icon = GFX_BLR_Dictatorship_Naiton
         x = 50
         y = 3
         ai_will_do = {
