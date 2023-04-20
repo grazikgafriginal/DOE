@@ -1,6 +1,26 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Educational_Spendings"
+		texturefile = "gfx/interface/goals/BLR_Educational_Spendings.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Fight_against_poverty"
+		texturefile = "gfx/interface/goals/BLR_Fight_against_poverty.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Freedom_of_Press"
+		texturefile = "gfx/interface/goals/BLR_Freedom_of_Press.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Freedom_of_Ideologies"
+		texturefile = "gfx/interface/goals/BLR_Freedom_of_Ideologies.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Dictatorship_Naiton"
 		texturefile = "gfx/interface/goals/BLR_Dictatorship_Naiton.png"			
 	}
