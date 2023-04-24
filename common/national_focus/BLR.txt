@@ -1891,7 +1891,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Laissez_faire_market
-        icon = GFX_
+        icon = GFX_BLR_Welfare
         x = 31
         y = 16
         ai_will_do = {
@@ -1936,7 +1936,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Establish_tariffs 
-        icon = GFX_
+        icon = GFX_generic_price_controls
         x = 35
         y = 16
         ai_will_do = {
@@ -2901,7 +2901,7 @@ focus = {
 
     focus = {
         id = BLR_Order_the_Heavy_equipment_from_Germany
-        icon = GFX_
+        icon = GFX_generic_heavy_armour_german
         x = 42
         y = 4
         ai_will_do = {

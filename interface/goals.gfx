@@ -1,6 +1,16 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_generic_heavy_armour_german"
+		texturefile = "gfx/interface/goals/generic_heavy_armour_german.png"			
+	}
+
+	spriteType = {
+		name = "GFX_generic_price_controls"
+		texturefile = "gfx/interface/goals/generic_price_controls.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_social_reforms"
 		texturefile = "gfx/interface/goals/BLR_social_reforms.png"			
 	}
