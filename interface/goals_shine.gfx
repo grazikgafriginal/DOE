@@ -1,6 +1,486 @@
 spriteTypes = {
 
 	spriteType = {
+        name = "GFX_BLR_social_reforms"
+        texturefile = "gfx/interface/goals/BLR_social_reforms.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_social_reforms.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_social_reforms.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Soc_Spendings"
+        texturefile = "gfx/interface/goals/BLR_Soc_Spendings.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Soc_Spendings.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Soc_Spendings.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Ocean_Of_Stability"
+        texturefile = "gfx/interface/goals/BLR_Ocean_Of_Stability.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Ocean_Of_Stability.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Ocean_Of_Stability.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_generic_improve_industry"
+        texturefile = "gfx/interface/goals/generic_improve_industry.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/generic_improve_industry.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/generic_improve_industry.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Tax_Cuts_Civ"
+        texturefile = "gfx/interface/goals/BLR_Tax_Cuts_Civ.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Tax_Cuts_Civ.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Tax_Cuts_Civ.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Militarism_on_the_rise"
+        texturefile = "gfx/interface/goals/BLR_Militarism_on_the_rise.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Militarism_on_the_rise.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Militarism_on_the_rise.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Penalty_Battalions"
+        texturefile = "gfx/interface/goals/BLR_Penalty_Battalions.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Penalty_Battalions.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Penalty_Battalions.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_No_Socialists"
+        texturefile = "gfx/interface/goals/BLR_No_Socialists.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_No_Socialists.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_No_Socialists.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Purge_Socialism"
+        texturefile = "gfx/interface/goals/BLR_Purge_Socialism.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Purge_Socialism.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Purge_Socialism.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Rehab_Jews"
+        texturefile = "gfx/interface/goals/BLR_Rehab_Jews.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Rehab_Jews.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Rehab_Jews.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Therapy_Of_Economy"
+        texturefile = "gfx/interface/goals/BLR_Therapy_Of_Economy.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Therapy_Of_Economy.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Therapy_Of_Economy.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Liberal_Market"
+        texturefile = "gfx/interface/goals/BLR_Liberal_Market.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Liberal_Market.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Liberal_Market.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Pension_Programms"
+        texturefile = "gfx/interface/goals/BLR_Pension_Programms.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Pension_Programms.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Pension_Programms.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Keep_Property_Rights"
+        texturefile = "gfx/interface/goals/BLR_Keep_Property_Rights.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Keep_Property_Rights.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Keep_Property_Rights.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
+        name = "GFX_BLR_Catholic_Education"
+        texturefile = "gfx/interface/goals/BLR_Catholic_Education.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Catholic_Education.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/BLR_Catholic_Education.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+	spriteType = {
         name = "GFX_BLR_Class_Coop"
         texturefile = "gfx/interface/goals/BLR_Class_Coop.png"
         effectFile = "gfx/FX/buttonstate.lua"

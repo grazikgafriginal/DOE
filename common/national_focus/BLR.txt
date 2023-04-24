@@ -580,7 +580,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Liberate_the_market
-        icon = GFX_
+        icon = GFX_BLR_Liberal_Market
         x = 3
         y = 12
         ai_will_do = {
@@ -685,7 +685,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Therapy_of_economy 
-        icon = GFX_
+        icon = GFX_BLR_Therapy_Of_Economy
         x = 1
         y = 14
         ai_will_do = {
@@ -706,7 +706,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Social_spendings 
-        icon = GFX_
+        icon = GFX_BLR_Soc_Spendings
         x = 3
         y = 14
         ai_will_do = {
@@ -727,7 +727,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Ocean_of_stability 
-        icon = GFX_
+        icon = GFX_BLR_Ocean_Of_Stability
         x = 5
         y = 14
         ai_will_do = {
@@ -749,7 +749,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Tax_cuts_for_civilian_industry
-        icon = GFX_
+        icon = GFX_BLR_Tax_Cuts_Civ
         x = 1
         y = 15
         ai_will_do = {
@@ -789,7 +789,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Buy_new_industrial_machinery
-        icon = GFX_
+        icon = GFX_generic_improve_industry
         x = 5
         y = 15
         ai_will_do = {
@@ -1023,7 +1023,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Social_reforms
-        icon = GFX_
+        icon = GFX_BLR_social_reforms
         x = 13
         y = 13
         ai_will_do = {
@@ -1042,7 +1042,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Expand_Pensions_System
-        icon = GFX_
+        icon = GFX_BLR_Pension_Programms
         x = 11
         y = 14
         ai_will_do = {
@@ -1277,7 +1277,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Pension_programmes
-        icon = GFX_
+        icon = GFX_BLR_Pension_Programms
         x = 21
         y = 12
         ai_will_do = {
@@ -1422,7 +1422,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Rehabilitate_Belarusian_Jews
-        icon = GFX_
+        icon = GFX_BLR_Rehab_Jews
         x = 23
         y = 13
         ai_will_do = {
@@ -1568,7 +1568,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Keep_the_property_rights 
-        icon = GFX_
+        icon = GFX_BLR_Keep_Property_Rights
         x = 29
         y = 13
         ai_will_do = {
@@ -1711,7 +1711,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Christian_Youth_clubs
-        icon = GFX_
+        icon = GFX_BLR_Catholic_Education
         x = 30
         y = 14
         ai_will_do = {
@@ -1794,7 +1794,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Crack_down_on_Communists
-        icon = GFX_
+        icon = GFX_BLR_Purge_Socialism
         x = 31
         y = 15
         ai_will_do = {
@@ -2321,7 +2321,7 @@ focus = {
 
     focus = {
         id = BLR_Militarism_on_the_rise
-        icon = GFX_
+        icon = GFX_BLR_Militarism_on_the_rise
         x = 23
         y = 7
         ai_will_do = {
@@ -2342,7 +2342,7 @@ focus = {
 
     focus = {
         id = BLR_Penalty_Battalions
-        icon = GFX_
+        icon = GFX_BLR_Penalty_Battalions
         x = 25
         y = 7
         ai_will_do = {
@@ -2362,7 +2362,7 @@ focus = {
 
     focus = {
         id = BLR_No_country_for_socialists
-        icon = GFX_
+        icon = GFX_BLR_No_Socialists
         x = 27
         y = 7
         ai_will_do = {
