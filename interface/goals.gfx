@@ -1,6 +1,16 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Reed_camps"
+		texturefile = "gfx/interface/goals/BLR_Reed_camps.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Volkswagen"
+		texturefile = "gfx/interface/goals/BLR_Volkswagen.png"			
+	}
+
+	spriteType = {
 		name = "GFX_generic_heavy_armour_german"
 		texturefile = "gfx/interface/goals/generic_heavy_armour_german.png"			
 	}

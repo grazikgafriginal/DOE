@@ -2799,7 +2799,7 @@ focus = {
 
     focus = {
         id = BLR_Secret_Re-education_camp_in_Zhodina
-        icon = GFX_
+        icon = GFX_BLR_Reed_camps
         x = 46
         y = 4
         ai_will_do = {
@@ -2942,7 +2942,7 @@ focus = {
 
     focus = {
         id = BLR_Create_franchise_with_Volkswagen 
-        icon = GFX_
+        icon = GFX_BLR_Volkswagen
         x = 40
         y = 4
         ai_will_do = {
