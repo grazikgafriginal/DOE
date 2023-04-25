@@ -383,3 +383,49 @@ BLR_education_reform = {
 		}
 	}
 }
+
+BLR_Border_War = {
+	BLR_Start_Clashes = {
+		cost = 15
+		days_remove = 10
+		#fire_only_once = yes
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			BLR = {
+				hidden_effect = {
+					load_oob = BLR_1936
+				}
+			}
+	
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 194
+					num_provinces = 2
+					on_win = belarus.14
+					on_lose = belarus.14
+					on_cancel = belarus.14
+	
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}
+				defender = {
+					state = 201
+					num_provinces = 1
+					#on_win = BLR_Border_War.1
+					#on_lose = BLR_Border_War.1
+					#on_cancel = BLR_Border_War.1
+				}
+			}
+	
+			194 = { set_border_war = yes }
+			201 = { set_border_war = yes }
+		}
+	}
+}
+
+

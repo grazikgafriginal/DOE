@@ -76,6 +76,11 @@ BLR_Myadzielski_Zavod_desc:0 "If we ever want to have a strong military that can
 BLR_P_Highway_2:0 "Build M4 "Mensk - Mahileú" highway"
 BLR_P_Highway_2_desc:0 "Another really important aspect in our industry, §9infrastructure§!, more precisly, §9highways§!. We need a fast way to transport our troops in emergencies in these important locations Mensk, Baranavichyi, Brest, Miadzel, Mihaleú. By supporthing the infrastructure in these places we provide a fast way for our troops to enter into §9battle if needed§!"
 
+BLR_Border_War:0 "Border War"
+BLR_Border_War_desc:0 "Smth here"
+
+BLR_Start_Clashes:0 "Start Clases With Russia"
+
 #BLR_Duma:0 "Gateaway shit"
 #BLR_Duma_desc:0 "Sheeesh"
 

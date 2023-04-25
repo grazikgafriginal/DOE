@@ -43,3 +43,10 @@ BLR_education_reform = {
     #visible_when_empty = yes
 }
 
+BLR_Border_War = {
+	icon = GFX_decision_category_border_war
+	picture = GFX_decision_cat_generic_mefo_bills
+	allowed = {	original_tag = BLR }
+	priority = 10
+}
+

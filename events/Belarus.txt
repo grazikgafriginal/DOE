@@ -322,3 +322,22 @@ country_event = {
 		ai_chance = { factor = 75 }
 	}
 }
+
+
+#######################################################
+######################BORDER WARS######################
+#######################################################
+
+country_event = {
+	id = belarus.14
+	title = "BLR Border Wars"
+	desc = belarus.14.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Alright"
+		ai_chance = { factor = 75 }
+	}
+}
