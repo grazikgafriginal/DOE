@@ -962,7 +962,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Establishment_of_a_currency_board
-        icon = GFX_
+        icon = GFX_BLR_Soc_Spendings
         x = 9
         y = 13
         ai_will_do = {
@@ -1002,7 +1002,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Public_Works_in_Salihorsk
-        icon = GFX_
+        icon = GFX_BLR_Public_Works
         x = 11
         y = 13
         ai_will_do = {
@@ -2752,7 +2752,7 @@ focus = {
 
     focus = {
         id = BLR_Military_education_from_the_youth
-        icon = GFX_
+        icon = GFX_BLR_Military_Education
         x = 46
         y = 2
         ai_will_do = {
@@ -2775,7 +2775,7 @@ focus = {
 
     focus = {
         id = BLR_Recruit_the_National_Security_Guard_from_the_Army
-        icon = GFX_
+        icon = GFX_BLR_Recruit_Guard
         x = 46
         y = 3
         ai_will_do = {
@@ -2963,7 +2963,7 @@ focus = {
 
     focus = {
         id = BLR_There_are_no_minorities
-        icon = GFX_
+        icon = GFX_BLR_No_Minorities
         x = 49
         y = 2
         ai_will_do = {
@@ -2988,7 +2988,7 @@ focus = {
 
     focus = {
         id = BLR_Miaza_asielasci
-        icon = GFX_
+        icon = GFX_BLR_Miazha_Aselasci
         x = 51
         y = 2
         ai_will_do = {
@@ -3032,7 +3032,7 @@ focus = {
 
     focus = {
         id = BLR_Choose_the_subjects_to_blame
-        icon = GFX_
+        icon = GFX_BLR_Subject
         x = 50
         y = 4
         ai_will_do = {

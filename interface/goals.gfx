@@ -1,6 +1,36 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Military_Education"
+		texturefile = "gfx/interface/goals/BLR_Military_Education.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Recruit_Guard"
+		texturefile = "gfx/interface/goals/BLR_Recruit_Guard.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Subject"
+		texturefile = "gfx/interface/goals/BLR_Subject.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_No_Minorities"
+		texturefile = "gfx/interface/goals/BLR_No_Minorities.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Miazha_Aselasci"
+		texturefile = "gfx/interface/goals/BLR_Miazha_Aselasci.png"			
+	}
+	
+	spriteType = {
+		name = "GFX_BLR_Public_Works"
+		texturefile = "gfx/interface/goals/BLR_Public_Works.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Propaganda_Through_radio"
 		texturefile = "gfx/interface/goals/BLR_Propaganda_Through_radio.png"			
 	}
