@@ -1,6 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Propaganda_Through_radio"
+		texturefile = "gfx/interface/goals/BLR_Propaganda_Through_radio.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Reed_camps"
 		texturefile = "gfx/interface/goals/BLR_Reed_camps.png"			
 	}

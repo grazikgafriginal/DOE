@@ -2837,7 +2837,7 @@ focus = {
 
     focus = {
         id = BLR_Propaganda_through_the_radio
-        icon = GFX_
+        icon = GFX_BLR_Propaganda_Through_radio
         x = 48
         y = 4
         ai_will_do = {
