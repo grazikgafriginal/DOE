@@ -926,7 +926,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Liberalise_Nasha_Niva
-        icon = GFX_
+        icon = GFX_BLR_Liberal_Newspaper
         x = 12
         y = 12
         ai_will_do = {
@@ -980,7 +980,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Yazep_Varonka_reforms 
-        icon = GFX_
+        icon = GFX_BLR_Dyktouka
         x = 8
         y = 14
         ai_will_do = {
@@ -1137,7 +1137,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Embryo_of_Socialism 
-        icon = GFX_
+        icon = GFX_BLR_Embryo_Of_Socialism
         x = 15
         y = 12
         ai_will_do = {
@@ -2568,7 +2568,7 @@ focus = {
 
     focus = {
         id = BLR_Pro_Government_meetings 
-        icon = GFX_
+        icon = GFX_BLR_Pro_Gov_Meetings
         x = 30
         y = 8
         ai_will_do = {
