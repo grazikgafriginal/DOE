@@ -1163,7 +1163,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Our_version_of_Socialism
-        icon = GFX_
+        icon = GFX_BLR_Our_Soc
         x = 17
         y = 12
         ai_will_do = {
