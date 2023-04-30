@@ -366,7 +366,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Leaning_towards_Belarusian_socialism 
-        icon = GFX_
+        icon = GFX_BLR_Leaning_to_Socialism
         x = 16
         y = 6
         ai_will_do = {
@@ -448,7 +448,7 @@ focus_tree = {
 
     focus = {
         id = BLR_All_BDR_meeting
-        icon = GFX_
+        icon = GFX_BLR_All_BDR_meeting
         x = 16
         y = 8
         ai_will_do = {
@@ -472,7 +472,7 @@ focus_tree = {
 
     focus = {
         id = BLR_The_Path_of_Democratic_Belarus
-        icon = GFX_
+        icon = GFX_BLR_Demo
         x = 16
         y = 9
         ai_will_do = {
@@ -2036,7 +2036,7 @@ focus_tree = {
 
     focus = {
      id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
-     icon = GFX_
+     icon = GFX_BLR_Bulak
      x = 25
      y = 0
      ai_will_do = {
@@ -2412,7 +2412,7 @@ focus = {
 
     focus = {
         id = BLR_Think_of_another_candidates 
-        icon = GFX_
+        icon = GFX_BLR_Lastouski
         x = 32
         y = 4
         ai_will_do = {

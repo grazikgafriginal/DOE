@@ -1,6 +1,26 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Demo"
+		texturefile = "gfx/interface/goals/BLR_Demo.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Leaning_to_Socialism"
+		texturefile = "gfx/interface/goals/BLR_Leaning_to_Socialism.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Lastouski"
+		texturefile = "gfx/interface/goals/BLR_Lastouski.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Bulak"
+		texturefile = "gfx/interface/goals/BLR_Bulak.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Our_Soc"
 		texturefile = "gfx/interface/goals/BLR_Our_Soc.png"			
 	}
