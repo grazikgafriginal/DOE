@@ -226,7 +226,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Allow_the_freedom_of_strikes_conscience_inviolability_of_person
-        icon = GFX_
+        icon = GFX_BLR_Freedom_Of_Strikes
         x = 16
         y = 4
         ai_will_do = {
@@ -260,7 +260,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
-        icon = GFX_
+        icon = GFX_BLR_Freedom_of_ppl
         x = 18
         y = 4
         ai_will_do = {
@@ -290,7 +290,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Limit_the_languages_in_the_country
-        icon = GFX_
+        icon = GFX_BLR_No_Languages
         x = 20
         y = 4
         ai_will_do = {

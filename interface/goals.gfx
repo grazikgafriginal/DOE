@@ -1,6 +1,21 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Freedom_of_ppl"
+		texturefile = "gfx/interface/goals/BLR_Freedom_of_ppl.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_No_Languages"
+		texturefile = "gfx/interface/goals/BLR_No_Languages.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Freedom_Of_Strikes"
+		texturefile = "gfx/interface/goals/BLR_Freedom_Of_Strikes.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Demo"
 		texturefile = "gfx/interface/goals/BLR_Demo.png"			
 	}
