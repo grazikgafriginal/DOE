@@ -1528,7 +1528,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Jewish_Schools ###########RETHINK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        icon = GFX_
+        icon = GFX_BLR_Jewish_schools
         x = 27
         y = 13
         ai_will_do = {
@@ -1588,7 +1588,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Importance_of_Yiddish
-        icon = GFX_
+        icon = GFX_BLR_Yiddish
         x = 28
         y = 14
         ai_will_do = {
@@ -3130,12 +3130,12 @@ focus = {
             focus = BLR_Creation_of_Belarussian_Armed_forces
         }
         mutually_exclusive ={
-            focus = BLR_Establish_Piéršy_Slúcki_polk_straĺcóŭ 
+            focus = BLR_Establish_Piersy_Slucki_polk_stralcou
         }
     }
 
     focus = {
-        id = BLR_Establish_Piéršy_Slúcki_polk_straĺcóŭ 
+        id = BLR_BLR_Establish_Piersy_Slucki_polk_stralcou 
         icon = GFX_
         x = 48
         y = 51
@@ -3174,7 +3174,7 @@ focus = {
         }
         prerequisite = {
             focus = BLR_Bet_on_the_milita
-            focus = BLR_Establish_Piéršy_Slúcki_polk_straĺcóŭ
+            focus = BLR_Establish_Piersy_Slucki_polk_stralcou
         }
     }
 
@@ -3195,7 +3195,7 @@ focus = {
         }
         prerequisite = {
             focus = BLR_Bet_on_the_milita
-            focus = BLR_Establish_Piéršy_Slúcki_polk_straĺcóŭ
+            focus = BLR_Establish_Piersy_Slucki_polk_stralcou
         }
     }
 
@@ -3216,7 +3216,7 @@ focus = {
         }
         prerequisite = {
             focus = BLR_Bet_on_the_milita
-            focus = BLR_Establish_Piéršy_Slúcki_polk_straĺcóŭ
+            focus = BLR_Establish_Piersy_Slucki_polk_stralcou
         }
     }
 
@@ -3353,7 +3353,7 @@ focus = {
     }
 
     focus = {
-        id = BLR_Bagam_Noči_Rouni
+        id = BLR_Bagam_Noci_Rouni
         icon = GFX_
         x = 50
         y = 54
@@ -3389,7 +3389,7 @@ focus = {
             add_stability= 0.05
         }
         prerequisite = {
-            focus = BLR_Bagam_Noči_Rouni
+            focus = BLR_Bagam_Noci_Rouni
         }
     }
 
@@ -3539,7 +3539,7 @@ focus = {
             add_stability= 0.05
         }
         prerequisite = {
-            focus = BLR_Bagam_Noči_Rouni
+            focus = BLR_Bagam_Noci_Rouni
         }
     }
 
@@ -3631,7 +3631,7 @@ focus = {
     }
 
     focus = {
-        id = BLR_Čornyja_vorany
+        id = BLR_Cornyja_vorany
         icon = GFX_
         x = 50
         y = 57
@@ -3666,7 +3666,7 @@ focus = {
             add_stability= 0.05
         }
         prerequisite = {
-            focus =  BLR_Čornyja_vorany
+            focus =  BLR_Cornyja_vorany
         }
     }
 

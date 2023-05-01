@@ -1,6 +1,16 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Jewish_schools"
+		texturefile = "gfx/interface/goals/BLR_Jewish_schools.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Yiddish"
+		texturefile = "gfx/interface/goals/BLR_Yiddish.png"			
+	}
+
+	spriteType = {
 		name = "GFX_generic_war_in_the_plate"
 		texturefile = "gfx/interface/goals/generic_war_in_the_plate.png"			
 	}
