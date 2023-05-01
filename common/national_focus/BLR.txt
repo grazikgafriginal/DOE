@@ -1401,7 +1401,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Austromarxist_Belarus
-        icon = GFX_
+        icon = GFX_BLR_austromarxism
         x = 24
         y = 12
         ai_will_do = {
@@ -1463,7 +1463,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Non_Zionism
-        icon = GFX_
+        icon = GFX_BLR_Non_Zionism
         x = 25
         y = 13
         ai_will_do = {
@@ -2808,7 +2808,7 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            resistance_target = -0.1
+            add_resistance_target = -0.1
             add_stability = -0.1
         }
         prerequisite = {
@@ -3073,7 +3073,7 @@ focus = {
 
     focus = {
         id = BLR_The_road_to_liberation_of_our_territory
-        icon = GFX_
+        icon = GFX_generic_war_in_the_plate
         x = 46
         y = 5
         ai_will_do = {

@@ -1,6 +1,21 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_generic_war_in_the_plate"
+		texturefile = "gfx/interface/goals/generic_war_in_the_plate.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Non_Zionism"
+		texturefile = "gfx/interface/goals/BLR_Non_Zionism.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_austromarxism"
+		texturefile = "gfx/interface/goals/BLR_austromarxism.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Freedom_of_ppl"
 		texturefile = "gfx/interface/goals/BLR_Freedom_of_ppl.png"			
 	}
