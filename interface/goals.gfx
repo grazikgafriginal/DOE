@@ -1,6 +1,31 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Suchaputnyja_vojski"
+		texturefile = "gfx/interface/goals/BLR_Suchaputnyja_vojski.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Start_the_intense_military_trainings_for_NCOs"
+		texturefile = "gfx/interface/goals/BLR_Start_the_intense_military_trainings_for_NCOs.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Artists_on_the_throne"
+		texturefile = "gfx/interface/goals/BLR_Artists_on_the_throne.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Kastounasc_bielaruskaj_nacyi"
+		texturefile = "gfx/interface/goals/BLR_Kastounasc_bielaruskaj_nacyi.png"			
+	}
+
+	spriteType = {
+		name = "GFX_BLR_Make_Minskyi_zavod_independent"
+		texturefile = "gfx/interface/goals/BLR_Make_Minskyi_zavod_independent.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Jewish_schools"
 		texturefile = "gfx/interface/goals/BLR_Jewish_schools.png"			
 	}
