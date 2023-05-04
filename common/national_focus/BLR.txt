@@ -842,7 +842,7 @@ focus_tree = {
 
     focus = {
         id = BLR_Division_in_the_democratic_forces
-        icon = GFX_
+        icon = GFX_BLR_Democratic_Division
         x = 16
         y = 10
         ai_will_do = {
