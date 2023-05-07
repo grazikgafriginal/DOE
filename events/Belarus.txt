@@ -4,12 +4,12 @@
 
 add_namespace = belarus
 
-# Ivan Sereda in the head of the state!
+# Jan Sierada in the head of the state!
 country_event = {
 	id = belarus.1
-	title = "Ivan Sereda in the head of the state!"
+	title = "Jan Sierada in the head of the state!"
 	desc = belarus.1.d
-	picture = GFX_report_event_japanese_transport_soldiers
+	picture = GFX_GFX_report_event_WHR_sojm_meeting
 	
 	is_triggered_only = yes
 	

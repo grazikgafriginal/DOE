@@ -18,6 +18,13 @@
 
  BLR_STANISLAV_BULAK_BALACHOWICZ_DESC:0 "Stanislaû Bulak-Balachovič was born on the 10th of February, 1883 born in the village of Turaû, in the Russian Empire which is now located in Belarus.\n\nOne of his nicknames became part of his surname. "Bulak" in his name means "cloud" or "a man who is driven by the wind".\n\nIn World War One after one of russian Grand Dukes address to the polish he joined the Russian Imperial Army, successfully leading multiple small units throughout the war and getting awarded multiple awards.\n\nBeing belarusian, he always despised the Russian Empire and the oppression of his people. Because of that, he always fought for belarusian independence and eventually achieved it.\n\nCalling him controversial would be an understatement. His people either view him as a brutal tyrant and a dictator, while other people view him as the hero of Belarus.\n\nBut only more time can tell if he is really the hero that his supporters call him"
 
+ BLR_ARKADZ_SMOLIC_DESC:0 "Like most Belarusians, he was born in the Minsk Province in the Russian Empire on the 29th of September, 1891. He was born into a priest family, but his most important thing in his life was learning and expanding his knowledge on everything he knew. \n\nBeing an important part of the Belarusian independence movement, he was always respected and was known as a hero who wants to educate his population. He is the one that wrote the "Geography of Belarus" which is still taught in Belarusian schools today. Working many jobs, studying in many schools he is a man of culture and knowledge. Being a social democrat he always wanted to make Belarus better and improve illiteracy, unemployment and much more problems that are like a plague currently in Belarus. All in all, a great patriot with a seemingly infinite amount of knowledge and love for his country. Being a teacher multiple times, he will teach the illiterate and Belarus on how to improve a nation to never seen before hights."
+
+ BLR_JAN_SIERADA_DESC:0 "Jan was born into the Russian Empire, in the Minsk Governorate, into a village called Zadźvieji, in 1879. Not much is known about his youth because information is a hard thing to get from 1879. He fought for the Russian Empire in the Russo-Japanese war in 1905 and 1906. He also got mobilized when the Great War broke out across Europe, fighting in the trenches like everyone else at the time.\n\nHe graduated from a veterinary school at Warsaw in 1903 and worked as a veterinarian in 1907-1911 while also being a teacher at an agricultural college.\n\nAs a socialist he was an active member of the Belarusian Socialist Assembly and in 1917, he was the chairman of the First All-Belarusian Congress. A man with great knowledge when it comes to agriculture, love for his country and socialism, he will turn Belarus a nation better for the workers that need help the most."
+
+ BLR_YAZEP_VARONKA_DESC:0 "Born in the Russian Empire into the Grodno Governorate on the 4th of April 1891.\n\nNot much is known about his early life, but its known that he studied at the Saint Petersburg State University from 1909 to 1914. In 1917, he joined the Belarusian Socialist Assembly and was the co-initiator of the First All-Belarusian Congress.\n\nHe was the first chairman of the People's Secretariat from 21th of February to May 1918. In the Russian Civil War, he got into contact with the lithuanian government at the outbreak of the Lithuanian-Soviet War and was appointed as the first prime minister of the Lithuanian Ministry for Belarusian Affairs, but was replaced by Dominik Semashko in May of 1920 simply because Semashko was more pro lithuanian.\n\nHe is a democrat and will bring freedom, equality and freedom of speech to all the people living in the great nation of Belarus. While doing all of this, he will give the people the right to choose their desired government, establishing free elections in Belarus."
+
+
 
 
 ######################################## FOCUS ########################################################
@@ -122,5 +129,12 @@ BLR_Finish_Cherviakou_reform:0 "§9Finish Cherviakou Reform§!"
 
 BLR_think_of_leaders_decisions:0 "Think of leaders"
 BLR_think_of_leaders_decisions_desc:0 "snth here"
+
+#########################################################################################################
+######################################## EVENTS #########################################################
+#########################################################################################################
+
+
+belarus.1.d:0 "Today, the party of the workers triumphed, Jan Sierada was elected as leader of the state with his party. His great political maneuvering skill proved useful in getting higher and higher in the realm of politics, finally accomplishing his destiny, being elected the leader of the country he was born in, to make a difference. Now, he will begin his transformation of the country into a state that cares about its people and provides them with help if needed, while helping the workers and all the low class citizens to earn a pay that they deserve."
 
 
