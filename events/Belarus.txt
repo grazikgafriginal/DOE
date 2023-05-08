@@ -184,7 +184,7 @@ country_event = {
 	id = belarus.4
 	title = "Declaration of The First Constituent Charter of BDR!"
 	desc = belarus.4.d
-	picture = GFX_report_event_japanese_transport_soldiers
+	picture = GFX_GFX_report_event_BLR_hramata
 	
 	is_triggered_only = yes
 	
@@ -199,7 +199,7 @@ country_event = {
 	id = belarus.5
 	title = "Yazep Varonka is the head of the state!"
 	desc = belarus.5.d
-	picture = GFX_report_event_japanese_transport_soldiers
+	picture = GFX_GFX_report_event_BLR_yazep_varonka
 	
 	is_triggered_only = yes
 	

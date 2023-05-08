@@ -3,4 +3,14 @@ spriteTypes = {
 		name = "GFX_GFX_report_event_WHR_sojm_meeting"
 		texturefile = "gfx/event_pictures/GFX_report_event_WHR_sojm_meeting.png"
 	}
+
+	spriteType = {
+		name = "GFX_GFX_report_event_BLR_hramata"
+		texturefile = "gfx/event_pictures/GFX_report_event_BLR_hramata.png"
+	}
+
+	spriteType = {
+		name = "GFX_GFX_report_event_BLR_yazep_varonka"
+		texturefile = "gfx/event_pictures/GFX_report_event_BLR_yazep_varonka.png"
+	}
 }

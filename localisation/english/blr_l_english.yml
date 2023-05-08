@@ -134,7 +134,19 @@ BLR_think_of_leaders_decisions_desc:0 "snth here"
 ######################################## EVENTS #########################################################
 #########################################################################################################
 
-
+# Jan Sierada in the head of the state!
 belarus.1.d:0 "Today, the party of the workers triumphed, Jan Sierada was elected as leader of the state with his party. His great political maneuvering skill proved useful in getting higher and higher in the realm of politics, finally accomplishing his destiny, being elected the leader of the country he was born in, to make a difference. Now, he will begin his transformation of the country into a state that cares about its people and provides them with help if needed, while helping the workers and all the low class citizens to earn a pay that they deserve."
+
+
+
+# Declaration of The First Constituent Charter of BDR
+belarus.4.d:0 "The current Belarusian government has declared the First Constituent Charter of the Belarusian Democratic Republic, ensuring the rights of all religions and all races, after all its a democracy now. They also established the state itself, with parts of their constitution and their Rada itself, that will ensure the democracy of Belarus itself. One step closer to freedom, on the road to become a model democracy of the European continent. Everybody is welcome, and they can now live out their life to the fullest, since they have the freedom they need to live it."
+
+
+
+#Yazep Varonka is the head of the state
+belarus.5.d:0 "Today, Yazep Varonka with his party of democrats was elected to lead Belarus into an age of freedom and equality. Yazep, who is known to help people in need to the best of his abilities, will try to turn his nation into a realm of freedom, equality, freedom of speech and elections to defend this democracy that Belarus has earned today.He will also establish the Rada BNR, a governing body of the Belarusian nation, a parliament, that will assure that Belarus will pass its laws in the most democratic way."
+
+
 
 
