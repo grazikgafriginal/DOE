@@ -93,7 +93,7 @@ characters={
 		}
 	}
 
-	BLR_Vincent_Hadlieŭski ={
+	BLR_Vincent_Hadlieŭski = {
 		name="Vincent Hadlieŭski"
 		portraits={
 			civilian={

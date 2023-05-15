@@ -9,7 +9,7 @@ country_event = {
 	id = belarus.1
 	title = "Jan Sierada in the head of the state!"
 	desc = belarus.1.d
-	picture = GFX_GFX_report_event_WHR_sojm_meeting
+	picture = GFX_GFX_report_event_jan_siereda
 	
 	is_triggered_only = yes
 	
@@ -24,6 +24,22 @@ country_event = {
 				traits = {
 				}
 			}
+		}
+
+		add_political_power = 0.05
+		add_popularity = {
+			ideology = communism
+			popularity = 0.02
+		}
+	}
+
+	option = { # Better dead than read
+		name = "Better dead than red"
+		ai_chance = { factor = 75 }
+		add_political_power = -0.05
+		add_popularity = {
+			ideology = communism
+			popularity = -0.02
 		}
 	}
 }
@@ -206,6 +222,16 @@ country_event = {
 	option = { # Lets see how far it goes 
 		name = "Let's see how democrats will act..."
 		ai_chance = { factor = 75 }
+
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.02
+		}
+	}
+
+	option = { # Lets see how far it goes 
+		name = "This is who we need!"
+		ai_chance = { factor = 75 }
 	}
 }
 
@@ -311,17 +337,118 @@ country_event = {
 
 country_event = {
 	id = belarus.13
-	title = "BLR DEMO"
+	title = "All BDR Meeting"
 	desc = belarus.13.d
 	picture = GFX_report_event_japanese_transport_soldiers
 
 	is_triggered_only = yes
 	
 	option = { # Lets see how far it goes 
-		name = "yep"
+		name = "Real Democracy"
 		ai_chance = { factor = 75 }
 	}
 }
+
+country_event = {
+	id = belarus.14
+	title = "Discussion of the Political Future"
+	desc = belarus.14.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "BSDP"
+		ai_chance = { factor = 75 }
+
+        #promote_leader = BLR_Arkadz_Smolic
+        #retire_leader = BLR_Yazep_Varonka
+
+		#add_country_leader_role = {
+		#	character = BLR_Arkadz_Smolic
+		#	promote_leader = yes
+		#	country_leader = {
+		#		ideology = social_democracy_ideology
+		#		expire = "1965.1.1"
+		#		traits = { 
+		#		}
+		#	}
+		#}
+
+		set_politics = {
+			ruling_party = social_democracy
+			elections_allowed = yes
+		}
+	}
+
+	option = { # Lets see how far it goes 
+		name = "BPSR"
+		ai_chance = { factor = 75 }
+
+		#add_country_leader_role = {
+		#	character = BLR_Tamas_Hryb
+		#	promote_leader = yes
+		#	country_leader = {
+		#		ideology = social_revolutionism_ideology
+		#		expire = "1965.1.1"
+		#		traits = { 
+		#		}
+		#	}
+		#}
+
+		set_politics = {
+			ruling_party = social_revolutionism
+			elections_allowed = yes
+		}
+	}
+
+	option = { # Lets see how far it goes 
+		name = "Bund"
+		ai_chance = { factor = 75 }
+
+		#add_country_leader_role = {
+		##	character = BLR_Henryk_Ehrlich
+		#	promote_leader = yes
+		#	country_leader = {
+		#		ideology = bundism_ideology
+		#		expire = "1965.1.1"
+		#		traits = { 
+		#		}
+		#	}
+		#}
+
+		set_politics = {
+			ruling_party = bundism
+			elections_allowed = yes
+		}
+	}
+
+	option = { # Lets see how far it goes 
+		name = "BNP"
+		ai_chance = { factor = 75 }
+	
+		#add_country_leader_role = {
+		#	character = BLR_Vincent_Hadlieŭski
+		#	promote_leader = yes
+		#	country_leader = {
+		#		ideology = christian_democracy
+		#		expire = "1965.1.1"
+		#		traits = { 
+		#		}
+		#	}
+		#}
+
+		set_politics = {
+			ruling_party = anticommunism
+			elections_allowed = yes
+		}
+	}
+	
+}
+
+
+
+
 
 
 #######################################################

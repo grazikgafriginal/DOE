@@ -25,9 +25,6 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        mutually_exclusive = {
-            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
-        }
 
         completion_reward = {
 
@@ -855,15 +852,20 @@ focus_tree = {
             add_war_support = -0.1
             add_political_power = -50
 
-            add_country_leader_role = {
-                character = BLR_Arkadz_Smolic
-                promote_leader = yes
-                country_leader = {
-                    ideology = social_democracy_ideology
-                    expire = "1965.1.1"
-                    traits = { 
-                    }
-                }
+            #add_country_leader_role = {
+            #    character = BLR_Arkadz_Smolic
+            #    promote_leader = yes
+            #    country_leader = {
+            #        ideology = social_democracy_ideology
+            #        expire = "1965.1.1"
+           #         traits = { 
+            #        }
+           #     }
+            #}
+
+            country_event = {
+                id = belarus.14
+                days = 2
             }
 
         }
@@ -885,14 +887,20 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-            set_politics = {
-                ruling_party = social_democracy
-                elections_allowed = yes
+        #completion_reward = {
+        #    set_politics = {
+        #        ruling_party = social_democracy
+        #        elections_allowed = yes
+        #    }
+        #}
+        available = {
+            has_country_leader = {
+                name = "Arkadź Smolič"
+                ruling_only = yes
             }
-            #promote_leader = BLR_Arkadz_Smolic
-            #retire_leader = BLR_Yazep_Varonka
         }
+
+
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
         }
@@ -1119,12 +1127,21 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-            set_politics = {
-                ruling_party = social_revolutionism
-                elections_allowed = yes
+        #completion_reward = {
+       #    set_politics = {
+       #         ruling_party = social_revolutionism
+        #        elections_allowed = yes
+        #    }
+       # }
+
+        available = {
+            has_country_leader = {
+                name = "Tamaš Hryb"
+                ruling_only = yes
             }
         }
+
+       
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
         }
@@ -1383,10 +1400,17 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-            set_politics = {
-                ruling_party = bundism
-                elections_allowed = yes
+        #completion_reward = {
+        #    set_politics = {
+        #        ruling_party = bundism
+        #        elections_allowed = yes
+        #    }
+        #}
+
+        available = {
+            has_country_leader = {
+                name = "Henryk Ehrlich"
+                ruling_only = yes
             }
         }
         prerequisite = {
@@ -1641,12 +1665,20 @@ focus_tree = {
         }
         cost = 2
         available_if_capitulated = yes
-        completion_reward = {
-            set_politics = {
-                ruling_party = anticommunism
-                elections_allowed = yes
+        #completion_reward = {
+        #    set_politics = {
+        #        ruling_party = anticommunism
+        #        elections_allowed = yes
+            #}
+        #}
+
+        available = {
+            has_country_leader = {
+                name = "Vincent Hadlieŭski"
+                ruling_only = yes
             }
         }
+
         prerequisite = {
             focus = BLR_Division_in_the_democratic_forces
         }
@@ -2029,39 +2061,16 @@ focus_tree = {
             focus = BLR_Hours_working_day
         }
     }
+
+    ################################################################
+    ###### Stanislau and Lastouski
+    ################################################################
     
-    ################################################################
-    ###### MILITARY JUNTA as the leader 
-    ################################################################
-
     focus = {
-     id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
-     icon = GFX_BLR_Bulak
-     x = 25
-     y = 0
-     ai_will_do = {
-     	factor = 50
-     }
-     cost = 2
-     available_if_capitulated = yes
-     completion_reward = {
-        set_politics = {
-            ruling_party = authoritarian
-            elections_allowed = no
-        }
-        }
-     mutually_exclusive = {
-       focus = BLR_The_road_to_Belarusian_Democratic_Republic
-        }
-
-    }
-
-     
-      focus = {
         id = BLR_Enjail_the_opposition
         icon = GFX_BLR_Enjail_the_opposition
         x = 23
-        y = 1
+        y = 0
         ai_will_do = {
             factor = 50
         }
@@ -2071,20 +2080,13 @@ focus_tree = {
             add_stability = -0.05
             recruitable_population = -0.05
         }
-        prerequisite = {
-            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
-        }
-	mutually_exclusive = {
-            focus = BLR_Set_the_curfew_hours
-            focus = BLR_Control_the_newspapers_and_radio_stations
-        }
     }
-    
-      focus = {
+
+    focus = {
         id = BLR_Control_the_newspapers_and_radio_stations
         icon = GFX_BLR_Control_the_radio
         x = 25
-        y = 1
+        y = 0
         ai_will_do = {
             factor = 50
         }
@@ -2095,21 +2097,13 @@ focus_tree = {
             add_political_power = 25
 
         }
-        prerequisite = {
-            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
-        }
-	mutually_exclusive = {
-            focus = BLR_Enjail_the_opposition
-            focus = BLR_Set_the_curfew_hours
-        }
     }
 
-    
-        focus = {
+    focus = {
         id = BLR_Set_the_curfew_hours
         icon = GFX_BLR_Set_the_curfew_hours
         x = 27
-        y = 1
+        y = 0
         ai_will_do = {
             factor = 50
         }
@@ -2120,21 +2114,13 @@ focus_tree = {
             add_political_power = 75
             political_power_gain = -0.02
         }
-        prerequisite = {
-            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
-        }
-	mutually_exclusive = {
-            focus = BLR_Enjail_the_opposition
-            focus = BLR_Control_the_newspapers_and_radio_stations
-        }
     }
 
-    
-       focus = {
+    focus = {
         id = BLR_Create_national_security_services
         icon = GFX_BLR_National_Security
         x = 24
-        y = 2
+        y = 1
         ai_will_do = {
             factor = 50
         }
@@ -2145,18 +2131,20 @@ focus_tree = {
             add_political_power = 50
         }
         prerequisite = {
-	    focus = BLR_Enjail_the_opposition
+            focus = BLR_Enjail_the_opposition
             focus = BLR_Set_the_curfew_hours
             focus = BLR_Control_the_newspapers_and_radio_stations
         }
+        mutually_exclusive = {
+            focus = BLR_Popularise_the_Military_Education_among_the_youth
+        }
     }
 
-
- 	focus = {
+    focus = {
         id = BLR_Popularise_the_Military_Education_among_the_youth
         icon = GFX_BLR_Pupolarise_Military
         x = 26
-        y = 2
+        y = 1
         ai_will_do = {
             factor = 50
         }
@@ -2169,37 +2157,90 @@ focus_tree = {
             }
         }
         prerequisite = {
-	    focus = BLR_Enjail_the_opposition
+            focus = BLR_Enjail_the_opposition
             focus = BLR_Set_the_curfew_hours
             focus = BLR_Control_the_newspapers_and_radio_stations
         }
+
+        mutually_exclusive = {
+            focus = BLR_Create_national_security_services
+        }
     }
 
-focus = {
-        id = BLR_Political_reforms
-        icon = GFX_BLR_Reforms
+    focus = {
+        id = BLR_Reform_the_current_Government 
+        icon = GFX_BLR_Reform_the_Government
         x = 25
-        y = 3
+        y = 2
         ai_will_do = {
-            factor = 50
+        factor = 50
         }
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_stability =  0.05
             add_political_power = 50
+            add_stability = -0.05
+            political_power_gain = -0.01
         }
         prerequisite = {
-	    focus = BLR_Popularise_the_Military_Education_among_the_youth
+            focus = BLR_Popularise_the_Military_Education_among_the_youth
+        }
+
+        prerequisite = {
             focus = BLR_Create_national_security_services
         }
-}
+    }
 
-focus = {
+    focus = {
+        id = BLR_Nut_tightening
+        icon = GFX_BLR_Nut_tightening
+        x = 25
+        y = 3
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 50
+
+        }
+        prerequisite = {
+            focus = BLR_Reform_the_current_Government
+        }
+    }
+
+    focus = {
+        id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+        icon = GFX_BLR_Bulak
+        x = 23
+        y = 4
+        ai_will_do = {
+           factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+           set_politics = {
+               ruling_party = authoritarian
+               elections_allowed = no
+            }
+        }
+
+        mutually_exclusive = {
+            focus = BLR_Think_of_another_candidates
+        }
+
+        prerequisite = {
+            focus = BLR_Nut_tightening
+        }
+    }
+
+    focus = {
         id = BLR_The_militarisation_of_the_politics
         icon = GFX_BLR_Militarise_The_Politics
-        x = 24
-        y = 4
+        x = 23
+        y = 5
         ai_will_do = {
             factor = 50
         }
@@ -2209,82 +2250,14 @@ focus = {
             add_war_support = 0.05
         }
         prerequisite = {
-	    focus = BLR_Political_reforms
-        }
-}
-focus = {
-        id = BLR_The_one_man_in_charge
-        icon = GFX_
-        x = 26
-        y = 4
-        ai_will_do = {
-            factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            country_event = {
-                id = belarus.3
-                days = 1
-            }
-        }
-        prerequisite = {
-	    focus = BLR_Political_reforms
-        }
-
-        mutually_exclusive = {
-            #focus = BLR_Think_of_another_candidates
-        }
-}
-
-    focus = {
-        id = BLR_Expand_the_Industry_for_the_Military_needs
-        icon = GFX_BLR_Military_Mobilisation
-        x = 25
-        y = 5
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            random_owned_controlled_state = {
-                add_building_construction = {
-                    type = arms_factory
-                    level = 1
-                    instant_build = yes
-                }
-                add_extra_state_shared_building_slots = 1
-            }
-
-            random_owned_controlled_state = {
-                add_building_construction = {
-                    type = arms_factory
-                    level = 1
-                    instant_build = yes
-                }
-                add_extra_state_shared_building_slots = 1
-            }
-
-            random_owned_controlled_state = {
-                add_building_construction = {
-                    type = arms_factory
-                    level = 1
-                    instant_build = yes
-                }
-                add_extra_state_shared_building_slots = 1
-            }
-        }
-        prerequisite = {
-        focus = BLR_The_militarisation_of_the_politics
-        focus = BLR_The_one_man_in_charge
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
         }
     }
 
     focus = {
         id = BLR_Strengthen_the_States_Security
         icon = GFX_authority
-        x = 24
+        x = 22
         y = 6
         ai_will_do = {
         factor = 50
@@ -2297,14 +2270,18 @@ focus = {
             add_political_power = 75
         }
         prerequisite = {
-        focus = BLR_Expand_the_Industry_for_the_Military_needs
+            focus = BLR_The_militarisation_of_the_politics
+        }
+
+        mutually_exclusive = {
+            focus = BLR_Expand_the_Mobilisation
         }
     }
 
     focus = {
         id = BLR_Expand_the_Mobilisation
         icon = GFX_BLR_Expand_Mobilisation
-        x = 26
+        x = 24
         y = 6
         ai_will_do = {
         factor = 50
@@ -2315,38 +2292,21 @@ focus = {
             recruitable_population = 0.05
         }
         prerequisite = {
-        focus = BLR_Expand_the_Industry_for_the_Military_needs
+            focus = BLR_The_militarisation_of_the_politics
         }
-    }
 
-    focus = {
-        id = BLR_Militarism_on_the_rise
-        icon = GFX_BLR_Militarism_on_the_rise
-        x = 23
-        y = 7
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_war_support = 0.15
-            army_attack_factor = 0.05
-            army_defence_factor = 0.05
-        }
-        prerequisite = {
-        focus = BLR_Strengthen_the_States_Security
-        focus = BLR_Expand_the_Mobilisation
+        mutually_exclusive = {
+            focus = BLR_Strengthen_the_States_Security
         }
     }
 
     focus = {
         id = BLR_Penalty_Battalions
         icon = GFX_BLR_Penalty_Battalions
-        x = 25
+        x = 23
         y = 7
         ai_will_do = {
-        factor = 50
+            factor = 50
         }
         cost = 2
         available_if_capitulated = yes
@@ -2355,65 +2315,15 @@ focus = {
             industry_repair_factor = 0.1
         }
         prerequisite = {
-        focus = BLR_Strengthen_the_States_Security
-        focus = BLR_Expand_the_Mobilisation
+            focus = BLR_Strengthen_the_States_Security
+            focus = BLR_Expand_the_Mobilisation
         }
     }
-
-    focus = {
-        id = BLR_No_country_for_socialists
-        icon = GFX_BLR_No_Socialists
-        x = 27
-        y = 7
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 50
-
-			add_stability = 0.05
-
-			add_popularity = {
-
-				ideology = communism
-
-				popularity = -0.10
-
-			}
-
-			add_popularity = {
-
-				ideology = social_revolutionism
-
-				popularity = -0.10
-
-			}
-
-			add_popularity = {
-
-				ideology = bundism
-
-				popularity = -0.10
-
-			}
-
-		}
-        prerequisite = {
-        focus = BLR_Strengthen_the_States_Security
-        focus = BLR_Expand_the_Mobilisation
-        }
-    }
-
-    ################################################################
-    ###### Lastouski as the leader 
-    ################################################################
 
     focus = {
         id = BLR_Think_of_another_candidates 
         icon = GFX_BLR_Lastouski
-        x = 32
+        x = 27
         y = 4
         ai_will_do = {
         factor = 50
@@ -2426,29 +2336,75 @@ focus = {
                 elections_allowed = no
             }
         }
-        available = {
-            OR = {
-                BLR_The_one_man_in_charge = yes
-            }
-
-            has_country_leader = {
-                name = "Stanislaŭ Bulak-Balachovič"
-                ruling_only = yes
-            }
-        }
         prerequisite = {
+            focus = BLR_Nut_tightening
         }
 
         mutually_exclusive = {
-            #focus = BLR_The_one_man_in_charge
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
+        }
+    }
+
+    focus = {
+        id = BLR_Destroy_the_class
+        icon = GFX_BLR_Destroy_Class
+        x = 27
+        y = 5 
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 75
+            political_power_gain = -0.01
+        }
+        prerequisite = {
+            focus = BLR_Think_of_another_candidates
+        }
+    }
+
+    focus = {
+        id = BLR_Take_under_control_the_education
+        icon = GFX_BLR_Take_Edu_Under_Control
+        x = 26
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_ideas = BLR_Nationalist_Edu
+        }
+        prerequisite = {
+            focus = BLR_Destroy_the_class
+        }
+    }
+
+    focus = {
+        id = BLR_Create_Kryvian_concept 
+        icon = GFX_
+        x = 28
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 100
+        }
+        prerequisite = {
+            focus = BLR_Destroy_the_class
         }
     }
 
     focus = {
         id = BLR_The_rebirth_of_our_nation
         icon = GFX_BLR_The_rebirth_of_nation
-        x = 31
-        y = 5
+        x = 27
+        y = 7
         ai_will_do = {
         factor = 50
         }
@@ -2463,34 +2419,16 @@ focus = {
             }
         }
         prerequisite = {
-            focus = BLR_Think_of_another_candidates
-        }
-    }
-
-    focus = {
-        id = BLR_Destroy_the_class
-        icon = GFX_BLR_Destroy_Class
-        x = 33
-        y = 5
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 75
-            political_power_gain = -0.01
-        }
-        prerequisite = {
-            focus = BLR_Think_of_another_candidates
+            focus = BLR_Take_under_control_the_education
+            focus = BLR_Create_Kryvian_concept
         }
     }
 
     focus = {
         id = BLR_Layer_and_Centralise_the_decisions
         icon = GFX_BLR_Centralise_the_decisions
-        x = 30
-        y = 6
+        x = 25
+        y = 8
         ai_will_do = {
         factor = 50
         }
@@ -2500,148 +2438,15 @@ focus = {
             add_political_power = 35
         }
         prerequisite = {
-        focus = BLR_The_rebirth_of_our_nation
-        focus = BLR_Destroy_the_class
-        }
-    }
-
-    focus = {
-        id = BLR_Reform_the_current_Government 
-        icon = GFX_BLR_Reform_the_Government
-        x = 32
-        y = 6
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 50
-            add_stability = -0.05
-            political_power_gain = -0.01
-        }
-        prerequisite = {
             focus = BLR_The_rebirth_of_our_nation
-            focus = BLR_Destroy_the_class
+            focus = BLR_Penalty_Battalions
         }
     }
 
     focus = {
-        id = BLR_Create_Kryvian_concept 
-        icon = GFX_
-        x = 34
-        y = 6
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 100
-        }
-        prerequisite = {
-            focus = BLR_The_rebirth_of_our_nation
-            focus = BLR_Destroy_the_class
-        }
-    }
-
-    focus = {
-        id = BLR_Nut_tightening
-        icon = GFX_BLR_Nut_tightening
-        x = 32
-        y = 7
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 50
-
-        }
-        prerequisite = {
-            focus = BLR_Layer_and_Centralise_the_decisions
-            focus = BLR_Reform_the_current_Government
-            focus = BLR_Create_Kryvian_concept
-        }
-    }
-
-    focus = {
-        id = BLR_Pro_Government_meetings 
-        icon = GFX_BLR_Pro_Gov_Meetings
-        x = 30
-        y = 8
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_stability = 0.05
-            add_war_support = -0.1
-
-            add_popularity = {
-                ideology = fascism
-                popularity = 0.05
-            }
-        }
-        prerequisite = {
-        focus = BLR_Nut_tightening
-        }
-        mutually_exclusive = {
-            focus = BLR_Reform_the_Stanislaus_National_Police
-            focus = BLR_Take_under_control_the_education
-        }
-    }
-
-    focus = {
-        id = BLR_Reform_the_Stanislaus_National_Police
-        icon = GFX_BLR_Reform_Police
-        x = 32
-        y = 8
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-    
-        }
-        prerequisite = {
-        focus = BLR_Nut_tightening
-        }
-        mutually_exclusive = {
-            focus = BLR_Pro_Government_meetings
-            focus = BLR_Take_under_control_the_education
-        }
-    }
-
-    focus = {
-        id = BLR_Take_under_control_the_education
-        icon = GFX_BLR_Take_Edu_Under_Control
-        x = 34
-        y = 8
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_ideas = BLR_Nationalist_Edu
-        }
-        prerequisite = {
-        focus = BLR_Nut_tightening
-        }
-        mutually_exclusive = {
-            focus = BLR_Reform_the_Stanislaus_National_Police
-            focus = BLR_Pro_Government_meetings
-        }
-    }
-
-    focus = {
-        id = BLR_Raise_Of_Kryvia
-        icon = GFX_
-        x = 32
+        id = BLR_No_country_for_socialists
+        icon = GFX_BLR_No_Socialists
+        x = 25
         y = 9
         ai_will_do = {
         factor = 50
@@ -2649,14 +2454,41 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            add_political_power = 100
+            add_political_power = 50
+
+            add_stability = 0.05
+
+            add_popularity = {
+
+                ideology = communism
+
+                popularity = -0.10
+
+            }
+
+            add_popularity = {
+
+                ideology = social_revolutionism
+
+                popularity = -0.10
+
+            }
+
+            add_popularity = {
+
+                ideology = bundism
+
+                popularity = -0.10
+
+            }
+
         }
         prerequisite = {
-        focus = BLR_Take_under_control_the_education
-        focus = BLR_Reform_the_Stanislaus_National_Police
-        focus = BLR_Pro_Government_meetings
+            focus = BLR_Layer_and_Centralise_the_decisions
+            focus = BLR_Penalty_Battalions
         }
     }
+
 
     ################################################################
     ###### NazSoc as the leader 

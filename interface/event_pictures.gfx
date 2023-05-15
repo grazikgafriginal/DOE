@@ -13,4 +13,9 @@ spriteTypes = {
 		name = "GFX_GFX_report_event_BLR_yazep_varonka"
 		texturefile = "gfx/event_pictures/GFX_report_event_BLR_yazep_varonka.png"
 	}
+
+	spriteType = {
+		name = "GFX_GFX_report_event_jan_siereda"
+		texturefile = "gfx/event_pictures/GFX_report_event_jan_siereda.png"
+	}
 }

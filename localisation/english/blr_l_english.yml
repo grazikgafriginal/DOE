@@ -95,9 +95,9 @@ BLR_Start_Clashes:0 "Start Clases With Russia"
 ##### CHERVIAKOU REFORM #########
 
 BLR_education_reform:0 "§9Smolič Education Reform§!"
-BLR_education_reform_desc:0 "Our country is in one of the worst situations in Europe concerning illiteracy. Most of our population can't read or can't count till ten. §9Arkadź Smolič§! has offered his help in a program called §9"Narodnaja Asvieta"§!. His program seems promising and we don't have more options so we need to trust the professionals."
+BLR_education_reform_desc:0 "Our country is in one of the worst situations in Europe concerning illiteracy. Most of our population can't read or can't count till ten. §9Arkadź Smolič§! has offered his help in a program called §9Narodnaja Asvieta§!. His program seems promising and we don't have more options so we need to trust the professionals. \n\n§CEducation Reform Success§!: [BLR_Edu_Reform_Success_Status] \n\n§CEducation Reform Popularity§!: [BLR_Edu_Reform_Popularity_Status]"
 
-#Current Population Support:§! §R[?stability%%+]§!
+adds_to_reform_tt:0 "loh"
 
 BLR_Build_Schools_Mensk:0 "Build School in Mensk"
 BLR_Build_Schools_Mensk_desc:0 ""
@@ -122,7 +122,19 @@ BLR_Build_Uni_Viciebsk:0 "Build Universities in Viciebsk"
 BLR_Finish_Cherviakou_reform:0 "§9Finish Cherviakou Reform§!"
 
 
+ BLR_Edu_Reform_Success_Status_5:0 "§GExtremely Effective§!"
+ BLR_Edu_Reform_Success_Status_4:0 "§GVery Effective§!"
+ BLR_Edu_Reform_Success_Status_3:0 "§GEffective§!"
+ BLR_Edu_Reform_Success_Status_2:0 "§YMildly Effective§!"
+ BLR_Edu_Reform_Success_Status_1:0 "§RIneffective§!"
+ BLR_Edu_Reform_Success_Status_0:0 "§RDisastrous§!"
 
+ BLR_Edu_Reform_Popularity_Status_5:0 "§GExtremely Popular§!"
+ BLR_Edu_Reform_Popularity_Status_4:0 "§GVery Popular§!"
+ BLR_Edu_Reform_Popularity_Status_3:0 "§GPopular§!"
+ BLR_Edu_Reform_Popularity_Status_2:0 "§YUncontroversial§!"
+ BLR_Edu_Reform_Popularity_Status_1:0 "§RUnpopular§!" 
+ BLR_Edu_Reform_Popularity_Status_0:0 "§RDisastrous§!"
 
 
 
