@@ -2079,6 +2079,11 @@ focus_tree = {
         completion_reward = {
             add_stability = -0.05
             recruitable_population = -0.05
+
+            country_event = {
+                id = belarus.15
+                days = 1
+            }
         }
     }
 
@@ -2334,6 +2339,13 @@ focus_tree = {
             set_politics = {
                 ruling_party = fascism
                 elections_allowed = no
+            }
+        }
+
+        available = {
+            has_country_leader = {
+                name = "Vaclaŭ Lastoŭski"
+                ruling_only = yes
             }
         }
         prerequisite = {

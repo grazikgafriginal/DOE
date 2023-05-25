@@ -50,4 +50,14 @@ BLR_Border_War = {
 	priority = 10
 }
 
+BLR_Consittution = {
+    #icon = 
+    #picture = 
+    allowed = { original_tag = BLR }
+    visible = {
+        has_completed_focus = BLR_Division_in_the_democratic_forces
+    }
+    priority = 13
+}
+
 

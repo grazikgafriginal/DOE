@@ -446,6 +446,48 @@ country_event = {
 	
 }
 
+country_event = {
+	id = belarus.15
+	title = "Massive meetings erupted in Mensk!"
+	desc = belarus_purge.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Let them protest..."
+	}
+
+	option = {
+		name = "Use police force!"
+
+		country_event = {
+			id = belarus.16
+			days = 2
+		}
+	}
+}
+
+
+country_event = {
+	id = belarus.16
+	title = "15 people arrested"
+	desc = belarus_purge.2.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Release them!"
+	}
+
+	option = {
+		name = "Sentence them!"
+
+		retire_character = BLR_Vaclau_Lastouski
+	}
+}
+
 
 
 
@@ -457,7 +499,7 @@ country_event = {
 
 country_event = {
 	id = belarus.14
-	title = "BLR Border Wars"
+	title = "Border Wars"
 	desc = belarus.14.d
 	picture = GFX_report_event_japanese_transport_soldiers
 

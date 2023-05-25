@@ -243,4 +243,220 @@ characters={
 		}
 	}
 
+
+	##################################################################################################################
+	###################################################### GENERALS ##################################################
+	##################################################################################################################
+
+
+	BLR_stanislav_bulak_balachowicz = {
+		name = "Stanislaŭ Bulak-Balachovič"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Bulack_Balachowicz.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard cavalry_officer media_personality }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	BLR_michal_vituska = {
+		name = "Michal Vituška"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Michal_Vituška.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer media_personality }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	BLR_kanstancin_jezawitau = {
+		name = "Kastuś Jezavitaŭ"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Kanstancin_Jezawitau.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer media_personality }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+
+	BLR_kyprian_kandratovich = {
+		name = "Kipryjan Kandratovič"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Kyprian_Kandratovich.png"
+				small = "GFX_idea_BLR_int_kiprijan_kandratovic_des"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			allowed = {
+				original_tag = BLR
+			}
+			cost = 150
+			slot = security_minister
+			available = {
+				NOT = {
+					has_completed_focus = BLR_one_way_or_another
+				}
+			}
+
+			traits = {
+				security_minister
+				sec_back_stabber
+			}
+		}
+		advisor = {
+			allowed = {
+			    original_tag = BLR
+			}
+			cost = 150
+			slot = high_command
+			available = {
+	    
+			}
+			idea_token = BLR_staff_kipryjan_kandratavic 
+			traits = {
+			    cos_school_of_mass_combat
+			}
+		}
+	}
+	
+	BLR_hassan_kanapatsky = {
+		name = "Chasan Kanapacki"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Kanapatsky.png"
+				small = "gfx/interface/ministers/BLR/BLR_theo_hassan_kanapatsky.tga"
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor = {
+			allowed = {
+				original_tag = BLR
+			}
+			cost = 150
+			slot = theorist
+			available = {
+			}
+			idea_token = BLR_theo_hassan_kanapatsky 
+			traits = {
+				victory_through_airpower
+			}
+		}
+	}
+	
+	BLR_boris_permikin = {
+		name = "Barys Piermykin"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Permikin.png"
+				small = "GFX_idea_BLR_army_boris_permikin"
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			allowed = {
+			    original_tag = BLR
+			}
+			cost = 150
+			slot = army_chief
+			available = {
+	    
+			}
+			idea_token = BLR_army_boris_permikin
+			traits = {
+			    carm_elastic_defence_doctrine
+			}
+		}
+	}
+	BLR_mikalay_dzyamidau = {
+		name = "Mikalaj Džyjamidaŭ"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Mikołaj_Demidow.png"
+				small = "gfx/interface/ministers/BLR/BLR_army_mikalay_dziamidau.tga"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			allowed = {
+			    original_tag = BLR
+			}
+			cost = 150
+			slot = army_chief
+			available = {
+	    
+			}
+			idea_token = BLR_army_mikalay_dziamidau
+			traits = {
+			    carm_guns_and_butter_doctrine
+			}
+		}
+	}
+	BLR_michail_yaroslavtsev = {
+		name = "Michail Yaroslavtsev"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_Yaroslavtsev.png"
+			}
+		}
+		corps_commander = {
+			traits = { war_hero }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
 }
