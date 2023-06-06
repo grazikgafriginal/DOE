@@ -1,6 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_BLR_Coup"
+		texturefile = "gfx/interface/goals/BLR_Coup.png"			
+	}
+
+	spriteType = {
 		name = "GFX_BLR_Democratic_Division"
 		texturefile = "gfx/interface/goals/BLR_Democratic_Division.png"			
 	}

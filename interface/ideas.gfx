@@ -1,5 +1,10 @@
 spriteTypes = {	
 
+	spriteType = {
+		name = "BLR_Idea_Puppet_Rada"
+		textureFile = "gfx/interface/ideas/BLR_Idea_Puppet_Rada"
+	}
+
 	SpriteType = {
 		name = "GFX_idea_BLR_education_issue"
 		texturefile = "gfx/interface/ideas/BLR_education_issue.png"

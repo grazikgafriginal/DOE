@@ -169,5 +169,63 @@ ideas = {
 			}
 		}
 
+		BLR_Recreate_Constitution = {
+			#picture = 
+			allowed = { tag = BLR }
+			modifier = {
+				stability_factor = 0.05
+				war_stability_factor = 0.25
+				political_power_factor = 0.20
+			}
+		}
+
+		BLR_Party_attacks = {
+			picture = death_men
+			allowed = { tag = BLR }
+			modifier = {
+				stability_factor = 0.15
+				democratic_drift = 0.10
+				social_democrat_drift = -0.03
+				communism_drift = -0.03
+				bundism_drift = -0.03
+				social_revolutionism_drift = -0.03
+				political_power_gain = 0.15
+			}
+		}
+
+		BLR_Puppet_Rada = {
+			picture = BLR_Idea_Puppet_Rada
+			allowed = { tag = BLR }
+			modifier = {
+				stability_factor = 0.15
+				authoritarian_drift = 0.10
+				social_democracy_drift = -0.03
+				communism_drift = -0.03
+				bundism_drift = -0.03
+				social_revolutionism_drift = -0.03
+			}
+		}
+
+		BLR_President_Republic = {
+			picture = generic_officer
+			allowed = { tag = BLR }
+			modifier = {
+				authoritarian_drift = 0.10
+				social_democrat_drift = -0.03
+				communism_drift = -0.03
+				bundism_drift = -0.03
+				social_revolutionism_drift = -0.03
+			}
+		}
+
+		BLR_Newspapers = {
+			picture = usa_magic
+			allowed { tag = BLR }
+			modifier = {
+				add_war_support = 0.05
+				political_power_gain = 0.15
+			}
+		}
+
 	}
 }

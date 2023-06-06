@@ -82,6 +82,10 @@ focus_tree = {
             #    long_name = BLR_communism_party_long
             #}
         }
+
+        mutually_exclusive = {
+            focus = BLR_The_Coup
+        }
         
     }
 
@@ -2067,10 +2071,30 @@ focus_tree = {
     ################################################################
     
     focus = {
-        id = BLR_Enjail_the_opposition
-        icon = GFX_BLR_Enjail_the_opposition
-        x = 23
+        id = BLR_The_Coup #Dunno the name yet doe 
+        icon = GFX_BLR_Coup
+        x = 30
         y = 0
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 6
+        available_if_capitulated = yes
+        completion_reward = {
+            add_stability = -0.3
+            add_war_support = -0.3
+            add_political_power = -0.3
+        }
+        mutually_exclusive = {
+            focus = BLR_The_road_to_Belarusian_Democratic_Republic
+        }
+    }
+
+    focus = {
+        id = BLR_Enjail_the_opposition
+        #icon = GFX_BLR_Enjail_the_opposition
+        x = 30
+        y = 1
         ai_will_do = {
             factor = 50
         }
@@ -2080,35 +2104,22 @@ focus_tree = {
             add_stability = -0.05
             recruitable_population = -0.05
 
-            country_event = {
+            country_event = { ####event put it 
                 id = belarus.15
                 days = 1
             }
         }
-    }
 
-    focus = {
-        id = BLR_Control_the_newspapers_and_radio_stations
-        icon = GFX_BLR_Control_the_radio
-        x = 25
-        y = 0
-        ai_will_do = {
-            factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_stability = -0.05
-            add_political_power = 25
-
+        prerequisite = {
+            focus = BLR_The_Coup
         }
     }
 
     focus = {
         id = BLR_Set_the_curfew_hours
         icon = GFX_BLR_Set_the_curfew_hours
-        x = 27
-        y = 0
+        x = 32
+        y = 1
         ai_will_do = {
             factor = 50
         }
@@ -2119,12 +2130,16 @@ focus_tree = {
             add_political_power = 75
             political_power_gain = -0.02
         }
+
+        prerequisite = {
+            focus =  BLR_The_Coup
+        }
     }
 
     focus = {
         id = BLR_Create_national_security_services
         icon = GFX_BLR_National_Security
-        x = 24
+        x = 28
         y = 1
         ai_will_do = {
             factor = 50
@@ -2136,116 +2151,63 @@ focus_tree = {
             add_political_power = 50
         }
         prerequisite = {
-            focus = BLR_Enjail_the_opposition
-            focus = BLR_Set_the_curfew_hours
-            focus = BLR_Control_the_newspapers_and_radio_stations
-        }
-        mutually_exclusive = {
-            focus = BLR_Popularise_the_Military_Education_among_the_youth
+            focus = BLR_The_Coup
         }
     }
 
     focus = {
-        id = BLR_Popularise_the_Military_Education_among_the_youth
-        icon = GFX_BLR_Pupolarise_Military
-        x = 26
-        y = 1
-        ai_will_do = {
-            factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            swap_ideas = {
-                remove_idea = BLR_Weak_Identity
-                add_idea = BLR_Solidifying_identity
-            }
-        }
-        prerequisite = {
-            focus = BLR_Enjail_the_opposition
-            focus = BLR_Set_the_curfew_hours
-            focus = BLR_Control_the_newspapers_and_radio_stations
-        }
-
-        mutually_exclusive = {
-            focus = BLR_Create_national_security_services
-        }
-    }
-
-    focus = {
-        id = BLR_Reform_the_current_Government 
-        icon = GFX_BLR_Reform_the_Government
-        x = 25
+        id = BLR_Recreate_Constitution
+        icon = GFX_authority
+        cost = 3
+        x = 30
         y = 2
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
+
+        completion_reward = { 
+            add_ideas = BLR_Recreate_Constitution
+
             add_political_power = 50
             add_stability = -0.05
             political_power_gain = -0.01
         }
-        prerequisite = {
-            focus = BLR_Popularise_the_Military_Education_among_the_youth
-        }
-
+        
         prerequisite = {
             focus = BLR_Create_national_security_services
-        }
-    }
-
-    focus = {
-        id = BLR_Nut_tightening
-        icon = GFX_BLR_Nut_tightening
-        x = 25
-        y = 3
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 50
-
-        }
-        prerequisite = {
-            focus = BLR_Reform_the_current_Government
+            focus = BLR_Enjail_the_opposition
+            focus = BLR_Set_the_curfew_hours
         }
     }
 
     focus = {
         id = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
         icon = GFX_BLR_Bulak
-        x = 23
-        y = 4
+        x = 26
+        y = 3
         ai_will_do = {
            factor = 50
         }
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-           set_politics = {
-               ruling_party = authoritarian
-               elections_allowed = no
+            set_politics = {
+                ruling_party = authoritarian
+                elections_allowed = no
             }
         }
 
         mutually_exclusive = {
-            focus = BLR_Think_of_another_candidates
+            focus = BLR_
         }
 
         prerequisite = {
-            focus = BLR_Nut_tightening
+            focus = BLR_Recreate_Constitution
         }
     }
 
     focus = {
         id = BLR_The_militarisation_of_the_politics
         icon = GFX_BLR_Militarise_The_Politics
-        x = 23
-        y = 5
+        x = 26
+        y = 4
         ai_will_do = {
             factor = 50
         }
@@ -2253,6 +2215,7 @@ focus_tree = {
         available_if_capitulated = yes
         completion_reward = {
             add_war_support = 0.05
+            recruitable_population = 0.02
         }
         prerequisite = {
             focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
@@ -2262,8 +2225,8 @@ focus_tree = {
     focus = {
         id = BLR_Strengthen_the_States_Security
         icon = GFX_authority
-        x = 22
-        y = 6
+        x = 24
+        y = 4
         ai_will_do = {
         factor = 50
         }
@@ -2275,19 +2238,15 @@ focus_tree = {
             add_political_power = 75
         }
         prerequisite = {
-            focus = BLR_The_militarisation_of_the_politics
-        }
-
-        mutually_exclusive = {
-            focus = BLR_Expand_the_Mobilisation
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
         }
     }
 
     focus = {
         id = BLR_Expand_the_Mobilisation
         icon = GFX_BLR_Expand_Mobilisation
-        x = 24
-        y = 6
+        x = 28
+        y = 4
         ai_will_do = {
         factor = 50
         }
@@ -2297,19 +2256,15 @@ focus_tree = {
             recruitable_population = 0.05
         }
         prerequisite = {
-            focus = BLR_The_militarisation_of_the_politics
-        }
-
-        mutually_exclusive = {
-            focus = BLR_Strengthen_the_States_Security
+            focus = BLR_Stanislau_Bulak_Balachowicz_Military_Junta
         }
     }
 
     focus = {
         id = BLR_Penalty_Battalions
         icon = GFX_BLR_Penalty_Battalions
-        x = 23
-        y = 7
+        x = 26
+        y = 5
         ai_will_do = {
             factor = 50
         }
@@ -2322,14 +2277,118 @@ focus_tree = {
         prerequisite = {
             focus = BLR_Strengthen_the_States_Security
             focus = BLR_Expand_the_Mobilisation
+            focus = BLR_The_militarisation_of_the_politics
         }
     }
 
     focus = {
+        id = BLR_Destroy_the_class
+        icon = GFX_BLR_Destroy_Class
+        x = 26
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 75
+            political_power_gain = -0.01
+        }
+        prerequisite = {
+            focus = BLR_Penalty_Battalions
+        }
+    }
+
+    focus = {
+        id = BLR_Crack_down_on_Communists_two
+        icon = GFX_BLR_No_Socialists
+        x = 24
+        y = 6
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_ideas = BLR_Party_attacks
+        }
+        prerequisite = {
+            focus = BLR_Penalty_Battalions
+        }
+    }
+
+    focus = {
+        id = BLR_Layer_and_Centralise_the_decisions
+        icon = GFX_BLR_Centralise_the_decisions
+        x = 28
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 1
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 35
+        }
+        prerequisite = {
+            focus = BLR_Penalty_Battalions
+        }
+    }
+
+    focus = {
+        id = BLR_Presidential_Republic
+        icon = GFX_
+        x = 24
+        y = 7
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 1
+        available_if_capitulated = yes
+        completion_reward = {
+            add_ideas = BLR_President_Republic
+        }
+        prerequisite = {
+            focus = BLR_Crack_down_on_Communists_two
+            focus = BLR_Destroy_the_class
+            focus = BLR_Layer_and_Centralise_the_decisions
+        }
+
+        mutually_exclusive = {
+            focus = BLR_Puppet_Rada_Republic
+        }
+    }
+
+    focus = {
+        id = BLR_Puppet_Rada_Republic
+        icon = GFX_
+        x = 28
+        y = 7
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 1
+        available_if_capitulated = yes
+        completion_reward = {
+            add_ideas = BLR_Puppet_Rada
+        }
+        prerequisite = {
+            focus = BLR_Crack_down_on_Communists_two
+            focus = BLR_Destroy_the_class
+            focus = BLR_Layer_and_Centralise_the_decisions
+        }
+
+        mutually_exclusive = {
+            focus = BLR_Presidential_Republic
+        }
+    }
+    
+focus = {
         id = BLR_Think_of_another_candidates 
         icon = GFX_BLR_Lastouski
-        x = 27
-        y = 4
+        x = 34
+        y = 3
         ai_will_do = {
         factor = 50
         }
@@ -2349,7 +2408,7 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_Nut_tightening
+            focus = BLR_Recreate_Constitution
         }
 
         mutually_exclusive = {
@@ -2357,48 +2416,48 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = BLR_Destroy_the_class
-        icon = GFX_BLR_Destroy_Class
-        x = 27
-        y = 5 
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 75
-            political_power_gain = -0.01
-        }
-        prerequisite = {
-            focus = BLR_Think_of_another_candidates
-        }
-    }
 
     focus = {
         id = BLR_Take_under_control_the_education
         icon = GFX_BLR_Take_Edu_Under_Control
-        x = 26
-        y = 6
+        x = 34
+        y = 4
         ai_will_do = {
         factor = 50
         }
-        cost = 2
+        cost = 1
         available_if_capitulated = yes
         completion_reward = {
             add_ideas = BLR_Nationalist_Edu
         }
         prerequisite = {
-            focus = BLR_Destroy_the_class
+            focus = BLR_Think_of_another_candidates
+        }
+    }
+    
+    focus = {
+        id = BLR_Reboot_Newspapers
+        #icon = GFX_BLR_Take_Edu_Under_Control
+        x = 32
+        y = 5
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 1
+        available_if_capitulated = yes
+        completion_reward = {
+            add_ideas = BLR_Newspapers
+        }
+        prerequisite = {
+            focus = BLR_Take_under_control_the_education
         }
     }
 
     focus = {
-        id = BLR_Create_Kryvian_concept 
+        id = BLR_Kryvichanin #Krywičanin
         icon = GFX_
-        x = 28
-        y = 6
+        x = 36
+        y = 5
         ai_will_do = {
         factor = 50
         }
@@ -2408,14 +2467,92 @@ focus_tree = {
             add_political_power = 100
         }
         prerequisite = {
-            focus = BLR_Destroy_the_class
+            focus = BLR_Take_under_control_the_education
+        }
+    }
+
+    focus = {
+        id = BLR_Lastouski_Relations 
+        icon = GFX_
+        x = 34
+        y = 5
+        ai_will_do = {
+            factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            add_political_power = 100
+        }
+        prerequisite = {
+            focus = BLR_Take_under_control_the_education
+        }
+    }
+
+    focus = {
+        id = BLR_Liberal_Press
+        icon = GFX_
+        x = 34
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            
+        }
+        prerequisite = {
+            focus = BLR_Reboot_Newspapers
+            focus = BLR_Lastouski_Relations
+            focus = BLR_Kryvichanin
+        }
+    }
+
+    focus = {
+        id = BLR_Discussion_Constitution
+        icon = GFX_
+        x = 36
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            
+        }
+        prerequisite = {
+            focus = BLR_Reboot_Newspapers
+            focus = BLR_Lastouski_Relations
+            focus = BLR_Kryvichanin
+        }
+    }
+
+    focus = {
+        id = BLR_Land_Discussions
+        icon = GFX_
+        x = 32
+        y = 6
+        ai_will_do = {
+        factor = 50
+        }
+        cost = 2
+        available_if_capitulated = yes
+        completion_reward = {
+            
+        }
+        prerequisite = {
+            focus = BLR_Reboot_Newspapers
+            focus = BLR_Lastouski_Relations
+            focus = BLR_Kryvichanin
         }
     }
 
     focus = {
         id = BLR_The_rebirth_of_our_nation
         icon = GFX_BLR_The_rebirth_of_nation
-        x = 27
+        x = 34
         y = 7
         ai_will_do = {
         factor = 50
@@ -2431,73 +2568,9 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_Take_under_control_the_education
-            focus = BLR_Create_Kryvian_concept
-        }
-    }
-
-    focus = {
-        id = BLR_Layer_and_Centralise_the_decisions
-        icon = GFX_BLR_Centralise_the_decisions
-        x = 25
-        y = 8
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 35
-        }
-        prerequisite = {
-            focus = BLR_The_rebirth_of_our_nation
-            focus = BLR_Penalty_Battalions
-        }
-    }
-
-    focus = {
-        id = BLR_No_country_for_socialists
-        icon = GFX_BLR_No_Socialists
-        x = 25
-        y = 9
-        ai_will_do = {
-        factor = 50
-        }
-        cost = 2
-        available_if_capitulated = yes
-        completion_reward = {
-            add_political_power = 50
-
-            add_stability = 0.05
-
-            add_popularity = {
-
-                ideology = communism
-
-                popularity = -0.10
-
-            }
-
-            add_popularity = {
-
-                ideology = social_revolutionism
-
-                popularity = -0.10
-
-            }
-
-            add_popularity = {
-
-                ideology = bundism
-
-                popularity = -0.10
-
-            }
-
-        }
-        prerequisite = {
-            focus = BLR_Layer_and_Centralise_the_decisions
-            focus = BLR_Penalty_Battalions
+            focus = BLR_Land_Discussions
+            focus = BLR_Liberal_Press
+            focus = BLR_Discussion_Constitution
         }
     }
 
