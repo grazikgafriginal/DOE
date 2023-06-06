@@ -456,8 +456,8 @@ BLR_think_of_leaders_decisions = {
 	}
 }
 
-BLR_Consittution = {
-	BLR_Discuss_constitution = {
+BLR_Constitution = {
+	BLR_Discuss_Constitution = {
 		cost = 10
 		ai_will_do = {
 			factor = 70

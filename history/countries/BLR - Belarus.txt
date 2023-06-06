@@ -18,7 +18,7 @@ recruit_character = BLR_Jazep_Drazdovic
 recruit_character = BLR_Maksim_Tank
 recruit_character = BLR_Siarhiej_Piasiecki
 
-recruit_character = BLR_stanislav_bulak_balachowicz
+recruit_character = BLR_bulak_balachowicz_marshal
 recruit_character = BLR_michal_vituska
 recruit_character = BLR_kanstancin_jezawitau
 recruit_character = BLR_kyprian_kandratovich
@@ -26,6 +26,7 @@ recruit_character = BLR_hassan_kanapatsky
 recruit_character = BLR_boris_permikin
 recruit_character = BLR_mikalay_dzyamidau
 recruit_character = BLR_michail_yaroslavtsev
+recruit_character = BLR_lucjan_zeligowski
 
 
 capital = 206 #Minsk
@@ -141,6 +142,8 @@ add_ideas = {
 	BLR_remembrance_of_1918
 	BLR_education_issue
 }
+
+
 
 
 

@@ -28,40 +28,15 @@ focus_tree = {
 
         completion_reward = {
 
-            #add_country_leader_role = {
-			#	character = BLR_Jan_Sierada
-			#	promote_leader = yes
-			#	country_leader = {
-			#		ideology = despotism
-			#		expire = "1965.1.1"
-			#		traits = { 
-			#		}
-			#	}
-			#}
-
-
-			#set_party_name = {
-			#	ideology = communism
-            #    name = BLR_communism_party
-			#	long_name = BLR_communism_party_long
-			#}
-
-            #BLR_Jan_Sierada = {
-            #    add_country_leader_role = {
-            #        promote_leader = yes
-            #        country_leader = {
-            #            ideology = socialism
-            #        }
-            #    }
-            #}
+            set_variable = {
+                constitution_popularity = 1
+            }
 
             set_politics = {
                 ruling_party = communism
                 elections_allowed = no
 
             }
-            #promote_character = "BLR_Jan_Sierada"
-            #retire_character = "BLR_Stanislav_Bulak_Balachowicz"
         
             
             hidden_effect = {

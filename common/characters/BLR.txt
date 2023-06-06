@@ -249,7 +249,7 @@ characters={
 	##################################################################################################################
 
 
-	BLR_stanislav_bulak_balachowicz = {
+	BLR_BLR_bulak_balachowicz_marshal = {
 		name = "Stanislaŭ Bulak-Balachovič"
 		portraits = {
 			army = {
@@ -257,7 +257,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { old_guard cavalry_officer media_personality }
+			traits = { old_guard cavalry_officer media_personality reckless }
 			skill = 4
 			attack_skill = 5
 			defense_skill = 2
@@ -274,7 +274,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer media_personality }
+			traits = { infantry_officer media_personality reckless }
 			skill = 3
 			attack_skill = 4
 			defense_skill = 1
@@ -291,7 +291,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer media_personality }
+			traits = { infantry_officer media_personality reckless }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
@@ -309,43 +309,12 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { old_guard }
+			traits = { old_guard brilliant_strategist war_hero}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
 			planning_skill = 1
 			logistics_skill = 2
-		}
-		advisor = {
-			allowed = {
-				original_tag = BLR
-			}
-			cost = 150
-			slot = security_minister
-			available = {
-				NOT = {
-					has_completed_focus = BLR_one_way_or_another
-				}
-			}
-
-			traits = {
-				security_minister
-				sec_back_stabber
-			}
-		}
-		advisor = {
-			allowed = {
-			    original_tag = BLR
-			}
-			cost = 150
-			slot = high_command
-			available = {
-	    
-			}
-			idea_token = BLR_staff_kipryjan_kandratavic 
-			traits = {
-			    cos_school_of_mass_combat
-			}
 		}
 	}
 	
@@ -459,4 +428,21 @@ characters={
 		}
 	}
 
+	BLR_lucjan_zeligowski = {
+		name = "Lucjan Żeligowski"
+		portraits = {
+			army = {
+				large="gfx/leaders/BLR/Portrait_BLR_lucjan_zeligowski.png"
+			}
+		}
+
+		corps_commander = {
+			traits = { inflexible_strategist career_officer}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 }

@@ -130,8 +130,13 @@ BLR_Border_War_desc:0 "Smth here"
 
 BLR_Start_Clashes:0 "Start Clases With Russia"
 
-#BLR_Duma:0 "Gateaway shit"
-#BLR_Duma_desc:0 "Sheeesh"
+
+
+
+BLR_Constitution:0 "Constitution"
+BLR_Constitution_desc:0 "We need it! here is popalirty: [?constitution_popularity] lol"
+
+constitution_popularity:0 "constitution popularity"
 
 
 ##### CHERVIAKOU REFORM #########
@@ -164,20 +169,6 @@ BLR_Build_Uni_Viciebsk:0 "Build Universities in Viciebsk"
 BLR_Finish_Cherviakou_reform:0 "§9Finish Cherviakou Reform§!"
 
 
- BLR_Edu_Reform_Success_Status_5:0 "§GExtremely Effective§!"
- BLR_Edu_Reform_Success_Status_4:0 "§GVery Effective§!"
- BLR_Edu_Reform_Success_Status_3:0 "§GEffective§!"
- BLR_Edu_Reform_Success_Status_2:0 "§YMildly Effective§!"
- BLR_Edu_Reform_Success_Status_1:0 "§RIneffective§!"
- BLR_Edu_Reform_Success_Status_0:0 "§RDisastrous§!"
-
- BLR_Edu_Reform_Popularity_Status_5:0 "§GExtremely Popular§!"
- BLR_Edu_Reform_Popularity_Status_4:0 "§GVery Popular§!"
- BLR_Edu_Reform_Popularity_Status_3:0 "§GPopular§!"
- BLR_Edu_Reform_Popularity_Status_2:0 "§YUncontroversial§!"
- BLR_Edu_Reform_Popularity_Status_1:0 "§RUnpopular§!" 
- BLR_Edu_Reform_Popularity_Status_0:0 "§RDisastrous§!"
-
 
 
 
@@ -204,3 +195,49 @@ belarus.5.d:0 "Today, Yazep Varonka with his party of democrats was elected to l
 
 
 
+######################### COUNTRY NAMES #########################
+
+
+BLR:0 "Belarus"
+BLR_DEF:0 "Belarus"
+BLR_ADJ:0 "Belarusian"
+
+BLR_communism:0 "Belarusian People's Republic"
+BLR_communism_DEF:0 "Belarusian"
+BLR_communism_ADJ:0 "the Belarusian People's Republic"
+
+BLR_bundism:0 "Belarusian Workers' Socialist Republic"
+BLR_bundism_DEF:0 "Belarusian"
+BLR_bundism_ADJ:0 "the Belarusian Workers' Socialist Republic"
+
+BLR_social_revolutionism:0 "Belarusian People's Republic"
+BLR_social_revolutionism_DEF:0 "Belarusian"
+BLR_social_revolutionism_ADJ:0 "the Belarusian People's Republic"
+
+BLR_social_democracy:0 "Belarusian People's Republic"
+BLR_social_democracy_ADJ:0 "Belarusian"
+BLR_social_democracy_DEF:0 "the Belarusian People's Republic"
+
+BLR_liberal:0 "Belarusian People's Republic"
+BLR_liberal_ADJ:0 "Belarusian"
+BLR_liberal_DEF:0 "the Belarusian People's Republic"
+
+BLR_democratic:0 "Belarusian People's Republic"
+BLR_democratic_ADJ:0 "Belarusian"
+BLR_democratic_DEF:0 "the Belarusian People's Republic"
+
+BLR_neutrality:0 "The Grand Duchy Of Belarus"
+BLR_neutrality_ADJ:0 "Belarusian"
+BLR_neutrality_DEF:0 "The Grand Duchy Of Belarus'"
+
+BLR_authoritarian:0 "Belarusian National Republic"
+BLR_authoritarian_ADJ:0 "Belarusian"
+BLR_authoritarian_DEF:0 "the Belarusian National Republic"
+
+BLR_anticommunism:0 "Belarusian Anticommunist Republic"
+BLR_anticommunism_ADJ:0 "Belarusian"
+BLR_anticommunism_DEF:0 "the Belarusian Anticommunist Republic"
+
+BLR_fascism:0 "Belarusian National Republic"
+BLR_fascism_ADJ:0 "Belarusian"
+BLR_fascism_DEF:0 "the Belarusian National Republic"

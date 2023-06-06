@@ -50,12 +50,12 @@ BLR_Border_War = {
 	priority = 10
 }
 
-BLR_Consittution = {
+BLR_Constitution = {
     #icon = 
     #picture = 
     allowed = { original_tag = BLR }
     visible = {
-        has_completed_focus = BLR_Division_in_the_democratic_forces
+        has_completed_focus = BLR_The_Second_Constituent_Charter_of_BDR
     }
     priority = 13
 }
