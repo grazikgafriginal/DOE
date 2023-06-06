@@ -1,6 +1,6 @@
 ideologies = {
 
-	communism = {
+	communism = { #commie 
 		
 		types = {
 		
@@ -61,7 +61,7 @@ ideologies = {
 
 	}
 
-	bundism = {
+	bundism = { #bundism aka socialism 
 		types = {
 			bundism_ideology = {
 			}
@@ -99,7 +99,7 @@ ideologies = {
 		}
 	}
 
-	social_revolutionism = {
+	social_revolutionism = { #socail revolutioniasm 
 		types = {
 			social_revolutionism_ideology = {
 			}
@@ -146,7 +146,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	social_democracy = {
+	social_democracy = { #social democracy 
 	
 		types = {
 			
@@ -195,7 +195,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	democratic = {
+	democratic = { #social conservatism
 	
 		types = {
 			
@@ -255,7 +255,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	neutrality = {
+	neutrality = { #monarchism
 	
 		types = {
 			
@@ -316,7 +316,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	authoritarian = {
+	authoritarian = { #authoritarianism 
 		types = {
 			# Military Dictatorship
 			military_dictatorship = {
@@ -371,7 +371,7 @@ ideologies = {
 		ai_neutral = yes
 	}
 
-	anticommunism = {
+	anticommunism = { #chritstian democracy
 		types = {
 			christian_democracy = {
 			}
@@ -419,7 +419,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	liberal = {
+	liberal = { #liberlism
 
 		types = {
 			
@@ -477,7 +477,7 @@ ideologies = {
 		ai_neutral = yes # uses the neutral AI behaviour
 	}
 
-	fascism = {
+	fascism = { #fascism here we have nazism aswell 
 	
 		types = {
 

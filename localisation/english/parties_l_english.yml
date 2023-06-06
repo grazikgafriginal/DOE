@@ -2,30 +2,42 @@
  communism:0 "Communism"
  communism_noun:0 "Communism"
  communism_desc:0 "Communist Regime"
- democratic:0 "Democratic"
- democratic_noun:0 "Democracy"
- democratic_desc:0 "Democratic Regime"
+
+ democratic:0 "Social Conservatism"
+ democratic_noun:0 "Social Conservatism"
+ democratic_desc:0 "Social Conservative Regime"
+
  fascism:0 "Fascism"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Fascist Regime"
+
  authoritarian:0 "Authoritarianism"
  authoritarian_noun:0 "Authoritarianism"
  authoritarian_desc:0 "Authoritarian Regime"
+
  social_democracy:0 "Social Democratic"
  social_democracy_noun:0 "Social Democracy"
  social_democracy_desc:0 "Social Democratic Regime"
+
  social_revolutionism:0 "Social Revolutionarism"
  social_revolutionism_noun:0 "Socialist"
  social_revolutionism_desc:0 "Social Revolutionary Regime"
+
  bundism:0 "Bundism"
  bundism_noun:0 "Bundism"
  bundism_desc:0 "Marxist Regime"
- liberal:0 "Liberal"
+
+ liberal:0 "Liberalism"
  liberal_noun:0 "Liberalism"
  liberal_desc:0 "Liberal Regime"
- anticommunism:0 "Anticommunism"
- anticommunism_noun:0 "Anticommunism"
- anticommunism_desc:0 "Anticommunist Regime"
+
+ anticommunism:0 "Christian Democracy"
+ anticommunism_noun:0 "Christian Democracy"
+ anticommunism_desc:0 "Christian Democratic Regime"
+
+ neutrality:0 "Monarchism"
+ neutrality_noun:0 "Monarchism"
+ neutrality_desc:0 "Monarchist Regime"
 
 
 # Subideologies
