@@ -1,0 +1,362 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#			for example the current one is no longer available due to the can_use trigger saying so).
+#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#			mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#			this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names.
+#			Numbers must start from 1 and up.
+#			Numbers can't repeat in one scope.
+#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#			1st argument = The name. It must contain either:
+#						%d (for decimal number placement)
+#						%s (for string number placement - ROMAN numbers like XIV).
+#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#									where you choose the historical division name.
+#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#									the current game version.
+
+BLR_INF_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { WHR_GAR_01 }
+
+	fallback_name = "%d Piachotnaja Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Piachotnaja Dyvizija" }
+		2 = { "%d Piachotnaja Dyvizija" }
+		3 = { "%d Piachotnaja Dyvizija" }
+		4 = { "%d Piachotnaja Dyvizija" }
+		5 = { "%d Piachotnaja Dyvizija" }
+		6 = { "%d Piachotnaja Dyvizija" }
+		7 = { "%d Piachotnaja Dyvizija" }
+		8 = { "%d Piachotnaja Dyvizija" }
+		9 = { "%d Piachotnaja Dyvizija" }
+		10 = { "%d Piachotnaja Dyvizija" }
+		11 = { "%d Piachotnaja Dyvizija" }
+		12 = { "%d Piachotnaja Dyvizija" }
+		13 = { "%d Piachotnaja Dyvizija" }
+		14 = { "%d Piachotnaja Dyvizija" }
+		15 = { "%d Piachotnaja Dyvizija" }
+		16 = { "%d Piachotnaja Dyvizija" }
+		17 = { "%d Piachotnaja Dyvizija" }
+		18 = { "%d Piachotnaja Dyvizija" }
+		19 = { "%d Piachotnaja Dyvizija" }
+		20 = { "%d Piachotnaja Dyvizija" }
+		21 = { "%d Piachotnaja Dyvizija" }
+		22 = { "%d Piachotnaja Dyvizija" }
+		23 = { "%d Piachotnaja Dyvizija" }
+		24 = { "%d Piachotnaja Dyvizija" }
+		25 = { "%d Piachotnaja Dyvizija" }
+	}
+}
+
+BLR_CAV_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { WHR_INF_01 }
+
+	fallback_name = "%d Kavalieryjskija Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Kavalieryjskija Dyvizija" }
+		2 = { "%d Kavalieryjskija Dyvizija" }
+		3 = { "%d Kavalieryjskija Dyvizija" }
+		4 = { "%d Kavalieryjskija Dyvizija" }
+		5 = { "%d Kavalieryjskija Dyvizija" }
+		6 = { "%d Kavalieryjskija Dyvizija" }
+		7 = { "%d Kavalieryjskija Dyvizija" }
+		8 = { "%d Kavalieryjskija Dyvizija" }
+		9 = { "%d Kavalieryjskija Dyvizija" }
+		10 = { "%d Kavalieryjskija Dyvizija" }
+	}
+}
+
+BLR_MOT_01 = {
+	name = "Motorised Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BLR_INF_01 }
+
+	fallback_name = "%d Mataryzavanaja Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Mataryzavanaja Dyvizija" }
+		2 = { "%d Mataryzavanaja Dyvizija" }
+		3 = { "%d Mataryzavanaja Dyvizija" }
+		4 = { "%d Mataryzavanaja Dyvizija" }
+		5 = { "%d Mataryzavanaja Dyvizija" }
+		6 = { "%d Mataryzavanaja Dyvizija" }
+		7 = { "%d Mataryzavanaja Dyvizija" }
+		8 = { "%d Mataryzavanaja Dyvizija" }
+		9 = { "%d Mataryzavanaja Dyvizija" }
+		10 = { "%d Mataryzavanaja Dyvizija" }
+		11 = { "%d Mataryzavanaja Dyvizija" }
+		12 = { "%d Mataryzavanaja Dyvizija" }
+		13 = { "%d Mataryzavanaja Dyvizija" }
+		14 = { "%d Mataryzavanaja Dyvizija" }
+		15 = { "%d Mataryzavanaja Dyvizija" }
+		16 = { "%d Mataryzavanaja Dyvizija" }
+		17 = { "%d Mataryzavanaja Dyvizija" }
+		18 = { "%d Mataryzavanaja Dyvizija" }
+		19 = { "%d Mataryzavanaja Dyvizija" }
+		20 = { "%d Mataryzavanaja Dyvizija" }
+		21 = { "%d Mataryzavanaja Dyvizija" }
+		22 = { "%d Mataryzavanaja Dyvizija" }
+		23 = { "%d Mataryzavanaja Dyvizija" }
+		24 = { "%d Mataryzavanaja Dyvizija" }
+		25 = { "%d Mataryzavanaja Dyvizija" }
+	}
+}
+
+BLR_ARM_01 = {
+	name = "Armored Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { WHR_INF_01 }
+
+	fallback_name = "%d Tankavaja Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Tankavaja Dyvizija" }
+		2 = { "%d Tankavaja Dyvizija" }
+		3 = { "%d Tankavaja Dyvizija" }
+		4 = { "%d Tankavaja Dyvizija" }
+		5 = { "%d Tankavaja Dyvizija" }
+		6 = { "%d Tankavaja Dyvizija" }
+		7 = { "%d Tankavaja Dyvizija" }
+		8 = { "%d Tankavaja Dyvizija" }
+		9 = { "%d Tankavaja Dyvizija" }
+		10 = { "%d Tankavaja Dyvizija" }
+	}
+}
+
+BLR_MEC_01 = {
+	name = "Mechanized Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BLR_INF_01 }
+
+	fallback_name = "%d Miechanizavanaja Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Miechanizavanaja Dyvizija" }
+		2 = { "%d Miechanizavanaja Dyvizija" }
+		3 = { "%d Miechanizavanaja Dyvizija" }
+		4 = { "%d Miechanizavanaja Dyvizija" }
+		5 = { "%d Miechanizavanaja Dyvizija" }
+		6 = { "%d Miechanizavanaja Dyvizija" }
+		7 = { "%d Miechanizavanaja Dyvizija" }
+		8 = { "%d Miechanizavanaja Dyvizija" }
+		9 = { "%d Miechanizavanaja Dyvizija" }
+		10 = { "%d Miechanizavanaja Dyvizija" }
+		11 = { "%d Miechanizavanaja Dyvizija" }
+		12 = { "%d Miechanizavanaja Dyvizija" }
+		13 = { "%d Miechanizavanaja Dyvizija" }
+		14 = { "%d Miechanizavanaja Dyvizija" }
+		15 = { "%d Miechanizavanaja Dyvizija" }
+		16 = { "%d Miechanizavanaja Dyvizija" }
+		17 = { "%d Miechanizavanaja Dyvizija" }
+		18 = { "%d Miechanizavanaja Dyvizija" }
+		19 = { "%d Miechanizavanaja Dyvizija" }
+		20 = { "%d Miechanizavanaja Dyvizija" }
+		21 = { "%d Miechanizavanaja Dyvizija" }
+		22 = { "%d Miechanizavanaja Dyvizija" }
+		23 = { "%d Miechanizavanaja Dyvizija" }
+		24 = { "%d Miechanizavanaja Dyvizija" }
+		25 = { "%d Miechanizavanaja Dyvizija" }
+	}
+}
+
+BLR_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BLR_INF_01 }
+
+	fallback_name = "%d Harnizonnaja Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Harnizonnaja Dyvizija" }
+		2 = { "%d Harnizonnaja Dyvizija" }
+		3 = { "%d Harnizonnaja Dyvizija" }
+		4 = { "%d Harnizonnaja Dyvizija" }
+		5 = { "%d Harnizonnaja Dyvizija" }
+		6 = { "%d Harnizonnaja Dyvizija" }
+		7 = { "%d Harnizonnaja Dyvizija" }
+		8 = { "%d Harnizonnaja Dyvizija" }
+		9 = { "%d Harnizonnaja Dyvizija" }
+		10 = { "%d Harnizonnaja Dyvizija" }
+		11 = { "%d Harnizonnaja Dyvizija" }
+		12 = { "%d Harnizonnaja Dyvizija" }
+		13 = { "%d Harnizonnaja Dyvizija" }
+		14 = { "%d Harnizonnaja Dyvizija" }
+		15 = { "%d Harnizonnaja Dyvizija" }
+		16 = { "%d Harnizonnaja Dyvizija" }
+		17 = { "%d Harnizonnaja Dyvizija" }
+		18 = { "%d Harnizonnaja Dyvizija" }
+		19 = { "%d Harnizonnaja Dyvizija" }
+		20 = { "%d Harnizonnaja Dyvizija" }
+		21 = { "%d Harnizonnaja Dyvizija" }
+		22 = { "%d Harnizonnaja Dyvizija" }
+		23 = { "%d Harnizonnaja Dyvizija" }
+		24 = { "%d Harnizonnaja Dyvizija" }
+		25 = { "%d Harnizonnaja Dyvizija" }
+	}
+}
+
+BLR_MIL_01 = {
+	name = "Militia Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "militia" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { WHR_INF_01 }
+
+	fallback_name = "%d Čorny Kot"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Čorny Kot" }
+		2 = { "%d Čorny Kot" }
+		3 = { "%d Čorny Kot" }
+		4 = { "%d Čorny Kot" }
+		5 = { "%d Čorny Kot" }
+		6 = { "%d Čorny Kot" }
+		7 = { "%d Čorny Kot" }
+		8 = { "%d Čorny Kot" }
+		9 = { "%d Čorny Kot" }
+		10 = { "%d Čorny Kot" }
+	}
+}
+
+BLR_MTN_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { WHR_INF_01 }
+
+	fallback_name = "%d Hornaja Dyvizija"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Hornaja Dyvizija" }
+		2 = { "%d Hornaja Dyvizija" }
+		3 = { "%d Hornaja Dyvizija" }
+		4 = { "%d Hornaja Dyvizija" }
+		5 = { "%d Hornaja Dyvizija" }
+		6 = { "%d Hornaja Dyvizija" }
+		7 = { "%d Hornaja Dyvizija" }
+		8 = { "%d Hornaja Dyvizija" }
+		9 = { "%d Hornaja Dyvizija" }
+		10 = { "%d Hornaja Dyvizija" }
+	}
+}
+
+BLR_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { WHR_INF_01 }
+
+	fallback_name = "%d Čornyja Vorany"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d Čornyja Vorany" }
+		2 = { "%d Čornyja Vorany" }
+		3 = { "%d Čornyja Vorany" }
+		4 = { "%d Čornyja Vorany" }
+		5 = { "%d Čornyja Vorany" }
+		6 = { "%d Čornyja Vorany" }
+		7 = { "%d Čornyja Vorany" }
+		8 = { "%d Čornyja Vorany" }
+		9 = { "%d Čornyja Vorany" }
+		10 = { "%d Čornyja Vorany" }
+	}
+}
