@@ -241,3 +241,11 @@ BLR_anticommunism_DEF:0 "the Belarusian Anticommunist Republic"
 BLR_fascism:0 "Belarusian National Republic"
 BLR_fascism_ADJ:0 "Belarusian"
 BLR_fascism_DEF:0 "the Belarusian National Republic"
+
+
+
+#################### VYTAUTAS LINE ####################
+
+
+BLR_Vytautas_Line:0 "Vytautas Line"
+BLR_Vytautas_Line_desc:0 "Smth here"

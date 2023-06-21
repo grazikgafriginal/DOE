@@ -13,4 +13,24 @@ spriteTypes = {
 		name = "GFX_decision_cat_natfra_rebuild_metropole"
 		texturefile = "gfx/interface/decisions_pictures/decision_cat_natfra_rebuild_metropole.png"
 	}
+
+	SpriteType = { 
+		name = "GFX_BLR_Vytautas_Line"
+		texturefile = "gfx/interface/decisions/BLR_Vytautas_Line.png"
+	}
+
+	SpriteType = { 
+		name = "GFX_BLR_Building_Vytautas_Line"
+		texturefile = "gfx/interface/decisions_pictures/BLR_Building_Vytautas_Line.png"
+	}
+
+	SpriteType = { 
+		name = "GFX_category_BLR_Vytautas_Line"
+		texturefile = "gfx/interface/decisions/category_BLR_Vytautas_Line.png"
+	}
+
+	SpriteType = { 
+		name = "GFX_BLR_Finish_Vytautas_Dream"
+		texturefile = "gfx/interface/decisions/BLR_Finish_Vytautas_Dream.png"
+	}
 }

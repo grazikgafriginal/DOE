@@ -465,4 +465,698 @@ BLR_Constitution = {
 	}
 }
 
+BLR_Vytautas_Line = {
+	BLR_Fortification_Efforts_at_the_Polish_Border = {
+		icon = GFX_BLR_Vytautas_Line
+		fire_only_once = no
+		allowed = {
+			original_tag = BLR
+		}
+		visible = {
+			if = {
+				limit = {
+					204 = {
+						any_province_building_level = {
+							province = {
+								id = 11370
+								limit_to_border = no
+							}
+							building = bunker
+							level < 6
+						}
+					}
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 206
+			}
+		}
+		available = {
+			has_political_power > 200
+		}
+		days_remove = 60
+		ai_will_do = {}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_political_power = -20
+			set_country_flag = BLR_Vytautas_Poland
+			206 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3267
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11370
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11216
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						206 = {
+							anti_air_building < 5
+						}
+					}
+					206 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			204 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3759
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11313
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						204 = {
+							anti_air_building < 5
+						}
+					}
+					204 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			194 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 215
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9554
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						762 = {
+							anti_air_building < 5
+						}
+					}
+					194 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			207 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3219
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6371
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6220
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						207 = {
+							anti_air_building < 5
+						}
+					}
+					207 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	BLR_Fortification_Efforts_at_the_Soviet_Border = {
+		icon = GFX_BLR_Vytautas_Line
+		fire_only_once = no
+		allowed = {
+			original_tag = BLR
+		}
+		visible = {
+			if = {
+				limit = {
+					204 = {
+						any_province_building_level = {
+							province = {
+								id = 3219
+								limit_to_border = no
+							}
+							building = bunker
+							level < 6
+						}
+					}
+
+					241 = {
+						any_province_building_level = {
+							province = {
+								id = 11230
+								limit_to_border = no
+							}
+							building = bunker
+							level < 6
+						}
+					}
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 241
+			}
+		}
+		available = {
+			has_political_power > 200
+		}
+		days_remove = 60
+		ai_will_do = {}
+		complete_effect = {
+		}
+		remove_effect = {
+			set_country_flag = BLR_Vytautas_Soviets
+			add_political_power = -20
+			206 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3267
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11370
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11216
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						206 = {
+							anti_air_building < 5
+						}
+					}
+					206 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			204 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3759
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11313
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						204 = {
+							anti_air_building < 5
+						}
+					}
+					204 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			194 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 215
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9554
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						194 = {
+							anti_air_building < 5
+						}
+					}
+					194 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			207 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6326
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6249
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 323
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11241
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						207 = {
+							anti_air_building < 5
+						}
+					}
+					207 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+
+			241 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11220
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6354
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 289
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11230
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11383
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9396
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9371
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11355
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9342
+					instant_build = yes
+				}
+
+				if = {
+					limit = {
+						241 = {
+							anti_air_building < 5
+						}
+					}
+					241 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	BLR_Fortification_Efforts_at_the_Ukrainian_Border = {
+		icon = GFX_BLR_Vytautas_Line
+		fire_only_once = no
+		allowed = {
+			original_tag = BLR
+		}
+		visible = {
+			if = {
+				limit = {
+					194 = {
+						any_province_building_level = {
+							province = {
+								id = 11453
+								limit_to_border = no
+							}
+							building = bunker
+							level < 6
+						}
+					}
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 194
+			}
+		}
+		available = {
+			has_political_power > 200
+		}
+		days_remove = 60
+		ai_will_do = {}
+		complete_effect = {
+		}
+		remove_effect = {
+			set_country_flag = BLR_Vytautas_Ukraine
+			add_political_power = -20
+			194 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6556
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11453
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3507
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9249
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9288
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						194 = {
+							anti_air_building < 5
+						}
+					}
+					194 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			204 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3759
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11313
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						204 = {
+							anti_air_building < 5
+						}
+					}
+					204 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			194 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 215
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9554
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						194 = {
+							anti_air_building < 5
+						}
+					}
+					194 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			207 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6326
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6249
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 323
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11241
+					instant_build = yes
+				}
+				if = {
+					limit = {
+						207 = {
+							anti_air_building < 5
+						}
+					}
+					207 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+
+			241 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11220
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 6354
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 289
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11230
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11383
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9396
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9371
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 11355
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 9342
+					instant_build = yes
+				}
+
+				if = {
+					limit = {
+						241 = {
+							anti_air_building < 5
+						}
+					}
+					241 = {
+						add_building_construction = {
+							type = anti_air_building
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	BLR_Finish_Vytautas_Dream = {
+		icon = GFX_BLR_Finish_Vytautas_Dream
+		fire_only_once = yes
+		allowed = {
+			original_tag = BLR
+		}
+		available = {
+			AND = {
+				has_country_flag = BLR_Vytautas_Poland
+				has_country_flag = BLR_Vytautas_Soviets
+				has_country_flag = BLR_Vytautas_Ukraine
+			}
+		}
+		complete_effect = {
+			add_political_power = 100
+			add_war_support = -0.05
+			add_stability = 0.05
+			set_country_flag = BLR_Vytautas_Line_Finished
+		}
+	}
+}
+
 

@@ -60,6 +60,16 @@ BLR_Constitution = {
     priority = 13
 }
 
-
+BLR_Vytautas_Line = {
+    icon = GFX_category_BLR_Vytautas_Line
+    picture = GFX_BLR_Building_Vytautas_Line
+    allowed = {
+        original_tag = BLR
+    }
+    visible = { 
+        has_completed_focus = BLR_Start_building_the_Vytautas_line 
+    }
+    priority = 9
+}
 
 
