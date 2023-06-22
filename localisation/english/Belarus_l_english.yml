@@ -248,4 +248,15 @@ BLR_fascism_DEF:0 "the Belarusian National Republic"
 
 
 BLR_Vytautas_Line:0 "Vytautas Line"
-BLR_Vytautas_Line_desc:0 "Smth here"
+BLR_Vytautas_Line_desc:0 "§RThe Vytautas Line§! is an ambitious §Ydefensive line§!, drawn up by our High Command. The line would cover all the fronts that need fortifications. These are the Polish, Ukrainian and Soviet fronts. These preacutions will be vital in defending Belarus, §Yif war breaks out!§!"
+
+
+BLR_Fortification_Efforts_at_the_Polish_Border:0 "Fortification Efforts at the Polish Border"
+BLR_Fortification_Efforts_at_the_Polish_Border_desc:0 "We shall focus our industry to §Yfortificate§! the Polish border, since the poles were always waiting for the time we lowered our guard. The poles will face an unbreakable wall that shall stop their advance!"
+
+BLR_Fortification_Efforts_at_the_Soviet_Border:0 "Fortification Efforts at the Soviet Border"
+BLR_Fortification_Efforts_at_the_Soviet_Border:0 "The Soviet Union is our greatest enemy by far. They await the moment when they can freely walk into our home without resistance. They will instead be greeted by §Ybullets§! and brave Belarusian patriots defending their home from the §Ybunkers§!, which the soviets cannot break through!"
+
+BLR_Fortification_Efforts_at_the_Ukrainian_Border:0 "Fortification Efforts at the Ukrainian Border"
+BLR_Fortification_Efforts_at_the_Ukrainian_Border_desc:0 "We do not have great relations with our Ukrainian brethren. We shall §Yfortify§! our border with them, incase a war breaks out between us!"
+
