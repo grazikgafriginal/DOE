@@ -40,8 +40,6 @@ focus_tree = {
         
             
             hidden_effect = {
-                
-
                 country_event = {
 					id = belarus.1
 					days = 3
@@ -50,12 +48,6 @@ focus_tree = {
             add_stability = -0.95
             add_war_support = -0.95
             add_political_power = -75
-
-            #set_party_name = {
-            #    ideology = communism
-            #    name = BLR_communism_party
-            #    long_name = BLR_communism_party_long
-            #}
         }
 
         mutually_exclusive = {
@@ -3213,7 +3205,13 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-            
+            custom_effect_tooltip = 1_vytautas_line_BLR_tt
+            hidden_effect = {
+                country_event = {
+                    id = belarus.17
+                    days = 4
+                }
+            }
         }
         prerequisite = {
             focus = BLR_Reactivate_Old_Armories

@@ -18,4 +18,9 @@ spriteTypes = {
 		name = "GFX_GFX_report_event_jan_siereda"
 		texturefile = "gfx/event_pictures/GFX_report_event_jan_siereda.png"
 	}
+
+	spriteType = {
+		name = "GFX_GFX_report_event_BLR_vytautas_line"
+		texturefile = "gfx/event_pictures/GFX_report_event_BLR_vytautas_line.png"
+	}
 }

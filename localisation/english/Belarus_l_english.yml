@@ -260,3 +260,6 @@ BLR_Fortification_Efforts_at_the_Soviet_Border:0 "The Soviet Union is our greate
 BLR_Fortification_Efforts_at_the_Ukrainian_Border:0 "Fortification Efforts at the Ukrainian Border"
 BLR_Fortification_Efforts_at_the_Ukrainian_Border_desc:0 "We do not have great relations with our Ukrainian brethren. We shall §Yfortify§! our border with them, incase a war breaks out between us!"
 
+1_vytautas_line_BLR_tt:0 "High command will start building §RVytautas Line§!, the new §Rsuper-secret§! fortification area which would stop any potential enemy!"
+
+belarus_vytautas_line.1.d:0 "smth"

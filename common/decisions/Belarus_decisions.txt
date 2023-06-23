@@ -1155,6 +1155,11 @@ BLR_Vytautas_Line = {
 			add_war_support = -0.05
 			add_stability = 0.05
 			set_country_flag = BLR_Vytautas_Line_Finished
+
+			country_event = { 
+				id = belarus.18
+				days = 1
+			}
 		}
 	}
 }

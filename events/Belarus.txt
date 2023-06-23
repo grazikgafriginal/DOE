@@ -510,3 +510,36 @@ country_event = {
 		ai_chance = { factor = 75 }
 	}
 }
+
+
+#######################################################
+######################Vytautas Line####################
+#######################################################
+
+country_event = {
+	id = belarus.17
+	title = "The construction started!"
+	desc = belarus_vytautas_line.1.d
+	picture = GFX_GFX_report_event_BLR_vytautas_line
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Let Radegast help us!"
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = belarus.18
+	title = "The Line had been finished!"
+	desc = belarus_vytautas_line.2.d
+	picture = GFX_GFX_report_event_BLR_vytautas_line
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Na boj — usie da adnaho!"
+		ai_chance = { factor = 75 }
+	}
+}
