@@ -1164,4 +1164,39 @@ BLR_Vytautas_Line = {
 	}
 }
 
+BLR_First_Militarisation_Process = {
+	BLR_First_Rearmament_Program = {
+		icon = GFX_decision_military_buildup
+		allowed = {
+			original_tag = BLR
+		}
+		available = {
+			num_divisions > 12
+		}
+		activation = {
+			has_completed_focus = BLR_Creation_of_Belarusian_Armed_forces
+		}
+		days_mission_timeout = 365
+		days_remove = 365
+		fire_only_once = yes
+		is_good = no
+		complete_effect = {
+			add_war_support = 0.05
+			set_country_flag = BLR_First_Militarisation_Process
+		}
+		timeout_effect = {
+			add_war_support = -0.05
+			add_stability = -0.05
+			add_popularity = {
+				ideology = current_party_ideology_group
+				popularity = -0.1
+			}
+			set_country_flag = BLR_First_Militarisation_Processs
+		}
+		ai_will_do = {
+			factor = 500
+		}
+	}
+}
+
 

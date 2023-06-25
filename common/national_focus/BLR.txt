@@ -67,7 +67,7 @@ focus_tree = {
         cost = 4
         available_if_capitulated = yes
         available = {
-            has_completed_focus = BLR_Creation_of_Belarussian_Armed_forces
+            has_completed_focus = BLR_Creation_of_Belarusian_Armed_forces
         }
         completion_reward = {
 
@@ -2982,7 +2982,7 @@ focus = {
     ###### Army tree
     ################################################################
     focus = {
-        id = BLR_Creation_of_Belarussian_Armed_forces
+        id = BLR_Creation_of_Belarusian_Armed_forces
         icon = GFX_
         x = 48
         y = 7
@@ -3010,7 +3010,7 @@ focus = {
            
         }
         prerequisite = {
-            focus = BLR_Creation_of_Belarussian_Armed_forces
+            focus = BLR_Creation_of_Belarusian_Armed_forces
         }
         mutually_exclusive ={
             focus = BLR_Establish_Piersy_Slucki_polk_stralcou
@@ -3031,7 +3031,7 @@ focus = {
             
         }
         prerequisite = {
-            focus = BLR_Creation_of_Belarussian_Armed_forces
+            focus = BLR_Creation_of_Belarusian_Armed_forces
         }
         mutually_exclusive ={
             focus = BLR_Bet_on_the_milita

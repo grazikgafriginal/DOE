@@ -72,4 +72,12 @@ BLR_Vytautas_Line = {
     priority = 9
 }
 
-
+BLR_First_Militarisation_Process = {
+    #icon = 
+    #picture = 
+    allowed = { original_tag = BLR }
+    visible = {
+        has_completed_focus = BLR_Creation_of_Belarusian_Armed_forces
+    }
+    priority = 13
+}

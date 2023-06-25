@@ -263,3 +263,10 @@ BLR_Fortification_Efforts_at_the_Ukrainian_Border_desc:0 "We do not have great r
 1_vytautas_line_BLR_tt:0 "High command will start building §RVytautas Line§!, the new §Rsuper-secret§! fortification area which would stop any potential enemy!"
 
 belarus_vytautas_line.1.d:0 "smth"
+
+#################### MILITARISATION DECISION ####################
+
+BLR_First_Militarisation_Process:0 "First Militarisation Process"
+BLR_First_Militarisation_Process_desc:0 "During The Great War our various units fought on the different sides, as the path to our nation's freedom began, we gathered all the ammunition we had accumulated over the previous year, but it was insufficient to protect the country!\n\nYour mission is to §CMilitarise§! and improve the capabilities of our army! We need at least §C12 divisions§!, if you §Rfail§!, disaster might cost us our freedom! If you §Gsucceed§! your country will continue fighting for the bright future! Žive Belarus!"
+
+BLR_First_Rearmament_Program:0 "Start Militarisation Program!"
