@@ -1,0 +1,21 @@
+characters={
+	POL_Jozef_Pilsudski	={
+		name="Józef Klemens Piłsudski"
+		portraits={
+			civilian={
+				large="/gfx/leaders/POL/POL_Jozef_Pilsudski.png"
+			}
+		}
+		
+		country_leader={
+			ideology=military_dictatorship
+			traits={
+				A_drift
+				dictator
+			}
+			desc = POL_JOZEF_PILSUDSKI_DESC
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -518,7 +518,7 @@ country_event = {
 
 country_event = {
 	id = belarus.17
-	title = "The construction started!"
+	title = "The shield of our home!"
 	desc = belarus_vytautas_line.1.d
 	picture = GFX_GFX_report_event_BLR_vytautas_line
 

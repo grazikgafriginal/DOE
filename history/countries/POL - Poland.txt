@@ -1,42 +1,17 @@
-﻿#########################################################################
+#########################################################################
 # Characters
 #########################################################################
-recruit_character = BLR_Stanislav_Bulak_Balachowicz
-recruit_character = BLR_Jan_Sierada
-recruit_character = BLR_Yazep_Varonka
-recruit_character = BLR_Arkadz_Smolic
-recruit_character = BLR_Tamas_Hryb
-recruit_character = BLR_Henryk_Ehrlich
-recruit_character = BLR_Vincent_Hadlieŭski
-recruit_character = BLR_Jazep_Liosik
-recruit_character = BLR_Vaclau_Lastouski
-recruit_character = BLR_Mikola_Abramcyk
-recruit_character = BLR_Radaslau_Astrouski
-recruit_character = BLR_Janka_Kupala
-recruit_character = BLR_Jakub_Kolas
-recruit_character = BLR_Jazep_Drazdovic
-recruit_character = BLR_Maksim_Tank
-recruit_character = BLR_Siarhiej_Piasiecki
-
-recruit_character = BLR_bulak_balachowicz_marshal
-recruit_character = BLR_michal_vituska
-recruit_character = BLR_kanstancin_jezawitau
-recruit_character = BLR_kyprian_kandratovich
-recruit_character = BLR_hassan_kanapatsky
-recruit_character = BLR_boris_permikin
-recruit_character = BLR_mikalay_dzyamidau
-recruit_character = BLR_michail_yaroslavtsev
-recruit_character = BLR_lucjan_zeligowski
+recruit_character = POL_Jozef_Pilsudski
 
 
-capital = 206 #Minsk
+capital = 10 #Warsaw 
 
-oob = "BLR_1936"
+oob = "POL"
 
-set_research_slots = 2
-set_convoys = 0
-set_stability = 0.7
-set_war_support = 0.1
+set_convoys = 40
+set_war_support = 0.25
+set_stability = 0.5
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -126,29 +101,20 @@ set_politics = {
 	election_frequency = 252
 	elections_allowed = no
 }
+
 set_popularities = { 
 	democratic = 10.25
-	liberal = 4.5
-	anticommunism = 5.5
+	liberal = 20
+	anticommunism = 5.75
 	social_revolutionism = 6.5
-	social_democracy = 8.5
-	communism = 5.5
-	bundism = 4.5
+	social_democracy = 6
+	communism = 10.5
+	bundism = 6.5
 	fascism = 8.25
-	neutrality = 1.25
-	authoritarian = 45.25
+	neutrality = 6.25
+	authoritarian = 20
 }
 
 add_ideas = {
-	BLR_unindustrial_state
-	BLR_the_eastern_neighbour
-	BLR_remembrance_of_1918
-	BLR_education_issue
+	
 }
-
-
-
-
-
-
-
