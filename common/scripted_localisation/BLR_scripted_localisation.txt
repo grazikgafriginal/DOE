@@ -1,0 +1,135 @@
+####################################################################
+#### Rada Support
+####################################################################
+
+defined_text = {
+	name = BLR_Constitution_Rada_Support_Status
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Rada_Support > 89 }
+		}
+		localization_key = BLR_Constitution_Rada_Support_Status_5
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Rada_Support < 90 }
+			check_variable = { BLR_Constitution_Rada_Support > 74 }
+		}
+		localization_key = BLR_Constitution_Rada_Support_Status_4
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Rada_Support < 75 }
+			check_variable = { BLR_Constitution_Rada_Support > 49 }
+		}
+		localization_key = BLR_Constitution_Rada_Support_Status_3
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Rada_Support < 50 }
+			check_variable = { BLR_Constitution_Rada_Support > 29 }
+		}
+		localization_key = BLR_Constitution_Rada_Support_Status_2
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Rada_Support < 30 }
+			check_variable = { BLR_Constitution_Rada_Support > 9 }
+		}
+		localization_key = BLR_Constitution_Rada_Support_Status_1
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Rada_Support < 10 }
+		}
+		localization_key = BLR_Constitution_Rada_Support_Status_0
+	}
+}
+
+defined_text = {
+	name = BLR_Constitution_People_Support_Status
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_People_Support > 89 }
+		}
+		localization_key = BLR_Constitution_People_Support_Status_5
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_People_Support < 90 }
+			check_variable = { BLR_Constitution_People_Support > 74 }
+		}
+		localization_key = BLR_Constitution_People_Support_Status_4
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_People_Support < 75 }
+			check_variable = { BLR_Constitution_People_Support > 49 }
+		}
+		localization_key = BLR_Constitution_People_Support_Status_3
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_People_Support < 50 }
+			check_variable = { BLR_Constitution_People_Support > 29 }
+		}
+		localization_key = BLR_Constitution_People_Support_Status_2
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_People_Support < 30 }
+			check_variable = { BLR_Constitution_People_Support > 9 }
+		}
+		localization_key = BLR_Constitution_People_Support_Status_1
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_People_Support < 10 }
+		}
+		localization_key = BLR_Constitution_People_Support_Status_0
+	}
+}
+
+defined_text = {
+	name = BLR_Constitution_Army_Support_Status
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Army_Support > 89 }
+		}
+		localization_key = BLR_Constitution_Army_Support_Status_5
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Army_Support < 90 }
+			check_variable = { BLR_Constitution_Army_Support > 74 }
+		}
+		localization_key = BLR_Constitution_Army_Support_Status_4
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Army_Support < 75 }
+			check_variable = { BLR_Constitution_Army_Support > 49 }
+		}
+		localization_key = BLR_Constitution_Army_Support_Status_3
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Army_Support < 50 }
+			check_variable = { BLR_Constitution_Army_Support > 29 }
+		}
+		localization_key = BLR_Constitution_Army_Support_Status_2
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Army_Support < 30 }
+			check_variable = { BLR_Constitution_Army_Support > 9 }
+		}
+		localization_key = BLR_Constitution_Army_Support_Status_1
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Constitution_Army_Support < 10 }
+		}
+		localization_key = BLR_Constitution_Army_Support_Status_0
+	}
+}

@@ -131,12 +131,46 @@ BLR_Border_War_desc:0 "Smth here"
 BLR_Start_Clashes:0 "Start Clases With Russia"
 
 
+##### CONSTITUION TEST #########
+
+BLR_Constitution:0 "Luckievič Constitution Reforms"
+BLR_Constitution_desc:0 "In simple terms, the old 1917 Belarusian constitution needs to be revised. The old constitution was created in a rush when Red Menace from one and German Kaiser from the other were pressuring our Father Creators. Deficiencies and omissions in its provisions create opportunities for criminals to manipulate and harm individuals through social and financial methods. We must address this issue.\n\nThe head of the creation of the new constitution will be §YAnton Luckievič§!. Different §Ysocial groups§! will react to the §Yreforms§! differently. Our goal is to keep it above the middle satisfaction of the population.\n\n§CRada Constitution Support§!: [BLR_Constitution_Rada_Support_Status]\n\n§CPeople Constitution Support§!: [BLR_Constitution_People_Support_Status]\n\n§CArmy Constitution Support§!: [BLR_Constitution_Army_Support_Status]"
+
+### RADA SUPPORT ###
+BLR_Constitution_Rada_Support_Status_5:0 "§GEnthusiastic§!"
+BLR_Constitution_Rada_Support_Status_4:0 "§GEncouraging§!"
+BLR_Constitution_Rada_Support_Status_3:0 "§GAmbivalent§!"
+BLR_Constitution_Rada_Support_Status_2:0 "§YLukewarm§!"
+BLR_Constitution_Rada_Support_Status_1:0 "§RSkeptical§R"
+BLR_Constitution_Rada_Support_Status_0:0 "§RHostile§!"
+
+### PEOPLE SUPPORT ###
+BLR_Constitution_People_Support_Status_5:0 "§GEnthusiastic§!"
+BLR_Constitution_People_Support_Status_4:0 "§GEncouraging§!"
+BLR_Constitution_People_Support_Status_3:0 "§GAmbivalent§!"
+BLR_Constitution_People_Support_Status_2:0 "§YLukewarm§!"
+BLR_Constitution_People_Support_Status_1:0 "§RSkeptical§R"
+BLR_Constitution_People_Support_Status_0:0 "§RHostile§!"
+
+### ARMY SUPPORT ###
+BLR_Constitution_Army_Support_Status_5:0 "§GEnthusiastic§!"
+BLR_Constitution_Army_Support_Status_4:0 "§GEncouraging§!"
+BLR_Constitution_Army_Support_Status_3:0 "§GAmbivalent§!"
+BLR_Constitution_Army_Support_Status_2:0 "§YLukewarm§!"
+BLR_Constitution_Army_Support_Status_1:0 "§RSkeptical§R"
+BLR_Constitution_Army_Support_Status_0:0 "§RHostile§!"
 
 
-BLR_Constitution:0 "Constitution"
-BLR_Constitution_desc:0 "We need it! here is popalirty: [?constitution_popularity] lol"
+BLR_Increase_Centralisation:0 "Increase Centralisation"
+BLR_Increase_Centralisation_desc:0 "This decision will §Gsignificantly increase§! the §CRada Support§! and §Rsignificantly decrease§! §CPeople Support§! of §YLuckievič Reforms§!"
 
-constitution_popularity:0 "constitution popularity"
+
+#BLR_Constitution_Reform_Success_Status_5:0 "§GExtremely Effective§!"
+#BLR_Constitution_Reform_Success_Status_4:0 "§GVery Effective§!"
+#BLR_Constitution_Reform_Success_Status_3:0 "§GEffective§!"
+#BLR_Constitution_Reform_Success_Status_2:0 "§YMildly Effective§!"
+#BLR_Constitution_Reform_Success_Status_1:0 "§RIneffective§R"
+#BLR_Constitution_Reform_Success_Status_0:0 "§RDisastrous§!"
 
 
 ##### CHERVIAKOU REFORM #########

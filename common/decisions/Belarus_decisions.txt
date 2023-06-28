@@ -457,10 +457,30 @@ BLR_think_of_leaders_decisions = {
 }
 
 BLR_Constitution = {
-	BLR_Discuss_Constitution = {
-		cost = 10
+	BLR_Increase_Centralisation = {
+		icon = GFX_decision_gre_investment_decisions
+
+		cost = 30
+		days_remove = 10
+		fire_only_once = yes
+
 		ai_will_do = {
 			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Increase_Centralisation
+			add_to_variable = { var = BLR_Constitution_Rada_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 20 }
+			add_popularity = {
+				ideology = authoritarian
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = +0.03
+			}
+			add_political_power = 30
 		}
 	}
 }

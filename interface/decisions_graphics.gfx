@@ -1,5 +1,7 @@
 spriteTypes = {	
 
+	
+
 	SpriteType = { 
 		name = "GFX_decision_military_buildup"
 		texturefile = "gfx/interface/decisions/decision_military_buildup.png"
