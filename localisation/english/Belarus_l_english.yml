@@ -134,7 +134,7 @@ BLR_Start_Clashes:0 "Start Clases With Russia"
 ##### CONSTITUION TEST #########
 
 BLR_Constitution:0 "Luckievič Constitution Reforms"
-BLR_Constitution_desc:0 "In simple terms, the old 1917 Belarusian constitution needs to be revised. The old constitution was created in a rush when Red Menace from one and German Kaiser from the other were pressuring our Father Creators. Deficiencies and omissions in its provisions create opportunities for criminals to manipulate and harm individuals through social and financial methods. We must address this issue.\n\nThe head of the creation of the new constitution will be §YAnton Luckievič§!. Different §Ysocial groups§! will react to the §Yreforms§! differently. Our goal is to keep it above the middle satisfaction of the population.\n\n§CRada Constitution Support§!: [BLR_Constitution_Rada_Support_Status]\n\n§CPeople Constitution Support§!: [BLR_Constitution_People_Support_Status]\n\n§CArmy Constitution Support§!: [BLR_Constitution_Army_Support_Status]"
+BLR_Constitution_desc:0 "In simple terms, the old 1917 Belarusian constitution needs to be revised. The old constitution was created in a rush when Red Menace from one and German Kaiser from the other were pressuring our Father Creators. Deficiencies and omissions in its provisions create opportunities for criminals to manipulate and harm individuals through social and financial methods. We must address this issue.\n\nThe head of the creation of the new constitution will be §YAnton Luckievič§!. Different §Ysocial groups§! will react to the §Yreforms§! differently. Our goal is to keep it above the middle satisfaction of the population.\n\n£rada_support §CThe Rada Constitution Support§!: [BLR_Constitution_Rada_Support_Status]\n\n£people_support §CThe People Constitution Support§!: [BLR_Constitution_People_Support_Status]\n\n£army_support §CThe Army Constitution Support§!: [BLR_Constitution_Army_Support_Status]"
 
 ### RADA SUPPORT ###
 BLR_Constitution_Rada_Support_Status_5:0 "§GEnthusiastic§!"
@@ -162,7 +162,58 @@ BLR_Constitution_Army_Support_Status_0:0 "§RHostile§!"
 
 
 BLR_Increase_Centralisation:0 "Increase Centralisation"
-BLR_Increase_Centralisation_desc:0 "This decision will §Gsignificantly increase§! the §CRada Support§! and §Rsignificantly decrease§! §CPeople Support§! of §YLuckievič Reforms§!"
+BLR_Increase_Centralisation_desc:0 "This decision will §Gsignificantly increase§! the £rada_support §CRada Support§! and §Rsignificantly decrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Increase_Decentralisation:0 "Increase Decentralisation"
+BLR_Increase_Decentralisation_desc:0 "This decision will §Gsignificantly increase§! the £people_support §CPeople Support§! and §Rsignificantly decrease§! £rada_support §CRada Support§! of §YLuckievič Reforms§!"
+
+BLR_Expand_Political_Pluralism:0 "Expand Political Pluralism"
+BLR_Expand_Political_Pluralism_desc:0 "This decision will §Gsignificantly increase§! the £rada_support §CRada Support§! and §Rsignificantly decrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Emphasize_Single_Party_Rule:0 "Emphasize Single Party Rule"
+BLR_Emphasize_Single_Party_Rule_desc:0 "This decision will §Gsignificantly increase§! the £army_support §CArmy Support§! of §YLuckievič Reforms§!"
+
+BLR_Proportional_Representation:0 "Proportional Representation"
+BLR_Proportional_Representation_desc:0 "This decision will §Gincrease§! the £rada_support §CRada Support§! and £people_support §CPeople Support§!, however will §Rsignificantly decrease§! £army_support §CArmy Support§! of §YLuckievič Reforms§!"
+
+BLR_First_Past_the_Post:0 "First-Past-the-Post"
+BLR_First_Past_the_Post_desc:0 "This decision will §Gsignificantly increase§! the £army_support §CArmy Support§! and §Rdecrease§! £people_support §CPeople Support§! and the £rada_support §CRada Support§! of §YLuckievič Reforms§!"
+
+BLR_Expand_Civil_Liberties:0 "Expand Civil Liberties"
+BLR_Expand_Civil_Liberties_desc:0 "This decision will §Gsignificantly increase§! £people_support §CPeople Support§! and §Rsignificantly decrease§! £army_support §CArmy Support§! of §YLuckievič Reforms§!"
+
+BLR_Increase_State_Security:0 "Increase State Security"
+BLR_Increase_State_Security_desc:0 "This decision will §Gsignificantly increase§! £army_support §CArmy Support§! and §Rsignificantly decrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Free_Market_Reforms:0 "Free Market Reforms"
+BLR_Free_Market_Reforms_desc:0 "This decision will §Gincrease§! £people_support §CPeople Support§! and §Rsignificantly decrease§! £army_support §CArmy Support§! of §YLuckievič Reforms§!"
+
+BLR_State_Control_Planning:0 "State Control Planning"
+BLR_State_Control_Planning_desc:0 "This decision will §Gsignificantly increase§! £people_support §CPeople Support§! and §Rsignificantly decrease§! £army_support §CArmy Support§! of §YLuckievič Reforms§!"
+
+BLR_Strengthen_Judical_Independence:0 "Strengthen Judical Independence"
+BLR_Strengthen_Judical_Independence_desc:0 "This decision will §Gincrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Increase_Executive_Influence:0 "Increase Executive Influence"
+BLR_Increase_Executive_Influence_desc:0 "This decision will §Gincrease§! £rada_support §CRada Support§! of §YLuckievič Reforms§!"
+
+BLR_Promote_Equality_and_Inclusion:0 "Promote Equality and Inclusion"
+BLR_Promote_Equality_and_Inclusion_desc:0 "This decision will §Gincrease§! £people_support §CPeople Support§! and §Rslightly decrease§! £rada_support §CRada Support§! of §YLuckievič Reforms§!"
+
+BLR_Assimilation_Uniformity:0 "Assimilation and Uniformity"
+BLR_Assimilation_Uniformity_desc:0 "This decision will §Gslightly increase§! £rada_support §CRada Support§! and §Rdecrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Church_Over_State:0 "Church Over the State"
+BLR_Church_Over_State_desc:0 "This decision will §Gincrease§! £people_support §CPeople Support§! and §Rdecrease§! £rada_support §CRada Support§! and £army_support §CArmy Support§! of §YLuckievič Reforms§!"
+
+BLR_Alienate_Church:0 "Alienate Church"
+BLR_Alienate_Church_desc:0 "This decision will §Gincrease§! £rada_support §CRada Support§! and £army_support §CArmy Support§! but §Rdecrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Comulsory_Army_Service:0 "Comulsory Army Service"
+BLR_Comulsory_Army_Service_desc:0 "This decision will §Gsignificantly increase§! £army_support §CArmy Support§! and §Rdecrease§! £people_support §CPeople Support§! of §YLuckievič Reforms§!"
+
+BLR_Voluntary_Army_Service:0 "Voluntary Army Service"
+BLR_Voluntary_Army_Service_desc:0 "This decision will §Gincrease§! £people_support §CPeople Support§! and §Rsignificantly decrease§! £army_support §CArmy Support§! of §YLuckievič Reforms§!"
 
 
 #BLR_Constitution_Reform_Success_Status_5:0 "§GExtremely Effective§!"

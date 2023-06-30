@@ -460,6 +460,10 @@ BLR_Constitution = {
 	BLR_Increase_Centralisation = {
 		icon = GFX_decision_gre_investment_decisions
 
+		visible = {
+			NOT = { has_country_flag = BLR_Increase_Decentralisation }
+		}
+
 		cost = 30
 		days_remove = 10
 		fire_only_once = yes
@@ -480,8 +484,532 @@ BLR_Constitution = {
 				ideology = neutrality
 				popularity = +0.03
 			}
-			add_political_power = 30
 		}
+	}
+
+	BLR_Increase_Decentralisation = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Increase_Centralisation }
+		}
+
+		cost = 30
+		days_remove = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Increase_Decentralisation
+			add_to_variable = { var = BLR_Constitution_People_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_Rada_Support value = 20 }
+			add_popularity = {
+				ideology = social_democracy
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = +0.03
+			}
+			add_stability = -0.03
+		}
+	}
+
+	BLR_Expand_Political_Pluralism = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Emphasize_Single_Party_Rule }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Expand_Political_Pluralism
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 20 }
+			add_to_variable = { var = BLR_Constitution_Rada_Support value = 20 }
+			add_stability = -0.03
+		}
+	}
+
+	BLR_Emphasize_Single_Party_Rule = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Expand_Political_Pluralism }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Emphasize_Single_Party_Rule
+			add_to_variable = { var = BLR_Constitution_Army_Support value = 20 }
+		}
+	}
+
+	BLR_Proportional_Representation = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_First_Past_the_Post }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Proportional_Representation
+			add_to_variable = { var = BLR_Constitution_People_Support value = 10 }
+			add_to_variable = { var = BLR_Constitution_Rada_Support value = 10 }
+			subtract_from_variable = { var = BLR_Constitution_Army_Support value = 20 }
+		}
+	}
+
+	BLR_First_Past_the_Post = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Proportional_Representation }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_First_Past_the_Post
+			add_to_variable = { var = BLR_Constitution_Army_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 10 }
+			subtract_from_variable = { var = BLR_Constitution_Rada_Support value = 10 }
+			add_stability = -0.03
+		}
+	}
+
+	BLR_Expand_Civil_Liberties = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Increase_State_Security }
+		}
+
+		cost = 30
+		days_remove = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Expand_Civil_Liberties
+			add_to_variable = { var = BLR_Constitution_People_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_Army_Support value = 20 }
+
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = authoritarian
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = bundism
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = anticommunism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = +0.03
+			}
+		}
+	}
+
+	BLR_Increase_State_Security = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Expand_Civil_Liberties }
+		}
+
+		cost = 30
+		days_remove = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Increase_State_Security
+			add_to_variable = { var = BLR_Constitution_Army_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 20 }
+
+			add_popularity = {
+				ideology = fascism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = authoritarian
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = bundism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = anticommunism
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = -0.03
+			}
+		}
+	}
+
+	BLR_Free_Market_Reforms = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_State_Control_Planning }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Free_Market_Reforms
+			add_to_variable = { var = BLR_Constitution_People_Support value = 10 }
+			subtract_from_variable = { var = BLR_Constitution_Army_Support value = 20 }
+
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = authoritarian
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = bundism
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = anticommunism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = +0.03
+			}
+		}
+	}
+
+	BLR_State_Control_Planning = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Free_Market_Reforms }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_State_Control_Planning
+			add_to_variable = { var = BLR_Constitution_Army_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 20 }
+
+			add_popularity = {
+				ideology = fascism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = authoritarian
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = bundism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = anticommunism
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = -0.03
+			}
+		}
+	}
+
+	BLR_Strengthen_Judical_Independence = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Increase_Executive_Influence }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Strengthen_Judical_Independence
+			add_to_variable = { var = BLR_Constitution_People_Support value = 10 }
+		}
+	}
+
+	BLR_Increase_Executive_Influence = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Strengthen_Judical_Independence }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Increase_Executive_Influence
+			add_to_variable = { var = BLR_Constitution_Rada_Support value = 10 }
+		}
+	}
+
+	BLR_Promote_Equality_and_Inclusion = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag =  }
+			has_completed_focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Promote_Equality_and_Inclusion
+			subtract_from_variable = { var = BLR_Constitution_Rada_Support value = 5 }
+			add_to_variable = { var = BLR_Constitution_People_Support value = 10 }
+		}
+	}
+
+	BLR_Assimilation_Uniformity = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Promote_Equality_and_Inclusion }
+			has_completed_focus = BLR_Limit_the_languages_in_the_country
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Assimilation_Uniformity
+			add_to_variable = { var = BLR_Constitution_Rada_Support value = 5 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 10 }
+		}
+	}
+
+	BLR_Church_Over_State = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Alienate_Church }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Church_Over_State
+			subtract_from_variable = { var = BLR_Constitution_Rada_Support value = 10 }
+			subtract_from_variable = { var = BLR_Constitution_Army_Support value = 10 }
+			add_to_variable = { var = BLR_Constitution_People_Support value = 10 }
+
+			add_popularity = {
+				ideology = anticommunism
+				popularity = +0.03
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = +0.03
+			}
+			add_stability = -0.03
+		}
+	}
+
+	BLR_Alienate_Church = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Church_Over_State }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Alienate_Church
+			add_to_variable = { var = BLR_Constitution_Rada_Support value = 10 }
+			add_to_variable = { var = BLR_Constitution_Army_Support value = 10 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 10 }
+
+			add_popularity = {
+				ideology = anticommunism
+				popularity = -00.03
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.03
+			}
+		}
+		add_stability = -0.03
+	}
+
+	BLR_Comulsory_Army_Service = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Voluntary_Army_Service }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Comulsory_Army_Service
+			add_to_variable = { var = BLR_Constitution_Army_Support value = 20 }
+			subtract_from_variable = { var = BLR_Constitution_People_Support value = 10 }
+		}
+	}
+
+	BLR_Voluntary_Army_Service = {
+		icon = GFX_decision_gre_investment_decisions
+
+		visible = {
+			NOT = { has_country_flag = BLR_Comulsory_Army_Service }
+		}
+
+		cost = 30
+		days_remove = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		complete_effect = {
+			set_country_flag = BLR_Voluntary_Army_Service
+			subtract_from_variable = { var = BLR_Constitution_Army_Support value = 20 }
+			add_to_variable = { var = BLR_Constitution_People_Support value = 10 }
+		}
+		add_war_support = -0.03
 	}
 }
 

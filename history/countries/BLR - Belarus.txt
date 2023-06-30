@@ -141,9 +141,9 @@ set_popularities = {
 
 #set_variable = { BLR_Constitution_Reform_Success = 80 }
 #set_variable = { WHR_Land_Reform_Popularity = 50 }
-set_variable = { BLR_Constitution_Rada_Support = 70 }
-set_variable = { BLR_Constitution_People_Support = 70 }
-set_variable = { BLR_Constitution_Army_Support = 70 }
+set_variable = { BLR_Constitution_Rada_Support = 50 }
+set_variable = { BLR_Constitution_People_Support = 30 }
+set_variable = { BLR_Constitution_Army_Support = 20 }
 
 add_ideas = {
 	BLR_unindustrial_state
