@@ -1,6 +1,18 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_industrialisation_reform"
+		texturefile = "gfx/texticons/industrialisation_reform.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_reform_points"
+		texturefile = "gfx/texticons/reform_points.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_rada_support"
 		texturefile = "gfx/texticons/rada_support.png"
 		legacy_lazy_load = no

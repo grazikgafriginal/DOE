@@ -144,6 +144,8 @@ set_popularities = {
 set_variable = { BLR_Constitution_Rada_Support = 50 }
 set_variable = { BLR_Constitution_People_Support = 30 }
 set_variable = { BLR_Constitution_Army_Support = 20 }
+set_variable = { BLR_Rada_Legit = 40 }
+set_variable = { BLR_Industrialisation_Reform = 0 }
 
 add_ideas = {
 	BLR_unindustrial_state

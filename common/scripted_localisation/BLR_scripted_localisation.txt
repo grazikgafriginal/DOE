@@ -133,3 +133,81 @@ defined_text = {
 		localization_key = BLR_Constitution_Army_Support_Status_0
 	}
 }
+
+
+####################################################################
+#### Rada Legitimacy
+####################################################################
+
+defined_text = {
+	name = BLR_Rada_Legit_Status
+	text = {
+		trigger = {
+			check_variable = { BLR_Rada_Legit > 84 }
+		}
+		localization_key = BLR_Rada_Legit_Status_2
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Rada_Legit < 85 }
+			check_variable = { BLR_Rada_Legit > 35 }
+		}
+		localization_key = BLR_Rada_Legit_Status_1
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Rada_Legit < 35 }
+		}
+		localization_key = BLR_Rada_Legit_Status_0
+	}
+}
+
+
+####################################################################
+#### INDUSTRIAL REFORM 	
+####################################################################
+
+
+defined_text = {
+	name = BLR_Industrialisation_Reform_Status
+	text = {
+		trigger = {
+			check_variable = { BLR_Industrialisation_Reform > 84 }
+		}
+		localization_key = BLR_Industrialisation_Reform_Status_5
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Industrialisation_Reform < 85 }
+			check_variable = { BLR_Industrialisation_Reform > 74 }
+		}
+		localization_key = BLR_Industrialisation_Reform_Status_4
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Industrialisation_Reform < 75 }
+			check_variable = { BLR_Industrialisation_Reform > 49 }
+		}
+		localization_key = BLR_Industrialisation_Reform_Status_3
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Industrialisation_Reform < 50 }
+			check_variable = { BLR_Industrialisation_Reform > 29 }
+		}
+		localization_key = BLR_Industrialisation_Reform_Status_2
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Industrialisation_Reform < 30 }
+			check_variable = { BLR_Industrialisation_Reform > 9 }
+		}
+		localization_key = BLR_Industrialisation_Reform_Status_1
+	}
+	text = {
+		trigger = {
+			check_variable = { BLR_Industrialisation_Reform < 10 }
+		}
+		localization_key = BLR_Industrialisation_Reform_Status_0
+	}
+}

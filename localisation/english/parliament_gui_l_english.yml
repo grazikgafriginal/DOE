@@ -1,0 +1,25 @@
+﻿l_english:
+
+ # Decisions
+  parliament_gui_decision_category:0 "Rada Bielaruskaj Respubliki§!"
+  parliament_gui_decision_category_desc:0 "§1The Rada§! of The Belarusian Republic consists of 200 representetives from the different parts of the republic and 10 parties which share different amount of seats in §1The Rada§!.\n\n§CCurrent Rada legitimacy score§!: [?BLR_Rada_Legit]\n\n§CCurrenlty Rada' legitimacy§! is [BLR_Rada_Legit_Status]"
+  BLR_party_a:0 "Party A"
+
+ # Scripted GUIs
+  #parliament_gui_title:0 "Grid Parliament" #doesnt work and not needed 
+  #semicircle_parliament_gui_title:0 "Rada"
+  parliament_main_icon_tt:0 "[GetParliamentSeatName]: [GetParliamentPartyName]"
+  parliament_seat_text:0 "Seat [?temp_seat|Y0]"
+  parliament_member_text:0 "[GetParliamentPartyName]: §Y[?parliament_seat_array^parliament_member_index] Seats§!"
+  #parliament_modify_button_tt:0 "§GCtrl+Click§! to add §Y5§! Seats from [GetParliamentPartyName]\n§GShift+Click§! to subtract §Y5§! Seats from [GetParliamentPartyName]"
+
+  party_1_text:0 "BSDP"
+  party_2_text:0 "BSH(V)"
+  party_3_text:0 "BPSR"
+  party_4_text:0 "BSH"
+  party_5_text:0 "Bund"
+  party_6_text:0 "Partyja Atamana"
+  party_7_text:0 "BFP"
+  party_8_text:0 "BPB"
+  party_9_text:0 "BLP"
+  party_10_text:0 "BNP"

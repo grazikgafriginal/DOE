@@ -41,7 +41,7 @@
  BLR_anticommunism_party_long:0 "Bielaruskaja Niezaliežnickaja Partyja"
 
  ##### BOOOOOKMAAAARKS ######
- BLR_GATHERING_STORM_DESC:0 "The sun shone on already independent Belarus on March 25. Even though foreign troops were stationed on it, even though a foreigner has been and will continue to be used on it, the Belarusian people have thrown off the bonds of slavery from their souls, and no one and nothing will lift these bonds back."
+ BLR_GATHERING_STORM_DESC:0 "After October Revolution and Brest-Litousk treaty Belarusian Democratic Republic (BDR) established legitimate and independent nation supported by Kaiser Wilhelm II and Weimar Republic later on. After proclaiming 3 Charters of BDR, after facing Polish-Soviet War (1919-) Belarus and Poland are facing serious threat of Red Menace from the east... Belarusian future is in our hands!"
 
 ######################################## IDEAS ########################################################
  BLR_unindustrial_state:0 "Unindustrial state" 
@@ -96,10 +96,17 @@ BLR_The_country_of_culture_desc:0 ""
 
 ######################################## Decisions ########################################################
 
-#####INDUSTRIAL DECISIONS CATEGORY #########
+#####INDUSTRIALISATION DECISIONS CATEGORY #########
 
-BLR_industrialization:0 "§1Industrialisation Reforms§!"
-BLR_industrialization_desc:0 "Our nation is severely §9lacking behind§! our neighbors. That is why one of the most important matters of the state is §9industrial reforms§!. We need it fast because if we are not prepared industrially we will surely §9lose a war§! if we enter one."
+BLR_industrialization:0 "§1Jezavitaŭ Industrialisation Reforms§!"
+BLR_industrialization_desc:0 "Our nation drained by multiple wars and revolution is severely §9lacking behind§! our neighbors. That is why one of the most important matters of the state is §9industrial reforms§!. Kastuś Jezavitaŭ ex-tsarist soldier who is right now our Ministry of Defense has proposed rapid industrialisation reform. We need it fast because if we are not prepared industrially we will surely §9lose a war§! if we enter one. To finish the Jezavitaŭ reform successfully you need at least 85 points.\n\n£reform_points §CIndustrialisation points§!: [?BLR_Industrialisation_Reform]\n\n£industrialisation_reform §CIndustrialisation general status§!: [BLR_Industrialisation_Reform_Status]"
+
+BLR_Industrialisation_Reform_Status_0: "§RLimited§!"
+BLR_Industrialisation_Reform_Status_1: "§RMarginal§!"
+BLR_Industrialisation_Reform_Status_2: "§YModerate§!"
+BLR_Industrialisation_Reform_Status_3: "§YPromising§!"
+BLR_Industrialisation_Reform_Status_4: "§GSubstantial§!"
+BLR_Industrialisation_Reform_Status_5: "§GRemarkable§!"
 
 BLR_Komunarka_Mensk:0 "Build the Komunarka factory in Mensk"
 BLR_Komunarka_Mensk_desc:0 "To keep our population happy and to not give them thoughts for rebellion, we need to feed them something sweet like candy or anything else that is sweet. There is this saying that an old french noblewoman said that could be applied to the current situation "Let them eat cake""
@@ -229,8 +236,6 @@ BLR_Voluntary_Army_Service_desc:0 "This decision will §Gincrease§! £people_su
 BLR_education_reform:0 "§9Smolič Education Reform§!"
 BLR_education_reform_desc:0 "Our country is in one of the worst situations in Europe concerning illiteracy. Most of our population can't read or can't count till ten. §9Arkadź Smolič§! has offered his help in a program called §9Narodnaja Asvieta§!. His program seems promising and we don't have more options so we need to trust the professionals. \n\n§CEducation Reform Success§!: [BLR_Edu_Reform_Success_Status] \n\n§CEducation Reform Popularity§!: [BLR_Edu_Reform_Popularity_Status]"
 
-adds_to_reform_tt:0 "loh"
-
 BLR_Build_Schools_Mensk:0 "Build School in Mensk"
 BLR_Build_Schools_Mensk_desc:0 ""
 
@@ -355,3 +360,9 @@ BLR_First_Militarisation_Process:0 "First Militarisation Process"
 BLR_First_Militarisation_Process_desc:0 "During The Great War our various units fought on the different sides, as the path to our nation's freedom began, we gathered all the ammunition we had accumulated over the previous year, but it was insufficient to protect the country!\n\nYour mission is to §CMilitarise§! and improve the capabilities of our army! We need at least §C12 divisions§!, if you §Rfail§!, disaster might cost us our freedom! If you §Gsucceed§! your country will continue fighting for the bright future! Žive Belarus!"
 
 BLR_First_Rearmament_Program:0 "Start Militarisation Program!"
+
+#################### GOV Legitemacy DECISION ####################
+
+BLR_Rada_Legit_Status_0:0 "§RReluctant§!"
+BLR_Rada_Legit_Status_1:0 "§YConditional§!"
+BLR_Rada_Legit_Status_2:0 "§GFervent§!"
