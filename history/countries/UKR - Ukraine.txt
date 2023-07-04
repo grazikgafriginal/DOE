@@ -143,3 +143,7 @@ set_popularities = {
 add_ideas = {
 }
 
+BLR = { give_military_access = UKR }
+LIT = { give_military_access = UKR }
+LAT = { give_military_access = UKR }
+POL = { give_military_access = UKR }

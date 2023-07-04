@@ -1,0 +1,11 @@
+﻿capital = 219
+
+
+set_fuel_ratio = 0.20
+set_research_slots = 4
+set_stability = 0.65
+set_war_support = 0.2
+set_convoys = 100
+
+oob = "SOV_1919"
+

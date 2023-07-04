@@ -420,7 +420,7 @@ BLR_Border_War = {
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
-					state = 194
+					state = 242
 					num_provinces = 2
 					on_win = belarus.14
 					on_lose = belarus.14
@@ -431,16 +431,58 @@ BLR_Border_War = {
 					terrain_factor = 0
 				}
 				defender = {
-					state = 201
-					num_provinces = 1
+					state = 207
+					num_provinces = 2
+					#on_win = BLR_Border_War.1
+					#on_lose = BLR_Border_War.1
+					#on_cancel = BLR_Border_War.1
+				}
+
+				attacker = {
+					state = 243
+					num_provinces = 4
+					on_win = belarus.14
+					on_lose = belarus.14
+					on_cancel = belarus.14
+	
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}
+				defender = {
+					state = 241
+					num_provinces = 4
+					#on_win = BLR_Border_War.1
+					#on_lose = BLR_Border_War.1
+					#on_cancel = BLR_Border_War.1
+				}
+
+				attacker = {
+					state = 387
+					num_provinces = 4
+					on_win = belarus.14
+					on_lose = belarus.14
+					on_cancel = belarus.14
+	
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}
+				defender = {
+					state = 241
+					num_provinces = 4
 					#on_win = BLR_Border_War.1
 					#on_lose = BLR_Border_War.1
 					#on_cancel = BLR_Border_War.1
 				}
 			}
 	
-			194 = { set_border_war = yes }
-			201 = { set_border_war = yes }
+			242 = { set_border_war = yes }
+			207 = { set_border_war = yes }
+			243 = { set_border_war = yes }
+			241 = { set_border_war = yes }
+			387 = { set_border_war = yes }
+			241 = { set_border_war = yes }
 		}
 	}
 }

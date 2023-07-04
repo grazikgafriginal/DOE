@@ -3,6 +3,23 @@
 ###########################
 
 add_namespace = belarus
+add_namespace = belarusintr
+
+###INTRO EVENT
+
+country_event = {
+	id = belarusintr.1
+	title = belarusintr.1.t
+	desc = belarusintr.1.d
+	picture = GFX_GFX_report_event_bdr_intro
+	
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = belarusintr.1.a
+		ai_chance = { factor = 1000 }
+	}
+}
 
 # Jan Sierada in the head of the state!
 country_event = {

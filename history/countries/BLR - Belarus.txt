@@ -146,6 +146,37 @@ set_variable = { BLR_Constitution_People_Support = 30 }
 set_variable = { BLR_Constitution_Army_Support = 20 }
 set_variable = { BLR_Rada_Legit = 40 }
 set_variable = { BLR_Industrialisation_Reform = 0 }
+country_event = { id = belarusintr.1 days = 0 }
+
+POL = { give_military_access = WHR }
+LIT = { give_military_access = WHR }
+LAT = { give_military_access = WHR }
+UKR = { give_military_access = WHR }
+
+create_faction = Krajoŭcy
+
+add_to_faction = POL
+add_to_faction = LIT
+add_to_faction = LAT
+add_to_faction = UKR
+
+#if = {
+
+	#limit = {
+
+		#has_start_date < 1919.01.02 # If the start date of the game is before 01/Jan/1919
+
+	#}
+
+	#declare_war_on = {
+
+	#	target = SOV # Country to declare war on
+
+	#	type = annex_everything # What would the AI do with the nation afterwards, annex_everything/puppet
+
+	#}
+
+#}
 
 add_ideas = {
 	BLR_unindustrial_state

@@ -6,7 +6,7 @@ recruit_character = POL_Jozef_Pilsudski
 
 capital = 10 #Warsaw 
 
-oob = "POL"
+oob = "POL_1919"
 
 set_convoys = 40
 set_war_support = 0.25
@@ -118,3 +118,8 @@ set_popularities = {
 add_ideas = {
 	
 }
+
+BLR = { give_military_access = POL }
+LIT = { give_military_access = POL }
+LAT = { give_military_access = POL}
+UKR = { give_military_access = POL }

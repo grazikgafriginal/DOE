@@ -32,7 +32,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 3219 # Minsk
 		division_template = "Piachotnaja Dyvizija"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -43,7 +43,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 6326 # Minsk
 		division_template = "Piachotnaja Dyvizija"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -54,7 +54,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 6249 # Minsk
 		division_template = "Piachotnaja Dyvizija"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -65,7 +65,51 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 323 # Minsk
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11241 # Minsk
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11220 # Minsk
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6354 # Minsk
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 289 # Minsk
 		division_template = "Kavalieryjskija Dyvizija"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -76,7 +120,18 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 289 # Minsk
+		division_template = "Kavalieryjskija Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11230 # Minsk
 		division_template = "Kavalieryjskija Dyvizija"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
@@ -87,7 +142,29 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 11230 # Minsk
+		division_template = "Kavalieryjskija Dyvizija"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11383 # Minsk
+		division_template = "Kavalieryjskija Dyvizija"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11383 # Minsk
 		division_template = "Kavalieryjskija Dyvizija"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
@@ -98,7 +175,18 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 9396 # Minsk
+		division_template = "Kavalieryjskija Dyvizija"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9396 # Minsk
 		division_template = "Kavalieryjskija Dyvizija"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
@@ -109,10 +197,43 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 11370 # Minsk
+		location = 9371 # Minsk
 		division_template = "Kavalieryjskija Dyvizija" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9371 # Minsk
+		division_template = "Kavalieryjskija Dyvizija" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11355 # Minsk
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9342 # Minsk
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
 
 	}
 
