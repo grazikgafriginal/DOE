@@ -1,0 +1,6 @@
+BLR_Rada_Legitimacy = {
+	if = {
+		limit = { check_variable = { BLR_Rada_Legit < 30 }
+		stability_weekly_factor = -0.05
+	}
+}

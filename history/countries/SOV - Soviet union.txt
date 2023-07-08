@@ -1,5 +1,9 @@
 ﻿capital = 219
 
+# Characters
+
+recruit_character = P_SOV_Vladimir_Lenin
+
 
 set_fuel_ratio = 0.20
 set_research_slots = 4
@@ -8,4 +12,11 @@ set_war_support = 0.2
 set_convoys = 100
 
 oob = "SOV_1919"
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1917.10.23"
+	election_frequency = 60
+	elections_allowed = no
+}
 

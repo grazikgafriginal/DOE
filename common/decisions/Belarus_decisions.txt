@@ -1,23 +1,91 @@
 ###Belarus Decisions###
 
 BLR_industrialization = {
+	BLR_industrialisation_mission = {
+		icon = GFX_decision_hol_draw_up_staff_plans
+		allowed = {
+			original_tag = BLR
+		}
+		available = {
+			check_variable = { WHR_Land_Reform_Success > 0 }
+		}
+		activation = {
+			has_country_flag = BLR_Industrialisation_Reform_Flag
+		}
+		days_mission_timeout = 20
+		days_remove = 20
+		fire_only_once = yes
+		priority = 1000
+		is_good = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete BLR_industrialisation_mission"
+			#custom_effect_tooltip = UKR_completion_info
+			hidden_effect = {
+				remove_ideas = BLR_unindustrial_state
+				remove_mission = BLR_industrialisation_mission
+			}
+			if = {
+				limit = { check_variable = { BLR_Industrialisation_Reform < 10 } }
+				add_ideas = BLR_industrialisation_limited
+			}
+			else_if = {
+				limit = { check_variable = { BLR_Industrialisation_Reform < 30 } }
+				add_ideas = BLR_industrialisation_marginal
+			}
+			else_if = {
+				limit = { check_variable = { BLR_Industrialisation_Reform < 50 } }
+				add_ideas = BLR_industrialisation_moderate
+			}
+			else_if = {
+				limit = { check_variable = { BLR_Industrialisation_Reform < 75 } }
+				add_ideas = BLR_industrialisation_promising
+			}
+			else_if = {
+				limit = { check_variable = { BLR_Industrialisation_Reform < 90} }
+				add_ideas = BLR_industrialisation_substantial
+			}
+			else_if = {
+				limit = { check_variable = { BLR_Industrialisation_Reform > 89} }
+				add_ideas = BLR_industrialisation_remarkable
+			}
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout BLR_industrialisation_mission"
+			add_ideas = BLR_failed_industrialisation
+			hidden_effect = {
+				remove_mission = BLR_industrialisation_mission
+			}
+		}
+	}
+
 	BLR_Komunarka_Mensk = {
-		icon = GFX_BLR_construct_factories
+		icon = generic_construction
 		available = {
 			206 = { is_owned_and_controlled_by = ROOT } #Minsk
+			204 = { is_owned_and_controlled_by = ROOT } #Brest
+			num_of_civilian_factories_available_for_projects > 1
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
 		}
 
 		cost = 35
-		days_remove = 120
+		days_remove = 35
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 70
+			base = 200
 		}
 
 		highlight_states = {
 			highlight_state_targets = {
 				state = 206
+				state = 204
 			}
+		}
+
+		modifier = {
+			civilian_factory_use = 2
 		}
 
 		remove_effect = {
@@ -30,38 +98,15 @@ BLR_industrialization = {
 					instant_build = yes
 				}
 			}
-		}
-	}
-
-	BLR_Komunarka_Brest = {
-		icon = GFX_BLR_construct_factories
-		available = {
-			204 = { is_owned_and_controlled_by = ROOT } #Brest
-		}
-
-		cost = 35
-		days_remove = 120
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 70
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 204
-			}
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Komunarka_Brest"
 			204 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 8 }
 		}
 	}
 
@@ -72,8 +117,12 @@ BLR_industrialization = {
 			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
 		}
 
-		cost = 75
-		days_remove = 120
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 50
+		days_remove = 100
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 70
@@ -105,17 +154,22 @@ BLR_industrialization = {
 					instant_build = yes
 				}
 			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 10 }
 		}
 	}
 
 	BLR_Homelskyi_Zavod = {
-		icon = GFX_BLR_construct_factories
+		icon = generic_construction
 		available = {
 			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
 		}
 
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
 		cost = 35
-		days_remove = 120
+		days_remove = 35
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 70
@@ -133,10 +187,11 @@ BLR_industrialization = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 5 }
 		}
 	}
 
@@ -146,23 +201,20 @@ BLR_industrialization = {
 			206 = { is_owned_and_controlled_by = ROOT } #Brest
 			207 = { is_owned_and_controlled_by = ROOT } #Pinsk
 		}
+		
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
 
-		cost = 75
-		days_remove = 120
+		cost = 50
+		days_remove = 100
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 70
 		}
 
-		highlight_states = {
-			highlight_state_targets = {
-				state = 206
-				state = 207
-			}
-		}
-
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_M_One_Highway"
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_P_Highway"
 			206 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -180,17 +232,23 @@ BLR_industrialization = {
 					instant_build = yes
 				}
 			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 8 }
 		}
 	}
 
 	BLR_Braslauski_Zavod = {
-		icon = GFX_BLR_construct_factories
+		icon = generic_construction
 		available = {
 			194 = { is_owned_and_controlled_by = ROOT } #Pinsk
+			207 = { is_owned_and_controlled_by = ROOT } #Pinsk
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
 		}
 
 		cost = 35
-		days_remove = 120
+		days_remove = 35
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 70
@@ -199,6 +257,7 @@ BLR_industrialization = {
 		highlight_states = {
 			highlight_state_targets = {
 				state = 194
+				state = 207
 			}
 		}
 
@@ -212,70 +271,419 @@ BLR_industrialization = {
 					instant_build = yes
 				}
 			}
+			207 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 8 }
 		}
 	}
 
-	BLR_Myadzielski_Zavod = {
-		icon = GFX_BLR_construct_factories
+	BLR_mozyr_vietebsk = {
+		icon = train
+
 		available = {
-			207 = { is_owned_and_controlled_by = ROOT } #Pinsk
+			has_full_control_of_state = 194
+			has_full_control_of_state = 206
+			has_full_control_of_state = 207
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
 		}
 
 		cost = 35
 		days_remove = 120
 		fire_only_once = yes
-		ai_will_do = {
-			factor = 70
-		}
 
 		highlight_states = {
 			highlight_state_targets = {
+				state = 194
 				state = 207
 			}
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Myadzielski_Zavod"
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_mozyr_vietebsk"
+			build_railway = {
+				level = 1
+				fallback = yes
+				start_province = 6232
+				target_province = 9323
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 10 }
+		}
+	}
+
+	BLR_minsk_homel = {
+		icon = train
+
+		available = {
+			has_full_control_of_state = 206
+			has_full_control_of_state = 241
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 35
+		days_remove = 120
+		fire_only_once = yes
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 206
+				state = 241
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_mozyr_vietebsk"
+			build_railway = {
+				level = 1
+				fallback = yes
+				start_province = 11370
+				target_province = 9247
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 10 }
+		}
+	}
+
+	BLR_polesie_marshes = {
+		icon = oil
+
+		available = {
+			has_full_control_of_state = 241
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 25
+		days_remove = 70
+		fire_only_once = yes
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 241
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
+			241 = {
+				add_extra_state_shared_building_slots = 2
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 5 }
+		}
+	}
+
+	BLR_polesie_marshes_2 = {
+		icon = oil
+
+		available = {
+			has_full_control_of_state = 241
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 25
+		days_remove = 70
+		fire_only_once = yes
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 241
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
+			241 = {
+				add_extra_state_shared_building_slots = 2
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 4 }
+		}
+	}
+
+	BLR_polesie_marshes_3 = {
+		icon = oil
+
+		available = {
+			has_full_control_of_state = 241
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 25
+		days_remove = 70
+		fire_only_once = yes
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 241
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
+			241 = {
+				add_extra_state_shared_building_slots = 2
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 3 }
+		}
+	}
+
+	BLR_bielaaziorsk_plant = {
+		icon = electrify
+
+		available = {
+			has_full_control_of_state = 241
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 50
+		days_remove = 35
+		fire_only_once = yes
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 241
+			}
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
+			241 = {
+				add_extra_state_shared_building_slots = 1 {
+					add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1 {
+					add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 5 }
+		}
+	}
+
+	BLR_prospect_in_akolausk = {
+		icon = steel
+
+		available = {
+			has_full_control_of_state = 207
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 25
+		days_remove = 70
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 207 #Vitebsk
+			} 
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
 			207 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
 			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 5 }
 		}
 	}
 
-	BLR_P_Highway_2 = {
-		icon = GFX_BLR_Construct_Roads
+	BLR_prospect_in_akolausk_2 = {
+		icon = steel
+
 		available = {
-			207 = { is_owned_and_controlled_by = ROOT } 
+			has_full_control_of_state = 207
 		}
 
-		cost = 75
-		days_remove = 120
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 25
+		days_remove = 70
 		fire_only_once = yes
-		ai_will_do = {
-			factor = 70
+
+		modifier = {
+			civilian_factory_use = 1
 		}
 
 		highlight_states = {
-			highlight_state_targets = {
-				state = 207
-			}
+			highlight_state_targets = { 
+				state = 207 #Vitebsk
+			} 
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_M_One_Highway"
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
 			207 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 5 }
+		}
+	}
+
+	BLR_prospect_in_akolausk_1 = {
+		icon = steel
+
+		available = {
+			has_full_control_of_state = 207
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 25
+		days_remove = 70
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 207 #Vitebsk
+			} 
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_polesie_marshes"
+			207 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 5 }
+		}
+	}
+
+	BLR_weapon_manufacturies = {
+		icon = generic_construction
+
+		available = {
+			has_full_control_of_state = 206
+		}
+
+		visible = {
+			has_active_mission = BLR_industrialisation_mission
+		}
+
+		cost = 75
+		days_remove = 60
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 206 #Minsk
+			} 
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BLR_Homelskyi_Zavod"
+			206 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = infrastructure
+					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
 			}
+			207 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_to_variable = { var = BLR_Industrialisation_Reform value = 8 }
 		}
 	}
 }
@@ -901,7 +1309,7 @@ BLR_Constitution = {
 		icon = GFX_decision_gre_investment_decisions
 
 		visible = {
-			NOT = { has_country_flag =  }
+			NOT = { has_country_flag = BLR_Assimilation_Uniformity }
 			has_completed_focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
 		}
 

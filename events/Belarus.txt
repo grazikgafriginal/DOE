@@ -4,6 +4,7 @@
 
 add_namespace = belarus
 add_namespace = belarusintr
+add_namespace = blr_const
 
 ###INTRO EVENT
 
@@ -558,5 +559,21 @@ country_event = {
 	option = { # Lets see how far it goes 
 		name = "Na boj — usie da adnaho!"
 		ai_chance = { factor = 75 }
+	}
+}
+### Industrialisation Reform activation
+country_event = {
+	id = blr_const.1
+	title = "After Constitution finally we rock'n roll yeeee"
+	desc = blr_const.1.d
+	picture = GFX_report_event_generic_farming
+
+	is_triggered_only = yes
+	
+	option = { # Lets see how far it goes 
+		name = "Na boj — usie da adnaho!"
+		ai_chance = { factor = 75 }
+		activate_mission = BLR_industrialisation_mission
+		set_country_flag = BLR_Industrialisation_Reform_Flag
 	}
 }

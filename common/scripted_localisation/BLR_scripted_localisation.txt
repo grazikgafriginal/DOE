@@ -172,13 +172,13 @@ defined_text = {
 	name = BLR_Industrialisation_Reform_Status
 	text = {
 		trigger = {
-			check_variable = { BLR_Industrialisation_Reform > 84 }
+			check_variable = { BLR_Industrialisation_Reform > 89 }
 		}
 		localization_key = BLR_Industrialisation_Reform_Status_5
 	}
 	text = {
 		trigger = {
-			check_variable = { BLR_Industrialisation_Reform < 85 }
+			check_variable = { BLR_Industrialisation_Reform < 90 }
 			check_variable = { BLR_Industrialisation_Reform > 74 }
 		}
 		localization_key = BLR_Industrialisation_Reform_Status_4

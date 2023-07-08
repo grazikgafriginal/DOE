@@ -220,12 +220,80 @@ ideas = {
 
 		BLR_Newspapers = {
 			picture = usa_magic
-			allowed { tag = BLR }
+			allowed = { tag = BLR }
 			modifier = {
 				add_war_support = 0.05
 				political_power_gain = 0.15
 			}
 		}
+		### INDUSTRIALISATION IDEAS STARTING FROM BAD TO EXCELENT 	
+		BLR_industrialisation_limited = {
+			picture = POL_disjointed_industry
+			modifier = {
+				research_speed_factor = 0.02
+				production_factory_max_efficiency_factor = 0.02
+				production_speed_infrastructure_factor = 0.02
+			}
+		}
 
+		BLR_industrialisation_marginal = {
+			picture = POL_disjointed_industry
+			modifier = {
+				research_speed_factor = 0.04
+				production_factory_max_efficiency_factor = 0.02
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_infrastructure_factor = 0.02
+			}
+		}
+
+		BLR_industrialisation_moderate = {
+			picture = SOV_second_five_year_plan
+			modifier = {
+				research_speed_factor = 0.08
+				production_factory_max_efficiency_factor = 0.08
+				production_speed_industrial_complex_factor = 0.08
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		BLR_industrialisation_promising = {
+			picture = SOV_third_five_year_plan
+			modifier = {
+				research_speed_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		BLR_industrialisation_substantial = {
+			picture = SOV_third_five_year_plan
+			modifier = {
+				research_speed_factor = 0.12
+				production_factory_max_efficiency_factor = 0.12
+				production_speed_industrial_complex_factor = 0.12
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+
+		BLR_industrialisation_remarkable = {
+			picture = POL_succesful_four_year_plan
+			modifier = {
+				research_speed_factor = 0.15
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+
+		BLR_failed_industrialisation = {
+			picture = POL_disjointed_industry
+			modifier = {
+				research_speed_factor = -0.15
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_infrastructure_factor = -0.2
+			}
+		}
 	}
 }

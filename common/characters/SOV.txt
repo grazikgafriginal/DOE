@@ -1,0 +1,20 @@
+characters={
+	P_SOV_Vladimir_Lenin = {
+		name="Vladimir 'Lenin' Ulyanov"
+		portraits={
+			civilian={
+				large="/gfx/leaders/SOV/P_SOV_Vladimir_Lenin.png"
+			}
+		}
+		
+		country_leader={
+			ideology=socialism
+			traits={
+				dictator
+			}
+			desc = P_SOV_VLADIMIR_LENIN_DESC
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

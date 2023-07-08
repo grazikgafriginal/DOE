@@ -146,7 +146,8 @@ set_variable = { BLR_Constitution_People_Support = 30 }
 set_variable = { BLR_Constitution_Army_Support = 20 }
 set_variable = { BLR_Rada_Legit = 40 }
 set_variable = { BLR_Industrialisation_Reform = 0 }
-country_event = { id = belarusintr.1 days = 0 }
+country_event = { id = belarusintr.1 days = 2 }
+country_event = { id = blr_const.1 days = 5 }
 
 POL = { give_military_access = WHR }
 LIT = { give_military_access = WHR }

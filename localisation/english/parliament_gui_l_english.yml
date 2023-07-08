@@ -2,7 +2,7 @@
 
  # Decisions
   parliament_gui_decision_category:0 "Rada Bielaruskaj Respubliki§!"
-  parliament_gui_decision_category_desc:0 "§1The Rada§! of The Belarusian Republic consists of 200 representetives from the different parts of the republic and 10 parties which share different amount of seats in §1The Rada§!.\n\n§CCurrent Rada legitimacy score§!: [?BLR_Rada_Legit]\n\n§CCurrenlty Rada' legitimacy§! is [BLR_Rada_Legit_Status]"
+  parliament_gui_decision_category_desc:0 "§1The Rada§! of The Belarusian Republic consists of 200 representetives from the different parts of the republic and 10 parties which share different amount of seats in §1The Rada§!. The §Rlower§! Rada legitimacy is - the greater §Rinstability§! will be.\n\n§CCurrent Rada legitimacy score§!: [?BLR_Rada_Legit]\n\n§CCurrenlty Rada' legitimacy§! is [BLR_Rada_Legit_Status]"
   BLR_party_a:0 "Party A"
 
  # Scripted GUIs
