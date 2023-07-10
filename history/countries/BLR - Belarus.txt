@@ -154,7 +154,7 @@ LIT = { give_military_access = WHR }
 LAT = { give_military_access = WHR }
 UKR = { give_military_access = WHR }
 
-create_faction = Krajoŭcy
+create_faction = Rzeczpospolita
 
 add_to_faction = POL
 add_to_faction = LIT

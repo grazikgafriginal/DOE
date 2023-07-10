@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		POL_Polish_Resistance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POL_Polish_Resistance"}
+			allowed = {
+				tag = POL
+			}
+			picture = POL_Polish_Resistance
+			modifier = {
+				attrition = -0.05
+				winter_attrition = -0.01
+			}
+		}
+	}
+}

@@ -116,7 +116,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	POL_Polish_Resistance
 }
 
 BLR = { give_military_access = POL }

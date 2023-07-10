@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 75 y = 100 }
+	continuous_focus_position = { x = -75 y = 3000 }
 
  ####################################################
  ### The_road_to_Belarusian_Democratic_Republic 
@@ -164,7 +164,7 @@ focus_tree = {
     focus = {
         id = BLR_Allow_freedom_of_speech_and_meetings
         icon = GFX_BLR_Allow_freedom_of_speech_and_meetings
-        x = 14
+        x = 13
         y = 4
         ai_will_do = {
             factor = 50
@@ -232,8 +232,8 @@ focus_tree = {
     focus = {
         id = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
         icon = GFX_BLR_Freedom_of_ppl
-        x = 18
-        y = 4
+        x = 15
+        y = 5
         ai_will_do = {
             factor = 50
         }
@@ -252,7 +252,7 @@ focus_tree = {
             } 
         }
         prerequisite = {
-            focus = BLR_Establish_Rada
+            focus = BLR_Allow_the_freedom_of_strikes_conscience_inviolability_of_person
         }
         mutually_exclusive = {
             focus = BLR_Limit_the_languages_in_the_country
@@ -262,8 +262,8 @@ focus_tree = {
     focus = {
         id = BLR_Limit_the_languages_in_the_country
         icon = GFX_BLR_No_Languages
-        x = 20
-        y = 4
+        x = 17
+        y = 5
         ai_will_do = {
             factor = 50
         }
@@ -281,7 +281,7 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_Establish_Rada
+            focus = BLR_Allow_the_freedom_of_strikes_conscience_inviolability_of_person
         }
         mutually_exclusive = {
             focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
@@ -291,7 +291,7 @@ focus_tree = {
     focus = {
         id = BLR_Nationalisation_of_the_land 
         icon = GFX_BLR_nationalise_land
-        x = 16
+        x = 13
         y = 5
         ai_will_do = {
             factor = 50
@@ -329,17 +329,14 @@ focus_tree = {
         }
         prerequisite = {
             focus = BLR_Allow_freedom_of_speech_and_meetings
-            focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
-            focus = BLR_Allow_the_freedom_of_strikes_conscience_inviolability_of_person
-            focus = BLR_Limit_the_languages_in_the_country
         }
     }
 
     focus = {
         id = BLR_Leaning_towards_Belarusian_socialism 
         icon = GFX_BLR_Leaning_to_Socialism
-        x = 16
-        y = 6
+        x = 19
+        y = 5
         ai_will_do = {
             factor = 50
         }
@@ -375,20 +372,23 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_Nationalisation_of_the_land
+            focus = BLR_The_Third_Constituent_Chapter
         }
     }
 
     focus = {
         id = BLR_The_Third_Constituent_Chapter
         icon = GFX_
-        x = 16
-        y = 7
+        x = 19
+        y = 4
         ai_will_do = {
             factor = 50
         }
         cost = 2
         available_if_capitulated = yes
+        available = {
+            has_completed_focus = BLR_Nationalisation_of_the_land
+        }
         completion_reward = {
             add_stability = 0.05
             add_political_power = 50
@@ -409,19 +409,15 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_Leaning_towards_Belarusian_socialism
-        }
-
-        
-
-        
+            focus = BLR_Establish_Rada
+        }     
     }
 
     focus = {
         id = BLR_All_BDR_meeting
         icon = GFX_BLR_All_BDR_meeting
         x = 16
-        y = 8
+        y = 6
         ai_will_do = {
             factor = 50
         }
@@ -436,7 +432,10 @@ focus_tree = {
             }
         }
         prerequisite = {
-            focus = BLR_The_Third_Constituent_Chapter
+            focus = BLR_Nationalisation_of_the_land
+            focus = BLR_Allow_the_equality_of_languages_of_all_nationalities_of_Belarus
+            focus = BLR_Limit_the_languages_in_the_country
+            focus = BLR_Leaning_towards_Belarusian_socialism
         }
 	
     }

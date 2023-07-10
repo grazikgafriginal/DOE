@@ -1,6 +1,11 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "POL_Polish_Resistance"
+		textureFile = "gfx/interface/ideas/POL_Polish_Resistance"
+	}
+
+	spriteType = {
 		name = "BLR_Idea_Puppet_Rada"
 		textureFile = "gfx/interface/ideas/BLR_Idea_Puppet_Rada"
 	}
