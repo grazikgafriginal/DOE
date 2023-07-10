@@ -1,13 +1,13 @@
 spriteTypes = {	
 
 	spriteType = {
-		name = "POL_Polish_Resistance"
-		textureFile = "gfx/interface/ideas/POL_Polish_Resistance"
+		name = "GFX_idea_POL_Polish_Resistance"
+		textureFile = "gfx/interface/ideas/POL_Polish_Resistance.png"
 	}
 
 	spriteType = {
-		name = "BLR_Idea_Puppet_Rada"
-		textureFile = "gfx/interface/ideas/BLR_Idea_Puppet_Rada"
+		name = "GFX_idea_BLR_Idea_Puppet_Rada"
+		textureFile = "gfx/interface/ideas/BLR_Idea_Puppet_Rada.png"
 	}
 
 	SpriteType = {
