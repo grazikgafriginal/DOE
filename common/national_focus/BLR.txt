@@ -3048,13 +3048,13 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-           
+        land_doctrine_cost_factor = -.015
+        war_support_factor = 0.05
         }
         prerequisite = {
             focus = BLR_Establish_Piersy_Slucki_polk_stralcou
         }
-        land_doctrine_cost_factor = -1.5
-        war_support_factor = +5.0
+       
     }
 
      focus = {
@@ -3075,7 +3075,7 @@ focus = {
             focus = BLR_Establish_Piersy_Slucki_polk_stralcou
             focus = BLR_Bet_on_the_milita
         }
-        military_factory_donations = +1
+        military_factory_donations = 0.01
     }
 
      focus = {
@@ -3089,14 +3089,14 @@ focus = {
         cost = 2
         available_if_capitulated = yes
         completion_reward = {
-
+	equipment_capture = 0.05
+        army_org = -0.05
+        recruitable_population = -0.02
         }
         prerequisite = {
             focus = BLR_Bet_on_the_milita
         }
-        equipment_capture = +5
-        army_org = -5
-        recruitable_population = -0.02
+        
     }
 
     focus = {
@@ -3112,9 +3112,9 @@ focus = {
         completion_reward = {
             
         }
-        army_org = +5
-        attrition = -5.0
-        army_morale = -10.0
+        army_org = 0.05
+        attrition = -0.05
+        army_morale = -0.1
         prerequisite = {
             focus = BLR_Establish_official_ministry_of_defence
         }
@@ -3194,10 +3194,9 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        local_building_slots = +1
-        military_factory_donations = +1
         completion_reward = {
-           
+        local_building_slots = 0.01
+        military_factory_donations = 0.01   
         }
         prerequisite = {
             focus = BLR_Reactivate_Old_Armories
@@ -3259,9 +3258,8 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        experience_gain_army = +10
         completion_reward = {
-           
+         experience_gain_army = 0.1
         }
         prerequisite = {
             focus = BLR_Bagam_Noci_Rouni
@@ -3278,10 +3276,9 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        experience_gain_army = +10
 
         completion_reward = {
-            
+        experience_gain_army = 0.1
         }
         prerequisite = {
             focus = BLR_Suchaputnyja_vojski
@@ -3298,10 +3295,9 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        experience_gain_heavy_armor_training_factor= +5
-        experience_gain_light_armor_training_factor= +5
         completion_reward = {
-            
+        experience_gain_heavy_armor_training_factor= 0.05
+        experience_gain_light_armor_training_factor= 0.05
         }
         prerequisite = {
             focus = BLR_Suchaputnyja_vojski
@@ -3318,9 +3314,8 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        experience_gain_mechanized_training_factor = +1
         completion_reward = {
-            
+        experience_gain_mechanized_training_factor = 0.01
         }
         prerequisite = {
             focus = BLR_Iron_Hussars
@@ -3554,11 +3549,12 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        land_equipment_upgrade_xp_cost *=2
+       
         completion_reward = {
             add_war_support = 0.1
             add_political_power = 50
             add_stability= 0.05
+ 	land_equipment_upgrade_xp_cost *=2
         }
         prerequisite = {
             focus = BLR_Establishing_the_Corny_kot_movement
@@ -3593,12 +3589,13 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        army_defence_factor = +5
-        dig_in_speed = +5
+      
         completion_reward = {
             add_war_support = 0.1
             add_political_power = 50
             add_stability= 0.05
+ 	army_defence_factor = 0.05
+        dig_in_speed = 0.05
         }
         prerequisite = {
             focus =  BLR_Forming_the_small_mobile_groups
@@ -3616,9 +3613,9 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
-        attrition = -15
+        
         completion_reward = {
-            
+        attrition = -0.15
         }
         prerequisite = {
             focus =  BLR_Forming_the_small_mobile_groups
