@@ -3053,6 +3053,8 @@ focus = {
         prerequisite = {
             focus = BLR_Establish_Piersy_Slucki_polk_stralcou
         }
+        land_doctrine_cost_factor = -1.5
+        war_support_factor = +5.0
     }
 
      focus = {
@@ -3065,6 +3067,7 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        political_power_cost = 50
         completion_reward = {
           
         }
@@ -3072,6 +3075,7 @@ focus = {
             focus = BLR_Establish_Piersy_Slucki_polk_stralcou
             focus = BLR_Bet_on_the_milita
         }
+        military_factory_donations = +1
     }
 
      focus = {
@@ -3090,6 +3094,9 @@ focus = {
         prerequisite = {
             focus = BLR_Bet_on_the_milita
         }
+        equipment_capture = +5
+        army_org = -5
+        recruitable_population = -0.02
     }
 
     focus = {
@@ -3105,6 +3112,9 @@ focus = {
         completion_reward = {
             
         }
+        army_org = +5
+        attrition = -5.0
+        army_morale = -10.0
         prerequisite = {
             focus = BLR_Establish_official_ministry_of_defence
         }
@@ -3184,6 +3194,8 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        local_building_slots = +1
+        military_factory_donations = +1
         completion_reward = {
            
         }
@@ -3247,6 +3259,7 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        experience_gain_army = +10
         completion_reward = {
            
         }
@@ -3265,6 +3278,8 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        experience_gain_army = +10
+
         completion_reward = {
             
         }
@@ -3283,6 +3298,8 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        experience_gain_heavy_armor_training_factor= +5
+        experience_gain_light_armor_training_factor= +5
         completion_reward = {
             
         }
@@ -3301,6 +3318,7 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        experience_gain_mechanized_training_factor = +1
         completion_reward = {
             
         }
@@ -3536,6 +3554,7 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        land_equipment_upgrade_xp_cost *=2
         completion_reward = {
             add_war_support = 0.1
             add_political_power = 50
@@ -3574,6 +3593,8 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        army_defence_factor = +5
+        dig_in_speed = +5
         completion_reward = {
             add_war_support = 0.1
             add_political_power = 50
@@ -3595,6 +3616,7 @@ focus = {
         } 
         cost = 2
         available_if_capitulated = yes
+        attrition = -15
         completion_reward = {
             
         }
@@ -3662,5 +3684,4 @@ focus = {
     #}
 
 }
-
 
